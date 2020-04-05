@@ -8,13 +8,16 @@
 
 == 这么做的好处
 
-无论是白名单模式还是黑名单模式都是需要长时间维护的，但白名单相对较少，相对于国外网站来说国内总数要少一些。而且假定你的远端服务器拥有比较好的线路 (CN2 GIA 等)，那么默认白名单可以避开拥堵的骨干网。
+无论是白名单模式还是黑名单模式都是需要长时间维护的，但白名单相对较少，相对于国外网站来说国内总数要少一些。同时假定你的远端服务器拥有比较好的线路 (CN2 GIA 等)，那么默认白名单可以避开拥堵的骨干网。
 
 == 如何使用
 
 link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega]，添加 proxy 模式。
 
-将默认的 auto switch 模式下的默认情景模式选择 proxy，也就是白名单的工作模式。
+将默认的 auto switch 模式下的默认情景模式选择 proxy，也就是白名单的工作模式。如果场景列表里没有 auto switch 模式，可以手动添加一个。
 
-在规则列表设置添加此仓库的清单文件：
+在规则列表设置添加此仓库的清单文件：https://raw.githubusercontent.com/EpLiar/SwitchyOmega-Whitelist/master/OmegaRules_auto_switch.sorl
 
+或是点击编辑源代码，复制仓库的列表 `OmegaRules_auto_switch.sorl` 里的内容后粘贴。
+
+image::config.gif[]
