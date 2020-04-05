@@ -1,0 +1,20 @@
+= SwitchyOmega-Whitelist
+
+这是一个 SwicthyOmega 的白名单仓库。
+
+== 工作模式
+
+代理工具常见的使用模式是黑名单，即匹配后走代理，不匹配默认直连。白名单则相反，匹配直连，不在列表中默认走代理。
+
+== 这么做的好处
+
+无论是白名单模式还是黑名单模式都是需要长时间维护的，但白名单相对较少，相对于国外网站来说国内总数要少一些。而且假定你的远端服务器拥有比较好的线路 (CN2 GIA 等)，那么默认白名单可以避开拥堵的骨干网。
+
+== 如何使用
+
+link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega]，添加 proxy 模式。
+
+将默认的 auto switch 模式下的默认情景模式选择 proxy，也就是白名单的工作模式。
+
+在规则列表设置添加此仓库的清单文件：
+
