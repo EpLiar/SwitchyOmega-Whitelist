@@ -542,7 +542,7 @@ wlog.kuaishou.com +direct
 ; shunfeng
 
 *.sf-express.com +direct
-*.sf-tech.com.cn
+*.sf-tech.com.cn +direct
 
 ; taptap
 
@@ -783,7 +783,7 @@ alog.umengcloud.com +direct
 *.cnbetacdn.com +direct
 *.cnblogs.com +direct
 *.cnepub.com +direct
-*.cnmstl.net
+*.cnmstl.net +direct
 *.cnzz.com +direct
 *.cqvip.com +direct
 *.csbew.com +direct
@@ -1115,6 +1115,7 @@ alog.umengcloud.com +direct
 *.zimuzu.io +direct
 *.zjstv.com +direct
 *.zrblog.net +direct
+*.zsxq.com +direct
 *.zuche.com +direct
 *.zuchecdn.com +direct
 

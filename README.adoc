@@ -10,6 +10,12 @@
 
 无论是白名单模式还是黑名单模式都是需要长时间维护的，但白名单相对较少，相对于国外网站来说国内总数要少一些。同时假定你的远端服务器拥有比较好的线路 (CN2 GIA 等)，那么默认白名单可以避开拥堵的骨干网。
 
+== 这些域名的来源？
+
+link:https://github.com/v2ray/domain-list-community[domain-list-community]
+
+更新频率：想起来就更 (
+
 == 如何使用
 
 link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega]，添加 proxy 模式。
@@ -21,3 +27,7 @@ link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokba
 或是点击编辑源代码，复制仓库的列表 `OmegaRules_auto_switch.sorl` 里的内容后粘贴。
 
 image::config.gif[]
+
+== Contribute
+
+目前这个 White list 由我本人在维护。如果你想参与，欢迎提交 pull requests，我会尽可能快的回复。
