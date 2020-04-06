@@ -340,6 +340,7 @@
 
 ; jd
 
+*.3.cn +direct
 *.360buy.com +direct
 *.360buyimg.com +direct
 *.360top.com +direct
@@ -380,6 +381,8 @@
 *.jdx.com +direct
 *.jdwl.com +direct
 *.jingdongjinrong.com +direct
+*.jingxi.com +direct
+*.jkcsjd.com +direct
 *.joybuy.com +direct
 *.linglonglife.com +direct
 *.mayshijia.com +direct
@@ -388,6 +391,7 @@
 *.paipai.com +direct
 *.prestodb-china.com +direct
 *.qianxun.com +direct
+*.tjjt360.com +direct
 *.toplife.com +direct
 *.vg.com +direct
 *.wangyin.com +direct
@@ -764,6 +768,7 @@ alog.umengcloud.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
 *.cdn20.com +direct
+*.cdn-go.cn +direct
 *.cebbank.com +direct
 *.ch.com +direct
 *.chashebao.com +direct
@@ -859,6 +864,7 @@ alog.umengcloud.com +direct
 *.hupucdn.com +direct
 *.huxiu.com +direct
 *.iask.com +direct
+*.ichangtou.com +direct
 *.iciba.com +direct
 *.idqqimg.com +direct
 *.ifanr.com +direct
@@ -894,6 +900,7 @@ alog.umengcloud.com +direct
 *.jiathis.com +direct
 *.jiayuan.com +direct
 *.jikexueyuan.com +direct
+*.jinshuju.net +direct
 *.jisuanke.com +direct
 *.jmstatic.com +direct
 *.jstv.com +direct
@@ -935,6 +942,7 @@ alog.umengcloud.com +direct
 *.lightonus.com +direct
 *.linkvans.com +direct
 *.linuxidc.com +direct
+*.lixinger.com +direct
 *.liuxiaoer.com +direct
 *.lu.com +direct
 *.lufax.com +direct
@@ -999,6 +1007,7 @@ alog.umengcloud.com +direct
 *.qtmojo.com +direct
 *.qunar.com +direct
 *.qunarzz.com +direct
+*.ren3.cn +direct
 *.renren.com +direct
 *.rfchost.com +direct
 *.rtbasia.com +direct
@@ -1012,6 +1021,7 @@ alog.umengcloud.com +direct
 *.segmentfault.com +direct
 *.senlinjimore.com +direct
 *.sharejs.com +direct
+*.sheui.com +direct
 *.shmetro.com +direct
 *.shutcm.com +direct
 *.simei8.com +direct
@@ -1034,9 +1044,11 @@ alog.umengcloud.com +direct
 *.t1y5.com +direct
 *.tanx.com +direct
 *.tao123.com +direct
+*.teambition.com +direct
 *.tenxcloud.com +direct
 *.tietuku.com +direct
 *.tiexue.net +direct
+*.tingyun.com +direct
 *.tmcdn.net +direct
 *.topthink.com +direct
 *.ttpod.com +direct
@@ -1050,6 +1062,7 @@ alog.umengcloud.com +direct
 *.ucloud.cn +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
+*.url.cn +direct
 *.useso.com +direct
 *.v5875.com +direct
 *.vamaker.com +direct
@@ -1067,6 +1080,7 @@ alog.umengcloud.com +direct
 *.weiphone.com +direct
 *.weiphone.net +direct
 *.weixing.com +direct
+*.weiyoubot.cn +direct
 *.wonnder.com +direct
 *.wooyun.org +direct
 *.worktile.com +direct
