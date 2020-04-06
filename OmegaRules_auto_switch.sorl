@@ -269,6 +269,11 @@
 *.c-t.work +direct
 *.cowtransfer.com +direct
 
+; csdn
+
+*.csdn.net +direct
+*.csdnimg.cn +direct
+
 ; ctrip
 
 *.c-ctrip.com +direct
@@ -724,6 +729,7 @@ alog.umengcloud.com +direct
 *.6rooms.com +direct
 *.71.am +direct
 *.7k7k.com +direct
+*.7moor.com +direct
 *.900.la +direct
 *.91yunxiao.com +direct
 *.9718.com +direct
@@ -787,7 +793,6 @@ alog.umengcloud.com +direct
 *.cnzz.com +direct
 *.cqvip.com +direct
 *.csbew.com +direct
-*.csdn.net +direct
 *.csslcloud.net +direct
 *.ctfile.com +direct
 *.cubead.com +direct
@@ -823,6 +828,7 @@ alog.umengcloud.com +direct
 *.eoeandroid.com +direct
 *.excelhome.net +direct
 *.expreview.com +direct
+*.famulei.com +direct
 *.fanli.com +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
@@ -995,6 +1001,7 @@ alog.umengcloud.com +direct
 *.qunarzz.com +direct
 *.renren.com +direct
 *.rfchost.com +direct
+*.rtbasia.com +direct
 *.ruanmei.com +direct
 *.ruby-china.org +direct
 *.runoob.com +direct
@@ -1040,6 +1047,7 @@ alog.umengcloud.com +direct
 *.tutuapp.com +direct
 *.u.tools +direct
 *.u17.com +direct
+*.ucloud.cn +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
 *.useso.com +direct
