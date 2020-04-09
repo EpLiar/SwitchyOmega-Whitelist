@@ -12,13 +12,15 @@
 
 == 这些域名的来源？
 
-link:https://github.com/v2ray/domain-list-community[domain-list-community]
-
-更新频率：想起来就更 (
+最初来自 link:https://github.com/v2ray/domain-list-community[domain-list-community]，现在手动更新，域名来源于日常的访问。验证方式为 https://ipip.net 提供的 ip 地理位置。
 
 == 如何使用
 
-link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega]，添加 proxy 模式。
+link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega] 并配置 proxy 模式
+
+image::proxy.jpg[]
+
+SwitchyOmega 插件支持 Chrome 和 Firefox。
 
 将默认的 auto switch 模式下的默认情景模式选择 proxy，也就是白名单的工作模式。如果场景列表里没有 auto switch 模式，可以手动添加一个。
 
@@ -30,4 +32,4 @@ image::config.gif[]
 
 == Contribute
 
-目前这个 White list 由我本人在维护。如果你想参与，欢迎提交 pull requests，我会尽可能快的回复。
+目前这个 White list 由我本人在维护。如果你想参与，欢迎提交 pull requests，格式可以参考已有代码。

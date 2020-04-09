@@ -1,10 +1,8 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2020/4/5
+; Update: 2020/4/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
-
-; List of all domains that have access point in China
 
 ; tld-cn
 
