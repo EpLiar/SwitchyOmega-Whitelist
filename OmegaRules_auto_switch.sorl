@@ -6,11 +6,13 @@
 
 ; List of all domains that have access point in China
 
+; tld-cn
+
+*.cn +direct
+
 ; acfun
 
-*.acfun.cn +direct
 *.aixifan.com +direct
-*.apilog-web.acfun.cn +direct
 
 ; acplay
 
@@ -19,7 +21,7 @@
 
 ; alibaba
   
-*.*.95095. +directcom +direct
+*.95095.com +direct
 *.alibaba.com +direct
 *.alibaba-inc.com +direct
 *.alibabagroup.com +direct
@@ -45,10 +47,7 @@
 *.mei.com +direct
 *.mxhichina.com +direct
 
-*.sm.cn +direct
-
 *.cainiao.com +direct
-*.cainiao.com.cn +direct
 *.cainiao-inc.com +direct
 
 ; Taobao
@@ -69,12 +68,12 @@
 ; Fliggy
 
 *.alitrip.com +direct +direct
-*.feizhu.cn +direct +direct
 *.feizhu.com +direct +direct
 *.fliggy.com +direct +direct
 *.iuynfg.com +direct +direct
 
 ; amap
+
 *.amap.com +direct +direct
 *.amapauto.com +direct +direct
 *.autonavi.com +direct +direct
@@ -88,7 +87,6 @@
 
 ; alibaba-ads
 
-*.a.alimama.cn +direct
 *.afp.adchina.com +direct
 *.alipaylog.com +direct
 *.cdn0.mobmore.com +direct
@@ -97,8 +95,6 @@
 *.ex.mobmore.com +direct
 *.ex.puata.info +direct
 *.feedback.whalecloud.com +direct
-*.fm.p0y.cn +direct
-*.g.tbcdn.cn +direct
 *.hydra.alibaba.com +direct
 *.hz.pre.tbusergw.taobao.net +direct
 *.hz.tbusergw.taobao.net +direct
@@ -123,7 +119,6 @@
 
 *.dingtalk.com +direct
 *.dingtalk.net +direct
-*.dingtalk.cn +direct
 *.dingtalkapps.com +direct
 *.ddurl.to +direct
 *.laiwang.com +direct
@@ -132,7 +127,6 @@
 
 ; baidu
 
-*.baidu.cn +direct
 *.baidu.com +direct
 *.baiducontent.com +direct
 *.baidupcs.com +direct
@@ -153,7 +147,6 @@
 
 *.click.qianqian.com +direct
 *.dl-vip.pcfaster.baidu.co.th +direct
-*.taotaosou.cn +direct
 *.bcebos.com +direct
 *.uat1.bfsspadserver.8le8le.com +direct
 *.zzy1.quyaoya.com +direct
@@ -176,7 +169,6 @@
 
 ; bytedance
 
-*.bytecdn.cn +direct
 *.bytedance.com +direct
 *.bytedance.net +direct
 *.bytedns.net +direct
@@ -192,12 +184,10 @@
 *.toutiaocloud.com +direct
 *.toutiaohao.com +direct
 *.toutiaohao.net +direct
-*.toutiaoimg.cn +direct
 *.toutiaoimg.com +direct
 *.toutiaoimg.net +direct
 *.toutiaopage.com +direct
 *.wukong.com +direct
-*.wukongwenda.cn +direct
 *.wukongwenda.com +direct
 *.zijiecdn.com +direct
 *.zijiecdn.net +direct
@@ -208,27 +198,19 @@
 *.ixgvideo.com +direct
 *.365yg.com +direct
 
-; cas
-
-*.ac.cn +direct
-
 ; chinamobile
 
-*.10086.cn +direct
 *.139.com +direct
 *.chinamobile.com +direct
 *.chinamobileltd.com +direct
 
 ; Migu
 *.migucloud.com +direct
-*.migu.cn +direct
-*.cmvideo.cn +direct
 *.miguvideo.com +direct
 
 ; 中移互联
-*.andfx.cn +direct
+
 *.andfx.net +direct
-*.cmicrwx.cn +direct
 *.cmpassport.com +direct
 *.fetion-portal.com +direct
 *.fetionpic.com +direct
@@ -237,17 +219,12 @@
 
 ; chinatelecom
 
-*.189.cn +direct
-*.chinatelecom.com.cn +direct
 *.chntel.com +direct
 
 ; chinaunicom
 
 *.10010.com +direct
-*.10010.com.cn +direct
 *.chinaunicom.com +direct
-*.chinaunicom.com.cn +direct
-*.wo.com.cn +direct
 
 ; cnki
 
@@ -272,12 +249,10 @@
 ; csdn
 
 *.csdn.net +direct
-*.csdnimg.cn +direct
 
 ; ctrip
 
 *.c-ctrip.com +direct
-*.ctrip.cn +direct
 *.ctrip.com +direct
 *.ctripbiz.com +direct
 
@@ -285,25 +260,21 @@
 
 *.biji.com +direct
 *.ddmogo.com +direct
-*.igetget.cn +direct
 *.igetget.com +direct
 *.luojilab.com +direct
 *.mogoo.com +direct
-*.sao.cn +direct
 *.saolife.com +direct
 
 ; douyu
 
 *.douyu.tv +direct
 *.douyu.com +direct
-*.douyucdn.cn +direct
 *.douyuscdn.com +direct
 
 ; eleme
 
 *.ele.me +direct
 *.elemecdn.com +direct
-*.eleme.cn +direct
 
 ; gcores
 
@@ -311,7 +282,6 @@
 
 ; gitv
 
-*.gitv.cn +direct
 *.gitv.tv +direct
 ; huawei
 
@@ -336,18 +306,17 @@
 *.qy.net +direct
 
 ; CDN used by iqiyi
+
 *.71edge.com +direct
 
 ; jd
 
-*.3.cn +direct
 *.360buy.com +direct
 *.360buyimg.com +direct
 *.360top.com +direct
 *.7fresh.com +direct
 *.baitiao.com +direct
 *.blackdragon.com +direct
-*.chinabank.com.cn +direct
 *.dao123.com +direct
 *.jcloud-cdn.com +direct
 *.jcloud-live.com +direct
@@ -367,7 +336,6 @@
 *.jclps.com +direct
 *.jd-app.com +direct
 *.jd-ex.com +direct
-*.jd.cn +direct
 *.jd.com +direct
 *.jdcache.com +direct
 *.jdcloud.com +direct
@@ -387,7 +355,6 @@
 *.linglonglife.com +direct
 *.mayshijia.com +direct
 *.minitiao.com +direct
-*.paidaojia.cn +direct
 *.paipai.com +direct
 *.prestodb-china.com +direct
 *.qianxun.com +direct
@@ -402,28 +369,16 @@
 
 ; jiguang
 
-*.42r.cn +direct
 *.5566ua.com +direct
-*.aurorapush.cn +direct
-*.e0n.cn +direct
-*.japps.cn +direct
 *.jchat.io +direct
-*.jiguang.cn +direct
 *.jmlk.co +direct
-*.jpush.cn +direct
 *.jpush.io +direct
 *.jpushoa.com +direct
-*.jsurvey.cn +direct
-*.jvoice.cn +direct
-*.kc9.cn +direct
-*.n0q.cn +direct
 *.pushcfg.com +direct
-*.s0n.cn +direct
 
 ; jiemian
 
 *.jiemian.com +direct
-*.jiemian.com.cn +direct
 
 ; jinrishici
 
@@ -433,6 +388,11 @@
 
 *.jsdelivr.net +direct
 *.jsdelivr.com +direct
+
+; kingsoft
+
+*.docer.com
+*.wpsgo.com
 
 ; kuaishou
 
@@ -454,17 +414,21 @@ wlog.kuaishou.com +direct
 
 ; mafengwo
 
-*.mafengwo.cn +direct
 *.mafengwo.com +direct
 *.mafengwo.net +direct
 
+; meitu
+
+*.meitu.com +direct
+*.meitudata.com +direct
+
 ; meituan
+
 *.dianping.com +direct
 *.maoyan.com +direct
 *.meituan.com +direct
 *.meituan.net +direct
 *.mtyun.com +direct
-*.neixin.cn +direct
 *.sankuai.com +direct
 
 ; netease
@@ -494,11 +458,17 @@ wlog.kuaishou.com +direct
 ; oneplus
 
 *.oneplus.com +direct
-*.oneplus.cn +direct
 *.oneplus.net +direct
 *.opstatics.com +direct
 *.oneplusbbs.com +direct
 *.h2os.com +direct
+
+; oppo
+
+*.coloros.com +direct
+*.oppo.com +direct
+*.realme.com +direct
+*.realmebbs.com +direct
 
 ; pinduoduo
 
@@ -508,7 +478,6 @@ wlog.kuaishou.com +direct
 ; qihoo360
 
 *.360.com +direct
-*.360.cn +direct
 *.360jie.com +direct
 *.360kan.com +direct
 *.360taojin.com +direct
@@ -527,17 +496,11 @@ wlog.kuaishou.com +direct
 ; sina
 
 *.sina.com +direct
-*.sinaimg.cn +direct
-*.sina.com.cn +direct
-*.sinajs.cn +direct
-*.sina.cn +direct
 *.sinaapp.com +direct
 *.sinaedge.com +direct
 *.sinaimg.com +direct
 *.sinajs.com +direct
 *.weibo.com +direct
-*.weibo.com.cn +direct
-*.weibo.cn +direct
 *.weibocdn.com +direct
 
 ; sina-ads
@@ -551,7 +514,6 @@ wlog.kuaishou.com +direct
 ; shunfeng
 
 *.sf-express.com +direct
-*.sf-tech.com.cn +direct
 
 ; taptap
 
@@ -562,29 +524,23 @@ wlog.kuaishou.com +direct
 
 *.apcdns.net +direct
 *.foxmail.com +direct
-*.foxmail.com.cn +direct
-*.gtimg.cn +direct
 *.gtimg.com +direct
-*.gtimg.com.cn +direct
 *.imqq.com +direct
 *.myapp.com +direct
 *.myqcloud.com +direct
 *.tencentyun.com +direct
 *.qcloud.com +direct
 *.qcloudimg.com +direct
-*.qpic.cn +direct
 *.qq.com +direct
 *.qqmail.com +direct
 *.qzone.com +direct
 *.smtcdns.com +direct
 *.tencent.com +direct
-*.tencent.com.cn +direct
 *.wechat.com +direct
 *.servicewechat.com +direct
 *.wegame.com +direct
 *.weiyun.com +direct
 *.tenpay.com +direct
-*.qlogo.cn +direct
 
 ; tipdm
 
@@ -597,14 +553,12 @@ wlog.kuaishou.com +direct
 *.72whys.com +direct
 *.checkzeit.com +direct
 *.tivitv.com +direct
-*.tigeek.net.cn +direct
 *.tmtsmartlife.com +direct
 *.tmtsmartrun.com +direct
 
 ; tongcheng
 
 *.ly.com +direct
-*.40017.cn +direct
 *.17usoft.com +direct
 
 ; umeng
@@ -629,37 +583,29 @@ alog.umengcloud.com +direct
 *.unionpayintl.com +direct
 *.unionpaysecure.com +direct
 
-; wanfang
-
-*.wanfangdata.com.cn +direct
-
 ; xiaomi
 
 *.mi.com +direct
-*.mifile.cn +direct
 *.xiaomi.com +direct
-*.xiaomi.cn +direct
 *.mi-img.com +direct
 *.miui.com +direct
 *.xiaomi.net +direct
 
 ; Xiaomi YouPin
+
 *.xiaomiyoupin.com +direct
 
 ; xiaomitv-ads +direct
 
 *.duokanbox.com +direct
-*.hpplay.cn +direct
 *.atianqi.com +direct
 *.kuyun.com +direct
 *.umeng.com +direct
 
 ; ynet
 
-*.ynet.com.cn +direct
 *.ynet.com +direct
 *.0880.com +direct
-*.ynet.cn +direct
 
 ; youku
 
@@ -685,7 +631,6 @@ alog.umengcloud.com +direct
 
 ; Bank of China
 *.abchina.com +direct
-*.boc.cn +direct
 *.whccb.com +direct
 
 ; Moji Weather
@@ -757,6 +702,7 @@ alog.umengcloud.com +direct
 *.bankcomm.com +direct
 *.bankofchina.com +direct
 *.bcy.net +direct
+*.biddingx.com +direct
 *.bitauto.com +direct
 *.bitautoimg.com +direct
 *.bobo.com +direct
@@ -768,7 +714,6 @@ alog.umengcloud.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
 *.cdn20.com +direct
-*.cdn-go.cn +direct
 *.cebbank.com +direct
 *.ch.com +direct
 *.chashebao.com +direct
@@ -826,9 +771,7 @@ alog.umengcloud.com +direct
 *.duowan.com +direct
 *.dxpmedia.com +direct
 *.eastday.com +direct
-*.ebs.org.cn +direct
 *.ecitic.com +direct
-*.edu.cn +direct
 *.emarbox.com +direct
 *.eoeandroid.com +direct
 *.excelhome.net +direct
@@ -1007,7 +950,6 @@ alog.umengcloud.com +direct
 *.qtmojo.com +direct
 *.qunar.com +direct
 *.qunarzz.com +direct
-*.ren3.cn +direct
 *.renren.com +direct
 *.rfchost.com +direct
 *.rtbasia.com +direct
@@ -1059,10 +1001,8 @@ alog.umengcloud.com +direct
 *.tutuapp.com +direct
 *.u.tools +direct
 *.u17.com +direct
-*.ucloud.cn +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
-*.url.cn +direct
 *.useso.com +direct
 *.v5875.com +direct
 *.vamaker.com +direct
@@ -1080,7 +1020,6 @@ alog.umengcloud.com +direct
 *.weiphone.com +direct
 *.weiphone.net +direct
 *.weixing.com +direct
-*.weiyoubot.cn +direct
 *.wonnder.com +direct
 *.wooyun.org +direct
 *.worktile.com +direct
@@ -1096,6 +1035,7 @@ alog.umengcloud.com +direct
 *.xnpic.com +direct
 *.xueqiu.com +direct
 *.xunlei.com +direct
+*.xycdn.com +direct
 *.xywy.com +direct
 *.yaolan.com +direct
 *.yccdn.com +direct
@@ -1108,6 +1048,7 @@ alog.umengcloud.com +direct
 *.yingjiesheng.com +direct
 *.yinxiang.com +direct
 *.yinyuetai.com +direct
+*.yisu.com +direct
 *.yixi.tv +direct
 *.yjbys.com +direct
 *.youboy.com +direct
@@ -1150,7 +1091,6 @@ alog.umengcloud.com +direct
 *.runsheng.com +direct
 *.vzuu.com +direct
 *.zoom3g.com +direct
-*.zoomyou.cn +direct
 
 *.chaoxing.com +direct
 *.chaoxing.cc +direct
