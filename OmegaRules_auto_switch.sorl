@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/9
+; Update: 2020/4/10
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -442,6 +442,7 @@ wlog.kuaishou.com +direct
 *.163yun.com +direct
 *.166.net +direct
 *.haowu.link +direct
+*.icourse163.org +direct
 *.kaola.com +direct
 *.lofter.com +direct
 *.nease.net +direct

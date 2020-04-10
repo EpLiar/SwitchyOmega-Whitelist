@@ -277,6 +277,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)jinrishici\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jsdelivr\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jsdelivr\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)docer\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)wpsgo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)gifshow\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kuaishou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)static\.yximgs\.com$/.test(host)) return "DIRECT";
@@ -849,6 +851,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)zdfans\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zdmimg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhanqi\.tv$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)zhanzhang\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhaopin\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhenai\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhipin\.com$/.test(host)) return "DIRECT";
