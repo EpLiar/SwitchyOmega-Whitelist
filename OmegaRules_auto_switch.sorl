@@ -646,12 +646,15 @@ alog.umengcloud.com +direct
 *.178.com +direct
 *.17cdn.com +direct
 *.188.com +direct
+*.19yxw.com +direct
 *.1905.com +direct
 *.21cn.com +direct
 *.2288.org +direct
 *.2345.com +direct
 *.263.net +direct
+*.289.com +direct
 *.2cto.com +direct
+*.3234.com +direct
 *.3322.org +direct
 *.35.com +direct
 *.360doc.com +direct
@@ -671,15 +674,22 @@ alog.umengcloud.com +direct
 *.51jobcdn.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
+*.52miji.com +direct
+*.52z.com +direct
 *.55.com +direct
 *.55bbs.com +direct
+*.5577.com +direct
 *.58.com +direct
+*.5you.com +direct
 *.6rooms.com +direct
 *.71.am +direct
+*.7down.com +direct
 *.7k7k.com +direct
 *.7moor.com +direct
 *.900.la +direct
+*.91danji.com +direct
 *.91yunxiao.com +direct
+*.962.net +direct
 *.9718.com +direct
 *.9xu.com +direct
 *.aardio.com +direct
@@ -734,6 +744,7 @@ alog.umengcloud.com +direct
 *.cloudxns.com +direct
 *.cmbchina.com +direct
 *.cn.bing.com +direct
+*.cnanzhi.com +direct
 *.cnbeta.com +direct
 *.cnbetacdn.com +direct
 *.cnblogs.com +direct
@@ -748,6 +759,7 @@ alog.umengcloud.com +direct
 *.dajie.com +direct
 *.dajieimg.com +direct
 *.dangdang.com +direct
+*.danji6.com +direct
 *.daocloud.io +direct
 *.daovoice.io +direct
 *.dbank.com +direct
@@ -755,6 +767,7 @@ alog.umengcloud.com +direct
 *.dgtle.com +direct
 *.diandian.com +direct
 *.diopic.net +direct
+*.diyiyou.com +direct
 *.docin.com +direct
 *.dockerone.com +direct
 *.dockone.io +direct
@@ -763,6 +776,7 @@ alog.umengcloud.com +direct
 *.douban.com +direct
 *.douban.fm +direct
 *.doubanio.com +direct
+*.downyi.com +direct
 *.dpfile.com +direct
 *.duokanbox.com +direct
 *.duomai.com +direct
@@ -770,7 +784,9 @@ alog.umengcloud.com +direct
 *.duowan.com +direct
 *.dxpmedia.com +direct
 *.eastday.com +direct
+*.eayyou.com +direct
 *.ecitic.com +direct
+*.eeyy.com +direct
 *.emarbox.com +direct
 *.eoeandroid.com +direct
 *.excelhome.net +direct
@@ -789,12 +805,15 @@ alog.umengcloud.com +direct
 *.getui.com +direct
 *.gfan.com +direct
 *.gitee.com +direct
+*.gmz88.com +direct
 *.growingio.com +direct
 *.gtags.net +direct
 *.gwdang.com +direct
+*.hackhome.com +direct
 *.hao123.com +direct
 *.hao123img.com +direct
 *.haosou.com +direct
+*.haote.com +direct
 *.henha.com +direct
 *.henkuai.com +direct
 *.hexun.com +direct
@@ -916,6 +935,7 @@ alog.umengcloud.com +direct
 *.mydrivers.com +direct
 *.myshow360.net +direct
 *.mzstatic.com +direct
+*.newasp.net +direct
 *.newbandeng.com +direct
 *.ngabbs.com +direct
 *.ngacn.cc +direct
@@ -926,6 +946,7 @@ alog.umengcloud.com +direct
 *.oneapm.com +direct
 *.onlinedown.net +direct
 *.onlinesjtu.com +direct
+*.opdown.com +direct
 *.oschina.net +direct
 *.paipai.com +direct
 *.pcbeta.com +direct
@@ -1003,6 +1024,7 @@ alog.umengcloud.com +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
 *.useso.com +direct
+*.uzzf.com +direct
 *.v5875.com +direct
 *.vamaker.com +direct
 *.vancl.com +direct
@@ -1010,6 +1032,7 @@ alog.umengcloud.com +direct
 *.vip.com +direct
 *.wallstreetcn.com +direct
 *.wandoujia.com +direct
+*.wanyx.com +direct
 *.wdjimg.com +direct
 *.weand.com +direct
 *.webterren.com +direct
@@ -1019,6 +1042,7 @@ alog.umengcloud.com +direct
 *.weiphone.com +direct
 *.weiphone.net +direct
 *.weixing.com +direct
+*.wishdown.com +direct
 *.wonnder.com +direct
 *.wooyun.org +direct
 *.worktile.com +direct
@@ -1052,6 +1076,7 @@ alog.umengcloud.com +direct
 *.yjbys.com +direct
 *.youboy.com +direct
 *.youshang.com +direct
+*.youxihezi.net +direct
 *.ysten.com +direct
 *.yunba.io +direct
 *.yundaex.com +direct
