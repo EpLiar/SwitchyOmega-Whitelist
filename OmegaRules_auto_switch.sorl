@@ -1,12 +1,20 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/10
+; Update: 2020/4/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
 
 *.cn +direct
+
+; 4399
+
+*.4399.com +direct
+*.4399dmw.com +direct
+*.4399er.com +direct
+*.5054399.com +direct
+*.img4399.com +direct
 
 ; acfun
 
@@ -281,12 +289,18 @@
 ; gitv
 
 *.gitv.tv +direct
+
 ; huawei
 
 *.huawei.com +direct
 *.hicloud.com +direct
 *.vmall.com +direct
 *.vmallres.com +direct
+
+; hupu
+
+*.hupu.com +direct
+*.hupucdn.com +direct
 
 ; huya
 
@@ -382,6 +396,11 @@
 
 *.jinrishici.com +direct
 
+; jinshuju
+
+*.jinshuju.net +direct
+*.jinshujucdn.com +direct
+
 ; jsdelivr
 
 *.jsdelivr.net +direct
@@ -389,8 +408,8 @@
 
 ; kingsoft
 
-*.docer.com
-*.wpsgo.com
+*.docer.com +direct
+*.wpsgo.com +direct
 
 ; kuaishou
 
@@ -518,6 +537,11 @@ wlog.kuaishou.com +direct
 
 *.tapimg.com +direct
 *.taptap.com +direct
+
+; teambition
+
+*.teambition.com +direct
+*.teambition.net +direct
 
 ; tencent
 
@@ -663,7 +687,6 @@ alog.umengcloud.com +direct
 *.39.net +direct
 *.3conline.com +direct
 *.3dmgame.com +direct
-*.4399.com +direct
 *.500d.me +direct
 *.50bang.org +direct
 *.51.la +direct
@@ -751,6 +774,7 @@ alog.umengcloud.com +direct
 *.cnepub.com +direct
 *.cnmstl.net +direct
 *.cnzz.com +direct
+*.code666.com +direct
 *.cqvip.com +direct
 *.csbew.com +direct
 *.csslcloud.net +direct
@@ -778,6 +802,7 @@ alog.umengcloud.com +direct
 *.doubanio.com +direct
 *.downyi.com +direct
 *.dpfile.com +direct
+*.duoduocdn.com +direct
 *.duokanbox.com +direct
 *.duomai.com +direct
 *.duoshuo.com +direct
@@ -821,8 +846,6 @@ alog.umengcloud.com +direct
 *.huanqiu.com +direct
 *.hunantv.com +direct
 *.huochepiao.com +direct
-*.hupu.com +direct
-*.hupucdn.com +direct
 *.huxiu.com +direct
 *.iask.com +direct
 *.ichangtou.com +direct
@@ -838,6 +861,7 @@ alog.umengcloud.com +direct
 *.imedao.com +direct
 *.imgo.tv +direct
 *.imooc.com +direct
+*.im-cc.com +direct
 *.infoq.com +direct
 *.infoqstatic.com +direct
 *.ip-cdn.com +direct
@@ -861,7 +885,6 @@ alog.umengcloud.com +direct
 *.jiathis.com +direct
 *.jiayuan.com +direct
 *.jikexueyuan.com +direct
-*.jinshuju.net +direct
 *.jisuanke.com +direct
 *.jmstatic.com +direct
 *.jstv.com +direct
@@ -988,6 +1011,7 @@ alog.umengcloud.com +direct
 *.shutcm.com +direct
 *.simei8.com +direct
 *.smzdm.com +direct
+*.sobot.com +direct
 *.sogou.com +direct
 *.sogoucdn.com +direct
 *.sohu.com +direct
@@ -1006,16 +1030,18 @@ alog.umengcloud.com +direct
 *.t1y5.com +direct
 *.tanx.com +direct
 *.tao123.com +direct
-*.teambition.com +direct
 *.tenxcloud.com +direct
 *.tietuku.com +direct
 *.tiexue.net +direct
 *.tingyun.com +direct
 *.tmcdn.net +direct
+*.tongdun.net +direct
 *.topthink.com +direct
+*.trustutn.org +direct
 *.ttpod.com +direct
 *.tudou.com +direct
 *.tudouui.com +direct
+*.tuer123.com +direct
 *.tuicool.com +direct
 *.tuniu.com +direct
 *.tutuapp.com +direct
@@ -1093,9 +1119,10 @@ alog.umengcloud.com +direct
 *.zdfans.com +direct
 *.zdmimg.com +direct
 *.zhanqi.tv +direct
-*.zhanzhang.net
+*.zhanzhang.net +direct
 *.zhaopin.com +direct
 *.zhenai.com +direct
+*.zhibo8.cc +direct
 *.zhipin.com +direct
 *.zhiziyun.com +direct
 *.zhubajie.com +direct
