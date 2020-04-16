@@ -10,9 +10,11 @@
 
 ; 4399
 
+*.3304399.net +direct
 *.4399.com +direct
 *.4399dmw.com +direct
 *.4399er.com +direct
+*.4399youpai.com +direct
 *.5054399.com +direct
 *.img4399.com +direct
 
@@ -503,6 +505,8 @@ wlog.kuaishou.com +direct
 *.qhimg.com +direct
 *.qhmsg.com +direct
 *.qhres.com +direct
+*.qhstatic.com +direct
+*.qhupdate.com +direct
 *.qihoo.com +direct
 *.nicaifu.com +direct
 *.so.com +direct
@@ -703,12 +707,14 @@ alog.umengcloud.com +direct
 *.55bbs.com +direct
 *.5577.com +direct
 *.58.com +direct
+*.5fun.com +direct
 *.5you.com +direct
 *.6rooms.com +direct
 *.71.am +direct
 *.7down.com +direct
 *.7k7k.com +direct
 *.7moor.com +direct
+*.8686c.com +direct
 *.900.la +direct
 *.91danji.com +direct
 *.91yunxiao.com +direct
@@ -723,6 +729,7 @@ alog.umengcloud.com +direct
 *.allyes.com +direct
 *.anjuke.com +direct
 *.anquan.org +direct
+*.anruan.com +direct
 *.appinn.com +direct
 *.babytree.com +direct
 *.babytreeimg.com +direct
@@ -731,6 +738,7 @@ alog.umengcloud.com +direct
 *.baike.com +direct
 *.baixing.com +direct
 *.baixing.net +direct
+*.bangongziyuan.com +direct
 *.bankcomm.com +direct
 *.bankofchina.com +direct
 *.bcy.net +direct
@@ -788,6 +796,7 @@ alog.umengcloud.com +direct
 *.daovoice.io +direct
 *.dbank.com +direct
 *.dedecms.com +direct
+*.develenv.com +direct
 *.dgtle.com +direct
 *.diandian.com +direct
 *.diopic.net +direct
@@ -823,6 +832,7 @@ alog.umengcloud.com +direct
 *.fengniao.com +direct
 *.fhldns.com +direct
 *.freebuf.com +direct
+*.fugetech.com +direct
 *.gamersky.com +direct
 *.geekpark.net +direct
 *.geetest.com +direct
@@ -831,9 +841,11 @@ alog.umengcloud.com +direct
 *.gfan.com +direct
 *.gitee.com +direct
 *.gmz88.com +direct
+*.golue.com +direct
 *.growingio.com +direct
 *.gtags.net +direct
 *.gwdang.com +direct
+*.gzwanju.com +direct
 *.hackhome.com +direct
 *.hao123.com +direct
 *.hao123img.com +direct
@@ -843,6 +855,7 @@ alog.umengcloud.com +direct
 *.henkuai.com +direct
 *.hexun.com +direct
 *.hichina.com +direct
+*.hiido.com +direct
 *.huanqiu.com +direct
 *.hunantv.com +direct
 *.huochepiao.com +direct
@@ -935,6 +948,7 @@ alog.umengcloud.com +direct
 *.lvsexitong.com +direct
 *.lxdns.com +direct
 *.lxway.com +direct
+*.mamecn.com +direct
 *.mayihr.com +direct
 *.mechina.org +direct
 *.mediav.com +direct
@@ -957,6 +971,7 @@ alog.umengcloud.com +direct
 *.mukewang.com +direct
 *.mydrivers.com +direct
 *.myshow360.net +direct
+*.myyx618.com +direct
 *.mzstatic.com +direct
 *.newasp.net +direct
 *.newbandeng.com +direct
@@ -964,6 +979,7 @@ alog.umengcloud.com +direct
 *.ngacn.cc +direct
 *.ntalker.com +direct
 *.nvsheng.com +direct
+*.nzbdw.com +direct
 *.oeeee.com +direct
 *.ol-img.com +direct
 *.oneapm.com +direct
@@ -976,7 +992,10 @@ alog.umengcloud.com +direct
 *.pchome.net +direct
 *.pingan.com +direct
 *.pingplusplus.com +direct
+*.pipaw.com +direct
+*.pipaw.net +direct
 *.pps.tv +direct
+*.pptbest.com +direct
 *.psbc.com +direct
 *.pubyun.com +direct
 *.qbox.me +direct
@@ -1077,6 +1096,7 @@ alog.umengcloud.com +direct
 *.wumii.com +direct
 *.xiachufang.com +direct
 *.xiaokaxiu.com +direct
+*.xiayx.com +direct
 *.xinhuanet.com +direct
 *.xinshipu.com +direct
 *.xitu.com +direct
@@ -1084,9 +1104,11 @@ alog.umengcloud.com +direct
 *.xnpic.com +direct
 *.xueqiu.com +direct
 *.xunlei.com +direct
+*.xsa239.com +direct
 *.xycdn.com +direct
 *.xywy.com +direct
 *.yaolan.com +direct
+*.yaoyl.com +direct
 *.yccdn.com +direct
 *.yeepay.com +direct
 *.yesky.com +direct
@@ -1098,11 +1120,13 @@ alog.umengcloud.com +direct
 *.yinxiang.com +direct
 *.yinyuetai.com +direct
 *.yisu.com +direct
+*.yiwan.com +direct
 *.yixi.tv +direct
 *.yjbys.com +direct
 *.youboy.com +direct
 *.youshang.com +direct
 *.youxihezi.net +direct
+*.youzu.com +direct
 *.ysten.com +direct
 *.yunba.io +direct
 *.yundaex.com +direct
@@ -1114,6 +1138,7 @@ alog.umengcloud.com +direct
 *.yy.com +direct
 *.yytcdn.com +direct
 *.zampda.net +direct
+*.zampdsp.com +direct
 *.zastatic.com +direct
 *.zbjimg.com +direct
 *.zdfans.com +direct
