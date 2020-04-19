@@ -19,6 +19,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)4399youpai\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)5054399\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)img4399\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)58\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)58che\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)anjuke\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)anjukestatic\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)chinahr\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)jxedt\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)aixifan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)acplay\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)dandanplay\.com$/.test(host)) return "DIRECT";
@@ -353,6 +359,14 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)qihoo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)nicaifu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)so\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)6655\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)cooldock\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)ithome\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)lapin365\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)ruanmei\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)saayaa\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)win7china\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)win8china\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sfacg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sina\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sinaapp\.com$/.test(host)) return "DIRECT";
@@ -476,7 +490,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)55\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)55bbs\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)5577\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)58\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)5fun\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)5you\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)6rooms\.com$/.test(host)) return "DIRECT";
@@ -497,7 +510,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)aiyunxiao\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)aizhan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)allyes\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)anjuke\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)anquan\.org$/.test(host)) return "DIRECT";
         if (/(?:^|\.)anruan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)appinn\.com$/.test(host)) return "DIRECT";
@@ -531,7 +543,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)china\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chinacache\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chinacache\.net$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)chinahr\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chinapay\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chinatranslation\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chinaz\.com$/.test(host)) return "DIRECT";
@@ -550,6 +561,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)cnbetacdn\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cnblogs\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cnepub\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)cnfol\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cnmstl\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cnzz\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)code666\.com$/.test(host)) return "DIRECT";
@@ -657,7 +669,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)it168\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)it610\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)iteye\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)ithome\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)itjuzi\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jandan\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jb51\.com$/.test(host)) return "DIRECT";
@@ -785,7 +796,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)renren\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)rfchost\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)rtbasia\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)ruanmei\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ruby-china\.org$/.test(host)) return "DIRECT";
         if (/(?:^|\.)runoob\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sandai\.net$/.test(host)) return "DIRECT";

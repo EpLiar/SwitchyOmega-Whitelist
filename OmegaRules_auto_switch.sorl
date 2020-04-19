@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/15
+; Update: 2020/4/19
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -17,6 +17,15 @@
 *.4399youpai.com +direct
 *.5054399.com +direct
 *.img4399.com +direct
+
+; 58tongcheng
+
+*.58.com +direct
+*.58che.com +direct
+*.anjuke.com +direct
+*.anjukestatic.com +direct
+*.chinahr.com +direct
+*.jxedt.com +direct
 
 ; acfun
 
@@ -511,6 +520,17 @@ wlog.kuaishou.com +direct
 *.nicaifu.com +direct
 *.so.com +direct
 
+; ruanmei
+
+*.6655.com +direct
+*.cooldock.com +direct
+*.ithome.com +direct
+*.lapin365.com +direct
+*.ruanmei.com +direct
+*.saayaa.com +direct
+*.win7china.com +direct
+*.win8china.com +direct
+
 ; sfacg
 
 *.sfacg.com +direct
@@ -706,7 +726,6 @@ alog.umengcloud.com +direct
 *.55.com +direct
 *.55bbs.com +direct
 *.5577.com +direct
-*.58.com +direct
 *.5fun.com +direct
 *.5you.com +direct
 *.6rooms.com +direct
@@ -727,7 +746,6 @@ alog.umengcloud.com +direct
 *.aiyunxiao.com +direct
 *.aizhan.com +direct
 *.allyes.com +direct
-*.anjuke.com +direct
 *.anquan.org +direct
 *.anruan.com +direct
 *.appinn.com +direct
@@ -761,7 +779,6 @@ alog.umengcloud.com +direct
 *.china.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
-*.chinahr.com +direct
 *.chinapay.com +direct
 *.chinatranslation.net +direct
 *.chinaz.com +direct
@@ -780,6 +797,7 @@ alog.umengcloud.com +direct
 *.cnbetacdn.com +direct
 *.cnblogs.com +direct
 *.cnepub.com +direct
+*.cnfol.com +direct
 *.cnmstl.net +direct
 *.cnzz.com +direct
 *.code666.com +direct
@@ -887,7 +905,6 @@ alog.umengcloud.com +direct
 *.it168.com +direct
 *.it610.com +direct
 *.iteye.com +direct
-*.ithome.com +direct
 *.itjuzi.com +direct
 *.jandan.net +direct
 *.jb51.com +direct
@@ -1015,7 +1032,6 @@ alog.umengcloud.com +direct
 *.renren.com +direct
 *.rfchost.com +direct
 *.rtbasia.com +direct
-*.ruanmei.com +direct
 *.ruby-china.org +direct
 *.runoob.com +direct
 *.sandai.net +direct
