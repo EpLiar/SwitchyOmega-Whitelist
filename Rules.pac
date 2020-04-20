@@ -8,8 +8,8 @@ var FindProxyForURL = function(init, profiles) {
         } while (typeof result !== "string" || result.charCodeAt(0) === 43);
         return result;
     };
-}("+for pac", {
-    "+for pac": function(url, host, scheme) {
+}("+pac", {
+    "+pac": function(url, host, scheme) {
         "use strict";
         if (/(?:^|\.)cn$/.test(host)) return "DIRECT";
         if (/(?:^|\.)3304399\.net$/.test(host)) return "DIRECT";
@@ -302,6 +302,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^wlog\.kuaishou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)lancdn\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)landiannews\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)liepin\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)lietou\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)lietou-static\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)wsoso\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)mafengwo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)mafengwo\.net$/.test(host)) return "DIRECT";
@@ -347,11 +350,17 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)pinduoduo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yangkeduo\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)360\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)360chou\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)360huzhubao\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)360jie\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)360kan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)360taojin\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)360webcache\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)haosou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)i360mall\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)qhimg\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)qhimgs3\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)qhimgs4\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)qhmsg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)qhres\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)qhstatic\.com$/.test(host)) return "DIRECT";
@@ -434,6 +443,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)atianqi\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kuyun\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)umeng\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)sandai\.net$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)thunderurl\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)xunlei\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ynet\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)0880\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)youku\.com$/.test(host)) return "DIRECT";
@@ -441,6 +453,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)mmstat\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)soku\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cibntv\.net$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)yfcache\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)yfcloud\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)yfp2p\.net$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)yunfancdn\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhihu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhimg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ksyun\.com$/.test(host)) return "DIRECT";
@@ -523,6 +539,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bangongziyuan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)bankcomm\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)bankofchina\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)baomitu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)bcy\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)biddingx\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)bitauto\.com$/.test(host)) return "DIRECT";
@@ -570,6 +587,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)csslcloud\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ctfile\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)cubead\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)cztv\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)cztvcloud\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)dajie\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)dajieimg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)dangdang\.com$/.test(host)) return "DIRECT";
@@ -603,6 +622,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)eayyou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ecitic\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)eeyy\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)eflycloud\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)emarbox\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)eoeandroid\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)excelhome\.net$/.test(host)) return "DIRECT";
@@ -631,13 +651,13 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hackhome\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hao123\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hao123img\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)haosou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)haote\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)henha\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)henkuai\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hexun\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hichina\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hiido\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)hitv\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)huanqiu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)hunantv\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)huochepiao\.com$/.test(host)) return "DIRECT";
@@ -676,6 +696,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)jianshu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jianshu\.io$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jiasuhui\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)jiasule\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jiathis\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jiayuan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)jikexueyuan\.com$/.test(host)) return "DIRECT";
@@ -691,6 +712,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)keboyunxiao\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kejet\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kf5\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)kgimg\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kimiss\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kingdee\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)kouclo\.com$/.test(host)) return "DIRECT";
@@ -715,8 +737,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)liaoxuefeng\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)liba\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)libaclub\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)liepin\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)lietou\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)lightonus\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)linkvans\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)linuxidc\.com$/.test(host)) return "DIRECT";
@@ -773,6 +793,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)pchome\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)pingan\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)pingplusplus\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)pintu360\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)pipaw\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)pipaw\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)pps\.tv$/.test(host)) return "DIRECT";
@@ -798,7 +819,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)rtbasia\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ruby-china\.org$/.test(host)) return "DIRECT";
         if (/(?:^|\.)runoob\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)sandai\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sanguosha\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sanwen\.net$/.test(host)) return "DIRECT";
         if (/(?:^|\.)sec-wiki\.com$/.test(host)) return "DIRECT";
@@ -854,6 +874,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)vamaker\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)vancl\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)vcimg\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)videojj\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)vip\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)wallstreetcn\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)wandoujia\.com$/.test(host)) return "DIRECT";
@@ -883,7 +904,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xiu8\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)xnpic\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)xueqiu\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)xunlei\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)xsa239\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)xycdn\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)xywy\.com$/.test(host)) return "DIRECT";
@@ -909,6 +929,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)youzu\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)ysten\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yunba\.io$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)yunaq\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yundaex\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yunshipei\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)yunxiao\.com$/.test(host)) return "DIRECT";
@@ -931,6 +952,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)zhipin\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhiziyun\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zhubajie\.com$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)zhugeapi\.net$/.test(host)) return "DIRECT";
+        if (/(?:^|\.)zhugeio\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zimuzu\.io$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zjstv\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)zrblog\.net$/.test(host)) return "DIRECT";
@@ -947,11 +970,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)zoom3g\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chaoxing\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)chaoxing\.cc$/.test(host)) return "DIRECT";
-        return "+proxy";
+        return "+__ruleListOf_pac";
     },
+    "+__ruleListOf_pac": "+proxy",
     "+proxy": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "PROXY 127.0.0.1:8081";
+        return "PROXY 127.0.0.1:1081";
     }
 });
