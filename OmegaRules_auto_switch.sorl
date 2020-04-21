@@ -84,23 +84,23 @@
 
 ; Fliggy
 
-*.alitrip.com +direct +direct
-*.feizhu.com +direct +direct
-*.fliggy.com +direct +direct
-*.iuynfg.com +direct +direct
+*.alitrip.com +direct
+*.feizhu.com +direct
+*.fliggy.com +direct
+*.iuynfg.com +direct
 
 ; amap
 
-*.amap.com +direct +direct
-*.amapauto.com +direct +direct
-*.autonavi.com +direct +direct
-*.gaode.com +direct +direct
+*.amap.com +direct
+*.amapauto.com +direct
+*.autonavi.com +direct
+*.gaode.com +direct
 
 ; Xiami music
 
-*.xiami.com +direct +direct
-*.xiami.fm +direct +direct
-*.xiami.net +direct +direct
+*.xiami.com +direct
+*.xiami.fm +direct
+*.xiami.net +direct
 
 ; alibaba-ads
 
