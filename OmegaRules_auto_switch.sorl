@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/20
+; Update: 2020/4/21
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -132,16 +132,6 @@
 *.userimg.qunar.com +direct
 *.yiliao.hupan.com +direct
 
-; dingtalk
-
-*.dingtalk.com +direct
-*.dingtalk.net +direct
-*.dingtalkapps.com +direct
-*.ddurl.to +direct
-*.laiwang.com +direct
-*.dingding.xin +direct
-*.lwurl.to +direct
-
 ; baidu
 
 *.baidu.com +direct
@@ -211,6 +201,7 @@
 *.zjcdn.com +direct
 
 ; 西瓜视频
+
 *.ixigua.com +direct
 *.ixgvideo.com +direct
 *.365yg.com +direct
@@ -222,6 +213,7 @@
 *.chinamobileltd.com +direct
 
 ; Migu
+
 *.migucloud.com +direct
 *.miguvideo.com +direct
 
@@ -282,6 +274,16 @@
 *.mogoo.com +direct
 *.saolife.com +direct
 
+; dingtalk
+
+*.dingtalk.com +direct
+*.dingtalk.net +direct
+*.dingtalkapps.com +direct
+*.ddurl.to +direct
+*.laiwang.com +direct
+*.dingding.xin +direct
+*.lwurl.to +direct
+
 ; douyu
 
 *.douyu.tv +direct
@@ -318,6 +320,15 @@
 *.huya.com +direct
 *.msstatic.com +direct
 
+; ifanr
+
+*.coolbuy.com +direct
+*.ifanr.com +direct
+*.ifanr.in +direct
+*.ifanrusercontent.com +direct
+*.ifanrx.com +direct
+*.minapp.com +direct
+
 ; iqiyi
 
 *.71.am +direct
@@ -334,6 +345,7 @@
 
 ; jd
 
+*.300hu.com +direct
 *.360buy.com +direct
 *.360buyimg.com +direct
 *.360top.com +direct
@@ -565,9 +577,17 @@ wlog.kuaishou.com +direct
 
 *.saraba1st.com +direct
 
-; shunfeng
+; sf-express
 
 *.sf-express.com +direct
+
+; suning
+
+*.cnsuning.com +direct
+*.suning.com +direct
+*.suningcloud.com +direct
+*.suningestate.com +direct
+*.suningholdings.com +direct
 
 ; taptap
 
@@ -737,6 +757,7 @@ alog.umengcloud.com +direct
 *.39.net +direct
 *.3conline.com +direct
 *.3dmgame.com +direct
+*.4paradigm.com +direct
 *.500d.me +direct
 *.50bang.org +direct
 *.51.la +direct
@@ -912,9 +933,6 @@ alog.umengcloud.com +direct
 *.ichangtou.com +direct
 *.iciba.com +direct
 *.idqqimg.com +direct
-*.ifanr.com +direct
-*.ifanrusercontent.com +direct
-*.ifanrx.com +direct
 *.ifeng.com +direct
 *.ifengimg.com +direct
 *.ijinshan.com +direct
@@ -1089,7 +1107,6 @@ alog.umengcloud.com +direct
 *.starbaby.com +direct
 *.staticfile.org +direct
 *.stockstar.com +direct
-*.suning.com +direct
 *.szfw.org +direct
 *.szzfgjj.com +direct
 *.t1y5.com +direct
