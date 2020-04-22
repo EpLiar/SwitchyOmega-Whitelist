@@ -607,19 +607,20 @@ wlog.kuaishou.com +direct
 *.imqq.com +direct
 *.myapp.com +direct
 *.myqcloud.com +direct
-*.tencentyun.com +direct
 *.qcloud.com +direct
 *.qcloudimg.com +direct
 *.qq.com +direct
 *.qqmail.com +direct
 *.qzone.com +direct
+*.servicewechat.com +direct
 *.smtcdns.com +direct
+*.tencentmusic.com +direct
+*.tencentyun.com +direct
+*.tenpay.com +direct
 *.tencent.com +direct
 *.wechat.com +direct
-*.servicewechat.com +direct
 *.wegame.com +direct
 *.weiyun.com +direct
-*.tenpay.com +direct
 
 ; tipdm
 
@@ -752,7 +753,7 @@ alog.umengcloud.com +direct
 *.3322.org +direct
 *.35.com +direct
 *.360doc.com +direct
-*.360safe.com +direct
+*.360zhyx.com +direct
 *.36kr.com +direct
 *.39.net +direct
 *.3conline.com +direct
@@ -788,8 +789,10 @@ alog.umengcloud.com +direct
 *.9718.com +direct
 *.9xu.com +direct
 *.aardio.com +direct
+*.adxvip.com +direct
 *.agrantsem.com +direct
 *.aicdn.com +direct
+*.aiemy.com +direct
 *.aiyunxiao.com +direct
 *.aizhan.com +direct
 *.allyes.com +direct
@@ -809,18 +812,24 @@ alog.umengcloud.com +direct
 *.baomitu.com +direct
 *.bcy.net +direct
 *.biddingx.com +direct
+*.bio-equip.com +direct
+*.bio360.net +direct
+*.bio4p.com +direct
+*.biodiscover.com +direct
 *.bitauto.com +direct
 *.bitautoimg.com +direct
 *.bobo.com +direct
 *.bokecc.com +direct
 *.bootcss.com +direct
 *.btcfans.com +direct
+*.bthhotels.com +direct
 *.caiyunapp.com +direct
 *.ccb.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
 *.cdn20.com +direct
 *.cebbank.com +direct
+*.cecdc.com +direct
 *.ch.com +direct
 *.chashebao.com +direct
 *.che168.com +direct
@@ -828,6 +837,7 @@ alog.umengcloud.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
 *.chinapay.com +direct
+*.chinapubmed.net +direct
 *.chinatranslation.net +direct
 *.chinaz.com +direct
 *.chiphell.com +direct
@@ -896,10 +906,12 @@ alog.umengcloud.com +direct
 *.expreview.com +direct
 *.famulei.com +direct
 *.fanli.com +direct
+*.fastapi.net +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
 *.fengniao.com +direct
 *.fhldns.com +direct
+*.fimmu.com +direct
 *.freebuf.com +direct
 *.fugetech.com +direct
 *.gamersky.com +direct
@@ -909,6 +921,7 @@ alog.umengcloud.com +direct
 *.getui.com +direct
 *.gfan.com +direct
 *.gitee.com +direct
+*.gmallbio.com +direct
 *.gmz88.com +direct
 *.golue.com +direct
 *.growingio.com +direct
@@ -956,6 +969,7 @@ alog.umengcloud.com +direct
 *.itjuzi.com +direct
 *.jandan.net +direct
 *.jb51.com +direct
+*.jdair.net +direct 
 *.jia.com +direct
 *.jianshu.com +direct
 *.jianshu.io +direct
@@ -989,6 +1003,7 @@ alog.umengcloud.com +direct
 *.kuqin.com +direct
 *.lady8844.com +direct
 *.lagou.com +direct
+*.lascn.net +direct
 *.le.com +direct
 *.leanote.com +direct
 *.leiphone.com +direct
@@ -1014,6 +1029,7 @@ alog.umengcloud.com +direct
 *.lxdns.com +direct
 *.lxway.com +direct
 *.mamecn.com +direct
+*.mayi.com +direct
 *.mayihr.com +direct
 *.mechina.org +direct
 *.mediav.com +direct
@@ -1055,6 +1071,7 @@ alog.umengcloud.com +direct
 *.paipai.com +direct
 *.pcbeta.com +direct
 *.pchome.net +direct
+*.pharmacodia.com +direct
 *.pingan.com +direct
 *.pingplusplus.com +direct
 *.pintu360.com +direct
@@ -1115,6 +1132,7 @@ alog.umengcloud.com +direct
 *.tenxcloud.com +direct
 *.tietuku.com +direct
 *.tiexue.net +direct
+*.timedoo.com +direct
 *.tingyun.com +direct
 *.tmcdn.net +direct
 *.tongdun.net +direct
@@ -1125,6 +1143,7 @@ alog.umengcloud.com +direct
 *.tudouui.com +direct
 *.tuer123.com +direct
 *.tuicool.com +direct
+*.tujia.com +direct
 *.tuniu.com +direct
 *.tutuapp.com +direct
 *.u.tools +direct
@@ -1138,6 +1157,7 @@ alog.umengcloud.com +direct
 *.vancl.com +direct
 *.vcimg.com +direct
 *.videojj.com +direct
+*.vijos.org +direct
 *.vip.com +direct
 *.wallstreetcn.com +direct
 *.wandoujia.com +direct
@@ -1158,6 +1178,7 @@ alog.umengcloud.com +direct
 *.wrating.com +direct
 *.wscdns.com +direct
 *.wumii.com +direct
+*.wuximediaglobal.com +direct
 *.xiachufang.com +direct
 *.xiaokaxiu.com +direct
 *.xiayx.com +direct
@@ -1172,13 +1193,16 @@ alog.umengcloud.com +direct
 *.xywy.com +direct
 *.yaolan.com +direct
 *.yaoyl.com +direct
+*.yaozh.com +direct
 *.yccdn.com +direct
 *.yeepay.com +direct
 *.yesky.com +direct
 *.yhd.com +direct
 *.yigao.com +direct
+*.yigoonet.com +direct
 *.yihaodian.com +direct
 *.yihaodianimg.com +direct
+*.yikexue.com +direct
 *.yingjiesheng.com +direct
 *.yinxiang.com +direct
 *.yinyuetai.com +direct
@@ -1187,6 +1211,7 @@ alog.umengcloud.com +direct
 *.yixi.tv +direct
 *.yjbys.com +direct
 *.youboy.com +direct
+*.youke.co +direct
 *.youshang.com +direct
 *.youxihezi.net +direct
 *.youzu.com +direct
