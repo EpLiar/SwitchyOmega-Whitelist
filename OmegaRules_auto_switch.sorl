@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/21
+; Update: 2020/4/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -529,10 +529,12 @@ wlog.kuaishou.com +direct
 *.360huzhubao.com +direct
 *.360jie.com +direct
 *.360kan.com +direct
+*.360kuai.com +direct
 *.360taojin.com +direct
 *.360webcache.com +direct
 *.haosou.com +direct
 *.i360mall.com +direct
+*.nicaifu.com +direct
 *.qhimg.com +direct
 *.qhimgs3.com +direct
 *.qhimgs4.com +direct
@@ -541,7 +543,6 @@ wlog.kuaishou.com +direct
 *.qhstatic.com +direct
 *.qhupdate.com +direct
 *.qihoo.com +direct
-*.nicaifu.com +direct
 *.so.com +direct
 
 ; ruanmei
@@ -684,6 +685,8 @@ alog.umengcloud.com +direct
 
 ; xunlei
 
+*.00cdn.com +direct
+*.88cdn.com +direct
 *.sandai.net +direct
 *.thunderurl.com +direct
 *.xunlei.com +direct
@@ -769,6 +772,7 @@ alog.umengcloud.com +direct
 *.51jobcdn.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
+*.52hxw.com +direct
 *.52miji.com +direct
 *.52z.com +direct
 *.55.com +direct
@@ -857,6 +861,7 @@ alog.umengcloud.com +direct
 *.cnepub.com +direct
 *.cnfol.com +direct
 *.cnmstl.net +direct
+*.cnstock.com +direct
 *.cnzz.com +direct
 *.code666.com +direct
 *.cqvip.com +direct
@@ -873,6 +878,7 @@ alog.umengcloud.com +direct
 *.daocloud.io +direct
 *.daovoice.io +direct
 *.dbank.com +direct
+*.dcdkjx.com +direct
 *.dedecms.com +direct
 *.develenv.com +direct
 *.dgtle.com +direct
@@ -910,6 +916,7 @@ alog.umengcloud.com +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
 *.fengniao.com +direct
+*.fenxi.com +direct
 *.fhldns.com +direct
 *.fimmu.com +direct
 *.freebuf.com +direct
@@ -943,6 +950,7 @@ alog.umengcloud.com +direct
 *.huochepiao.com +direct
 *.huxiu.com +direct
 *.iask.com +direct
+*.ibaotu.com +direct
 *.ichangtou.com +direct
 *.iciba.com +direct
 *.idqqimg.com +direct
@@ -979,6 +987,7 @@ alog.umengcloud.com +direct
 *.jiayuan.com +direct
 *.jikexueyuan.com +direct
 *.jisuanke.com +direct
+*.jiuzhilan.com +direct
 *.jmstatic.com +direct
 *.jstv.com +direct
 *.jumei.com +direct
@@ -1074,6 +1083,7 @@ alog.umengcloud.com +direct
 *.pharmacodia.com +direct
 *.pingan.com +direct
 *.pingplusplus.com +direct
+*.pingwest.com +direct
 *.pintu360.com +direct
 *.pipaw.com +direct
 *.pipaw.net +direct
@@ -1096,6 +1106,7 @@ alog.umengcloud.com +direct
 *.qunar.com +direct
 *.qunarzz.com +direct
 *.renren.com +direct
+*.renren-inc.com +direct
 *.rfchost.com +direct
 *.rtbasia.com +direct
 *.ruby-china.org +direct
@@ -1161,6 +1172,7 @@ alog.umengcloud.com +direct
 *.vip.com +direct
 *.wallstreetcn.com +direct
 *.wandoujia.com +direct
+*.wangyangyang.vip +direct
 *.wanyx.com +direct
 *.wdjimg.com +direct
 *.weand.com +direct
