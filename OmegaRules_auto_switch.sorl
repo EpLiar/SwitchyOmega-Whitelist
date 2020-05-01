@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/4/26
+; Update: 2020/5/1
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -21,11 +21,16 @@
 ; 58tongcheng
 
 *.58.com +direct
+*.5858.com +direct
 *.58che.com +direct
+*.58xueche.com
 *.anjuke.com +direct
 *.anjukestatic.com +direct
 *.chinahr.com +direct
 *.jxedt.com +direct
+*.zhuancorp.com +direct
+*.zhuanspirit.com +direct
+*.zhuanzhuan.com +direct
 
 ; acfun
 
@@ -38,55 +43,114 @@
 
 ; alibaba
   
+*.56che.com +direct  
 *.95095.com +direct
+*.aliapp.org +direct
 *.alibaba.com +direct
 *.alibaba-inc.com +direct
-*.alibabagroup.com +direct
 *.alibabacorp.com +direct
-*.alibabaplanet.com +direct
 *.alibabadns.com +direct
+*.alibabagroup.com +direct
+*.alibabaplanet.com +direct
+*.alibabadoctor.com +direct
+*.alibabafuturehotel.com +direct
+*.alibabagroup.com +direct
+*.alibabaplanet.com +direct
+*.alibabaued.com +direct
 *.alibabausercontent.com +direct
 *.alicdn.com +direct
+*.alidayu.com +direct
 *.alidns.com +direct
+*.alifanyi.com +direct
+*.alihealth.hk +direct
 *.aliimg.com +direct
+*.alikmd.com +direct
+*.alimama.com +direct
+*.alimebot.com +direct
 *.alipay.com +direct
 *.alipayobjects.com +direct
 *.aliplus.com +direct
+*.aliresearch.com +direct
 *.alisoft.com +direct
+*.alisports.com +direct
+*.alitianji.com +direct
+*.aliunicorn.com +direct
+*.aliway.com +direct
+*.aliwork.com +direct
+*.alixiaomi.com +direct
 *.aliyun.com +direct
 *.aliyun-inc.com +direct
 *.aliyuncdn.com +direct
 *.aliyuncs.com +direct
-*.aliapp.org +direct
-*.alisports.com +direct
-*.alimama.com +direct
+*.alizhaopin.com +direct
+*.asczwa.com +direct
+*.asczxcefsv.com +direct
+*.atatech.org +direct
+*.b2byao.com +direct
+*.bazai.com +direct
+*.bcvbw.com +direct
+*.cheng.xin +direct
+*.dfkhgj.com +direct
+*.doctoryou.ai +direct
 *.dongting.com +direct
+*.dratio.com +direct
+*.emas-poc.com +direct
+*.gongyi.xin +direct
+*.hichina.com +direct
+*.ics.design +direct
+*.jhgtgb.com +direct
+*.kanbox.com +direct
+*.lazada.com +direct
+*.liangxinyao.com +direct
+*.maitix.com +direct
+*.mdeer.com +direct
 *.mei.com +direct
+*.miaostreet.com +direct
+*.mshare.cc +direct
 *.mxhichina.com +direct
+*.nic.xin +direct
+*.philanthropy.xin +direct
+*.shenjing.com +direct
+*.shuqi.com +direct
+*.shuqireader.com +direct
+*.yowhale.com +direct
+*.yunos.com +direct
+*.yunos-inc.com +direct
+*.yushanfang.com +direct
+*.zuodao.com +direct
 
 *.cainiao.com +direct
 *.cainiao-inc.com +direct
 
+; Hema
+
+*.freshhema.com +direct
+*.hemaos.com +direct
+*.shyhhema.com +direct
+
+
 ; Taobao
 
 *.1688.com +direct
-*.taobao.com +direct
-*.taobao.org +direct
-*.taopiaopiao.com +direct
-*.taobaocdn.com +direct
-*.tbcache.com +direct
-*.tmall.com +direct
-*.tmalltv.com +direct
+*.etao.com +direct
 *.juhuasuan.com +direct
 *.lingshoujia.com +direct
 *.pailitao.com +direct
-*.etao.com +direct
+*.taobao.com +direct
+*.taobao.org +direct
+*.taobaocdn.com +direct
+*.taopiaopiao.com +direct
+*.tbcache.com +direct
+*.tmall.com +direct
+*.tmalltv.com +direct
+*.tmjl.ai
 
 ; Fliggy
 
 *.alitrip.com +direct
 *.feizhu.com +direct
 *.fliggy.com +direct
+*.fliggy.hk +direct
 *.iuynfg.com +direct
 
 ; amap
@@ -134,20 +198,35 @@
 
 ; baidu
 
+*.91.com +direct
+*.aipage.com +direct
+*.apollo.auto +direct
 *.baidu.com +direct
+*.baidubce.com +direct
 *.baiducontent.com +direct
 *.baidupcs.com +direct
 *.baidustatic.com +direct
+*.baifae.com +direct
 *.baifubao.com +direct
 *.bdimg.com +direct
 *.bdstatic.com +direct
+*.bdtjrcv.com +direct
 *.bdydns.net +direct
+*.chuanke.com +direct
 *.dlnel.com +direct
+*.dlnel.org +direct
 *.duapps.com +direct
+*.hao123.com +direct
+*.hao123img.com +direct
+*.hao222.com +direct
+*.haokan.com +direct
 *.jomocdn.net +direct
+*.mipcdn.com +direct
+*.nuomi.com +direct
 *.quyaoya.com +direct
 *.tieba.com +direct
 *.tiebaimg.com +direct
+*.xianfae.com +direct
 *.xiaodutv.com +direct
 
 ; baidu-ads
@@ -352,6 +431,7 @@
 *.7fresh.com +direct
 *.baitiao.com +direct
 *.blackdragon.com +direct
+*.caiyu.com +direct
 *.dao123.com +direct
 *.jcloud-cdn.com +direct
 *.jcloud-live.com +direct
@@ -371,7 +451,11 @@
 *.jclps.com +direct
 *.jd-app.com +direct
 *.jd-ex.com +direct
+*.jd.co.th +direct
 *.jd.com +direct
+*.jd.hk +direct
+*.jd.id +direct
+*.jd.ru +direct
 *.jdcache.com +direct
 *.jdcloud.com +direct
 *.jdcloudcs.com +direct
@@ -381,18 +465,21 @@
 *.jddglobal.com +direct
 *.jdjinrong.com +direct
 *.jdpay.com +direct
+*.jdpaydns.com +direct
 *.jdx.com +direct
 *.jdwl.com +direct
 *.jingdongjinrong.com +direct
 *.jingxi.com +direct
 *.jkcsjd.com +direct
 *.joybuy.com +direct
+*.joybuy.es +direct
 *.linglonglife.com +direct
 *.mayshijia.com +direct
 *.minitiao.com +direct
 *.paipai.com +direct
 *.prestodb-china.com +direct
 *.qianxun.com +direct
+*.ocwms.com +direct
 *.tjjt360.com +direct
 *.toplife.com +direct
 *.vg.com +direct
@@ -401,6 +488,7 @@
 *.yhd.com +direct
 *.yihaodianimg.com +direct
 *.yiyaojd.com +direct
+*.yizhitou.com +direct
 
 ; jiguang
 
@@ -531,6 +619,7 @@ wlog.kuaishou.com +direct
 *.360kan.com +direct
 *.360kuai.com +direct
 *.360taojin.com +direct
+*.360tpcdn.com +direct
 *.360webcache.com +direct
 *.haosou.com +direct
 *.i360mall.com +direct
@@ -582,6 +671,13 @@ wlog.kuaishou.com +direct
 
 *.sf-express.com +direct
 
+; sogou
+
+*.go2map.com +direct
+*.sogo.com +direct
+*.sogou.com +direct
+*.sogoucdn.com +direct
+
 ; suning
 
 *.cnsuning.com +direct
@@ -619,6 +715,8 @@ wlog.kuaishou.com +direct
 *.tencentyun.com +direct
 *.tenpay.com +direct
 *.tencent.com +direct
+*.tencent.com.hk +direct
+*.tencent-cloud.com +direct
 *.wechat.com +direct
 *.wegame.com +direct
 *.weiyun.com +direct
@@ -698,6 +796,7 @@ alog.umengcloud.com +direct
 
 ; youku
 
+*.kumiao.com +direct
 *.youku.com +direct
 *.ykimg.com +direct
 *.mmstat.com +direct
@@ -706,6 +805,11 @@ alog.umengcloud.com +direct
 ; youku video cdn
 
 *.cibntv.net +direct
+
+; youzan
+
+*.youzan.com +direct
+*.youzanyun.com +direct
 
 ; yunfanjiasu
 
@@ -742,6 +846,7 @@ alog.umengcloud.com +direct
 *.123u.com +direct
 *.17173.com +direct
 *.178.com +direct
+*.178linux.com +direct
 *.17cdn.com +direct
 *.188.com +direct
 *.19yxw.com +direct
@@ -775,6 +880,7 @@ alog.umengcloud.com +direct
 *.52hxw.com +direct
 *.52miji.com +direct
 *.52z.com +direct
+*.53kf.com +direct
 *.55.com +direct
 *.55bbs.com +direct
 *.5577.com +direct
@@ -815,6 +921,7 @@ alog.umengcloud.com +direct
 *.bankofchina.com +direct
 *.baomitu.com +direct
 *.bcy.net +direct
+*.biancheng.net +direct
 *.biddingx.com +direct
 *.bio-equip.com +direct
 *.bio360.net +direct
@@ -827,6 +934,7 @@ alog.umengcloud.com +direct
 *.bootcss.com +direct
 *.btcfans.com +direct
 *.bthhotels.com +direct
+*.caiyun.com +direct
 *.caiyunapp.com +direct
 *.ccb.com +direct
 *.cctv.com +direct
@@ -913,6 +1021,7 @@ alog.umengcloud.com +direct
 *.famulei.com +direct
 *.fanli.com +direct
 *.fastapi.net +direct
+*.feiniaomy.com +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
 *.fengniao.com +direct
@@ -942,9 +1051,10 @@ alog.umengcloud.com +direct
 *.henha.com +direct
 *.henkuai.com +direct
 *.hexun.com +direct
-*.hichina.com +direct
 *.hiido.com +direct
 *.hitv.com +direct
+*.hn-cbec.com +direct
+*.hnyuyuhui.com +direct
 *.huanqiu.com +direct
 *.hunantv.com +direct
 *.huochepiao.com +direct
@@ -1037,6 +1147,7 @@ alog.umengcloud.com +direct
 *.lvsexitong.com +direct
 *.lxdns.com +direct
 *.lxway.com +direct
+*.magedu.com +direct
 *.mamecn.com +direct
 *.mayi.com +direct
 *.mayihr.com +direct
@@ -1059,6 +1170,7 @@ alog.umengcloud.com +direct
 *.mop.com +direct
 *.mscbsc.com +direct
 *.mukewang.com +direct
+*.mydown.com +direct
 *.mydrivers.com +direct
 *.myshow360.net +direct
 *.myyx618.com +direct
@@ -1092,7 +1204,9 @@ alog.umengcloud.com +direct
 *.psbc.com +direct
 *.pubyun.com +direct
 *.qbox.me +direct
+*.qcc.com +direct
 *.qiaobutang.com +direct
+*.qichacha.com +direct
 *.qidian.com +direct
 *.qie.tv +direct
 *.qihucdn.com +direct
@@ -1113,6 +1227,7 @@ alog.umengcloud.com +direct
 *.runoob.com +direct
 *.sanguosha.com +direct
 *.sanwen.net +direct
+*.scoregg.com +direct
 *.sec-wiki.com +direct
 *.segmentfault.com +direct
 *.senlinjimore.com +direct
@@ -1123,8 +1238,6 @@ alog.umengcloud.com +direct
 *.simei8.com +direct
 *.smzdm.com +direct
 *.sobot.com +direct
-*.sogou.com +direct
-*.sogoucdn.com +direct
 *.sohu.com +direct
 *.sohucs.com +direct
 *.sojson.com +direct
@@ -1135,12 +1248,14 @@ alog.umengcloud.com +direct
 *.starbaby.com +direct
 *.staticfile.org +direct
 *.stockstar.com +direct
+*.sunrtb.com +direct
 *.szfw.org +direct
 *.szzfgjj.com +direct
 *.t1y5.com +direct
 *.tanx.com +direct
 *.tao123.com +direct
 *.tenxcloud.com +direct
+*.tianjimedia.com +direct
 *.tietuku.com +direct
 *.tiexue.net +direct
 *.timedoo.com +direct
