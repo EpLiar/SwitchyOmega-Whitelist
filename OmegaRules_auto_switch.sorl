@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/5/1
+; Update: 2020/5/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -23,7 +23,7 @@
 *.58.com +direct
 *.5858.com +direct
 *.58che.com +direct
-*.58xueche.com
+*.58xueche.com +direct
 *.anjuke.com +direct
 *.anjukestatic.com +direct
 *.chinahr.com +direct
@@ -618,6 +618,7 @@ wlog.kuaishou.com +direct
 *.360jie.com +direct
 *.360kan.com +direct
 *.360kuai.com +direct
+*.360safe.com +direct
 *.360taojin.com +direct
 *.360tpcdn.com +direct
 *.360webcache.com +direct
@@ -625,8 +626,13 @@ wlog.kuaishou.com +direct
 *.i360mall.com +direct
 *.nicaifu.com +direct
 *.qhimg.com +direct
+*.qhimgs0.com +direct
+*.qhimgs1.com +direct
+*.qhimgs2.com +direct
 *.qhimgs3.com +direct
 *.qhimgs4.com +direct
+*.qhimgs5.com +direct
+*.qhimgs6.com +direct
 *.qhmsg.com +direct
 *.qhres.com +direct
 *.qhstatic.com +direct
