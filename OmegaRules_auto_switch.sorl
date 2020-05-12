@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/5/8
+; Update: 2020/5/12
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -384,8 +384,11 @@
 
 ; huawei
 
-*.huawei.com +direct
 *.hicloud.com +direct
+*.hihonor.com +direct
+*.honor.cn +direct
+*.huawei.com +direct
+*.huaweicloud.com +direct
 *.vmall.com +direct
 *.vmallres.com +direct
 
@@ -414,6 +417,7 @@
 *.iqiyi.com +direct
 *.iqiyipic.com +direct
 *.pps.tv +direct
+*.ppsimg.com +direct
 *.qiyi.com +direct
 *.qiyipic.com +direct
 *.qy.net +direct
@@ -525,8 +529,9 @@
 ; kuaishou
 
 *.gifshow.com +direct
+*.ksapisrv.com +direct
 *.kuaishou.com +direct
-*.static.yximgs.com +direct
+*.yximgs.com +direct
 
 ; kuaishou-ads
 
@@ -565,6 +570,11 @@ wlog.kuaishou.com +direct
 *.mtyun.com +direct
 *.sankuai.com +direct
 
+; meizu
+
+*.meizu.com +direct
+*.mzres.com +direct
+
 ; netease
 
 *.126.com +direct
@@ -601,9 +611,21 @@ wlog.kuaishou.com +direct
 ; oppo
 
 *.coloros.com +direct
+*.finzfin.com +direct
+*.h2os.com +direct
+*.heytap.com +direct
+*.heytapcs.com +direct
+*.heytapdownload.com +direct
+*.heytapimage.com +direct
+*.myoppo.com +direct
 *.oppo.com +direct
+*.oppo.mobi +direct
+*.oppoer.me +direct
+*.oppomobile.com +direct
+*.oppopay.com +direct
 *.realme.com +direct
 *.realmebbs.com +direct
+*.realmemobile.com +direct
 
 ; pinduoduo
 
@@ -614,6 +636,7 @@ wlog.kuaishou.com +direct
 
 *.360.com +direct
 *.360chou.com +direct
+*.360daikuan.com +direct
 *.360huzhubao.com +direct
 *.360jie.com +direct
 *.360kan.com +direct
@@ -622,9 +645,12 @@ wlog.kuaishou.com +direct
 *.360taojin.com +direct
 *.360tpcdn.com +direct
 *.360webcache.com +direct
+*.haoso.com +direct
+*.haosou.net +direct
 *.haosou.com +direct
 *.i360mall.com +direct
 *.nicaifu.com +direct
+*.nzwgs.com +direct
 *.qhimg.com +direct
 *.qhimgs0.com +direct
 *.qhimgs1.com +direct
@@ -638,7 +664,10 @@ wlog.kuaishou.com +direct
 *.qhstatic.com +direct
 *.qhupdate.com +direct
 *.qihoo.com +direct
+*.qikucdn.com +direct
 *.so.com +direct
+*.sou.com +direct
+*.xjietiao.com +direct
 
 ; ruanmei
 
@@ -657,6 +686,7 @@ wlog.kuaishou.com +direct
 
 ; sina
 
+*.97973.com +direct
 *.sina.com +direct
 *.sinaapp.com +direct
 *.sinaedge.com +direct
@@ -787,6 +817,11 @@ alog.umengcloud.com +direct
 *.kuyun.com +direct
 *.umeng.com +direct
 
+; xueqiu
+
+*.danjuanfunds.com +direct
+*.xueqiu.com +direct
+
 ; xunlei
 
 *.00cdn.com +direct
@@ -857,9 +892,11 @@ alog.umengcloud.com +direct
 *.188.com +direct
 *.19yxw.com +direct
 *.1905.com +direct
+*.1ting.com +direct
 *.21cn.com +direct
 *.2288.org +direct
 *.2345.com +direct
+*.258.com +direct
 *.263.net +direct
 *.289.com +direct
 *.2cto.com +direct
@@ -868,6 +905,7 @@ alog.umengcloud.com +direct
 *.35.com +direct
 *.360doc.com +direct
 *.360zhyx.com +direct
+*.365dmp.com +direct
 *.36kr.com +direct
 *.39.net +direct
 *.3conline.com +direct
@@ -903,6 +941,7 @@ alog.umengcloud.com +direct
 *.91yunxiao.com +direct
 *.962.net +direct
 *.9718.com +direct
+*.999d.com +direct
 *.9xu.com +direct
 *.aardio.com +direct
 *.adxvip.com +direct
@@ -958,6 +997,7 @@ alog.umengcloud.com +direct
 *.chinapubmed.net +direct
 *.chinatranslation.net +direct
 *.chinaz.com +direct
+*.chinaz.net +direct
 *.chiphell.com +direct
 *.chongdiantou.com +direct
 *.chouti.com +direct
@@ -1017,6 +1057,7 @@ alog.umengcloud.com +direct
 *.dxpmedia.com +direct
 *.eastday.com +direct
 *.eayyou.com +direct
+*.ebrun.com +direct
 *.ecitic.com +direct
 *.eeyy.com +direct
 *.eflycloud.com +direct
@@ -1041,13 +1082,16 @@ alog.umengcloud.com +direct
 *.geetest.com +direct
 *.geilicdn.com +direct
 *.getui.com +direct
+*.gezida.com +direct
 *.gfan.com +direct
 *.gitee.com +direct
 *.gmallbio.com +direct
 *.gmz88.com +direct
 *.golue.com +direct
+*.gree.com +direct
 *.growingio.com +direct
 *.gtags.net +direct
+*.guokr.com +direct
 *.gwdang.com +direct
 *.gzwanju.com +direct
 *.hackhome.com +direct
@@ -1121,6 +1165,7 @@ alog.umengcloud.com +direct
 *.kouclo.com +direct
 *.koudai.com +direct
 *.koudai8.com +direct
+*.ksord.com +direct
 *.ku6.com +direct
 *.ku6cdn.com +direct
 *.ku6img.com +direct
@@ -1142,6 +1187,7 @@ alog.umengcloud.com +direct
 *.liba.com +direct
 *.libaclub.com +direct
 *.lightonus.com +direct
+*.likuso.com +direct
 *.linkvans.com +direct
 *.linuxidc.com +direct
 *.lixinger.com +direct
@@ -1198,6 +1244,7 @@ alog.umengcloud.com +direct
 *.paipai.com +direct
 *.pcbeta.com +direct
 *.pchome.net +direct
+*.pgzs.com +direct
 *.pharmacodia.com +direct
 *.pingan.com +direct
 *.pingplusplus.com +direct
@@ -1205,7 +1252,6 @@ alog.umengcloud.com +direct
 *.pintu360.com +direct
 *.pipaw.com +direct
 *.pipaw.net +direct
-*.pps.tv +direct
 *.pptbest.com +direct
 *.psbc.com +direct
 *.pubyun.com +direct
@@ -1215,7 +1261,6 @@ alog.umengcloud.com +direct
 *.qichacha.com +direct
 *.qidian.com +direct
 *.qie.tv +direct
-*.qihucdn.com +direct
 *.qingcloud.com +direct
 *.qingsongchou.com +direct
 *.qiniu.com +direct
@@ -1223,6 +1268,7 @@ alog.umengcloud.com +direct
 *.qiniudn.com +direct
 *.qiniudns.com +direct
 *.qtmojo.com +direct
+*.qudong.com +direct
 *.qunar.com +direct
 *.qunarzz.com +direct
 *.renren.com +direct
@@ -1320,8 +1366,8 @@ alog.umengcloud.com +direct
 *.xitu.com +direct
 *.xiu8.com +direct
 *.xnpic.com +direct
-*.xueqiu.com +direct
 *.xsa239.com +direct
+*.xuanchuanyi.com +direct
 *.xycdn.com +direct
 *.xywy.com +direct
 *.yaolan.com +direct
@@ -1376,6 +1422,7 @@ alog.umengcloud.com +direct
 *.zhugeapi.net +direct
 *.zhugeio.com +direct
 *.zimuzu.io +direct
+*.zixiaomao.com +direct
 *.zjstv.com +direct
 *.zrblog.net +direct
 *.zsxq.com +direct
