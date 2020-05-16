@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/5/12
+; Update: 2020/5/16
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -17,6 +17,12 @@
 *.4399youpai.com +direct
 *.5054399.com +direct
 *.img4399.com +direct
+
+; 51job
+
+*.51job.com +direct
+*.51jobcdn.com +direct
+*.yingjiesheng.com +direct
 
 ; 58tongcheng
 
@@ -42,7 +48,8 @@
 *.dandanplay.com +direct
 
 ; alibaba
-  
+
+*.25pp.com
 *.56che.com +direct  
 *.95095.com +direct
 *.aliapp.org +direct
@@ -113,6 +120,7 @@
 *.shenjing.com +direct
 *.shuqi.com +direct
 *.shuqireader.com +direct
+*.wandoujia.com +direct
 *.yowhale.com +direct
 *.yunos.com +direct
 *.yunos-inc.com +direct
@@ -374,6 +382,11 @@
 *.ele.me +direct
 *.elemecdn.com +direct
 
+; ganji
+
+*.ganji.com +direct
+*.ganjistatic1.com +direct
+
 ; gcores
 
 *.gcores.com +direct
@@ -538,6 +551,11 @@
 log-sdk.gifshow.com +direct
 wlog.kuaishou.com +direct
 
+; lagou
+
+*.lagou.com +direct
+*.lgstatic.com +direct
+
 ; landian
 
 *.lancdn.com +direct
@@ -629,6 +647,7 @@ wlog.kuaishou.com +direct
 
 ; pinduoduo
 
+*.pddpic.com +direct
 *.pinduoduo.com +direct
 *.yangkeduo.com +direct
 
@@ -664,6 +683,7 @@ wlog.kuaishou.com +direct
 *.qhstatic.com +direct
 *.qhupdate.com +direct
 *.qihoo.com +direct
+*.qihucdn.com +direct
 *.qikucdn.com +direct
 *.so.com +direct
 *.sou.com +direct
@@ -757,6 +777,11 @@ wlog.kuaishou.com +direct
 *.wegame.com +direct
 *.weiyun.com +direct
 
+; tiancity
+
+*.tiancity.com +direct
+*.tiancitycdn.com +direct
+
 ; tipdm
 
 *.tipdim.org +direct
@@ -773,8 +798,12 @@ wlog.kuaishou.com +direct
 
 ; tongcheng
 
-*.ly.com +direct
+*.17u.net +direct
 *.17usoft.com +direct
+*.17usoft.net +direct
+*.elong.com +direct
+*.elongstatic.com +direct
+*.ly.com +direct
 
 ; umeng
 
@@ -877,9 +906,11 @@ alog.umengcloud.com +direct
 
 ; Moji Weather
 *.moji.com +direct
+*.mojichina.com +direct
 
 ; The following domains are carried over from geosite:cn.
 
+*.055110.com +direct
 *.100offer.com +direct
 *.115.com +direct
 *.123juzi.com +direct
@@ -894,6 +925,7 @@ alog.umengcloud.com +direct
 *.1905.com +direct
 *.1ting.com +direct
 *.21cn.com +direct
+*.2265.com +direct
 *.2288.org +direct
 *.2345.com +direct
 *.258.com +direct
@@ -907,9 +939,11 @@ alog.umengcloud.com +direct
 *.360zhyx.com +direct
 *.365dmp.com +direct
 *.36kr.com +direct
+*.3733.com +direct
 *.39.net +direct
 *.3conline.com +direct
 *.3dmgame.com +direct
+*.3elife.net +direct
 *.4paradigm.com +direct
 *.500d.me +direct
 *.50bang.org +direct
@@ -917,8 +951,6 @@ alog.umengcloud.com +direct
 *.51credit.com +direct
 *.51cto.com +direct
 *.51jingying.com +direct
-*.51job.com +direct
-*.51jobcdn.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
 *.52hxw.com +direct
@@ -950,6 +982,7 @@ alog.umengcloud.com +direct
 *.aiemy.com +direct
 *.aiyunxiao.com +direct
 *.aizhan.com +direct
+*.alittle-tea.com +direct
 *.allyes.com +direct
 *.anquan.org +direct
 *.anruan.com +direct
@@ -968,12 +1001,14 @@ alog.umengcloud.com +direct
 *.bcy.net +direct
 *.biancheng.net +direct
 *.biddingx.com +direct
+*.bihu.com +direct
 *.bio-equip.com +direct
 *.bio360.net +direct
 *.bio4p.com +direct
 *.biodiscover.com +direct
 *.bitauto.com +direct
 *.bitautoimg.com +direct
+*.bjcathay.com +direct
 *.bobo.com +direct
 *.bokecc.com +direct
 *.bootcss.com +direct
@@ -1004,6 +1039,7 @@ alog.umengcloud.com +direct
 *.chuangxin.com +direct
 *.chuansong.me +direct
 *.chuyu.me +direct
+*.city8.com +direct
 *.clouddn.com +direct
 *.cloudxns.com +direct
 *.cmbchina.com +direct
@@ -1014,6 +1050,7 @@ alog.umengcloud.com +direct
 *.cnblogs.com +direct
 *.cnepub.com +direct
 *.cnfol.com +direct
+*.cnlaw.net +direct
 *.cnmstl.net +direct
 *.cnstock.com +direct
 *.cnzz.com +direct
@@ -1023,6 +1060,7 @@ alog.umengcloud.com +direct
 *.csslcloud.net +direct
 *.ctfile.com +direct
 *.cubead.com +direct
+*.cyagen.com +direct
 *.cztv.com +direct
 *.cztvcloud.com +direct
 *.dajie.com +direct
@@ -1037,6 +1075,7 @@ alog.umengcloud.com +direct
 *.develenv.com +direct
 *.dgtle.com +direct
 *.diandian.com +direct
+*.diandianqi.com +direct
 *.diopic.net +direct
 *.diyiyou.com +direct
 *.docin.com +direct
@@ -1044,6 +1083,7 @@ alog.umengcloud.com +direct
 *.dockone.io +direct
 *.dogedoge.com +direct
 *.donews.com +direct
+*.dopa.com +direct
 *.douban.com +direct
 *.douban.fm +direct
 *.doubanio.com +direct
@@ -1072,6 +1112,7 @@ alog.umengcloud.com +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
 *.fengniao.com +direct
+*.fengxian110.com +direct
 *.fenxi.com +direct
 *.fhldns.com +direct
 *.fimmu.com +direct
@@ -1084,6 +1125,7 @@ alog.umengcloud.com +direct
 *.getui.com +direct
 *.gezida.com +direct
 *.gfan.com +direct
+*.giocdn.com +direct
 *.gitee.com +direct
 *.gmallbio.com +direct
 *.gmz88.com +direct
@@ -1091,6 +1133,7 @@ alog.umengcloud.com +direct
 *.gree.com +direct
 *.growingio.com +direct
 *.gtags.net +direct
+*.guanhaobio.com +direct
 *.guokr.com +direct
 *.gwdang.com +direct
 *.gzwanju.com +direct
@@ -1101,10 +1144,13 @@ alog.umengcloud.com +direct
 *.henha.com +direct
 *.henkuai.com +direct
 *.hexun.com +direct
+*.heytea.com +direct
 *.hiido.com +direct
 *.hitv.com +direct
+*.hktheone.com +direct
 *.hn-cbec.com +direct
 *.hnyuyuhui.com +direct
+*.homeinns.com +direct
 *.huanqiu.com +direct
 *.hunantv.com +direct
 *.huochepiao.com +direct
@@ -1169,13 +1215,15 @@ alog.umengcloud.com +direct
 *.ku6.com +direct
 *.ku6cdn.com +direct
 *.ku6img.com +direct
+*.kuaizhan.com +direct
 *.kugou.com +direct
 *.kuqin.com +direct
 *.lady8844.com +direct
-*.lagou.com +direct
 *.lascn.net +direct
+*.lawxp.com +direct
 *.le.com +direct
 *.leanote.com +direct
+*.leetcode-cn.com +direct
 *.leiphone.com +direct
 *.leju.com +direct
 *.leturich.org +direct
@@ -1188,6 +1236,7 @@ alog.umengcloud.com +direct
 *.libaclub.com +direct
 *.lightonus.com +direct
 *.likuso.com +direct
+*.lingkou.com +direct
 *.linkvans.com +direct
 *.linuxidc.com +direct
 *.lixinger.com +direct
@@ -1200,6 +1249,7 @@ alog.umengcloud.com +direct
 *.lxdns.com +direct
 *.lxway.com +direct
 *.magedu.com +direct
+*.manmankan.com +direct
 *.mamecn.com +direct
 *.mayi.com +direct
 *.mayihr.com +direct
@@ -1216,6 +1266,7 @@ alog.umengcloud.com +direct
 *.mmbang.com +direct
 *.mmbang.info +direct
 *.moegirl.org +direct
+*.mogu.com +direct
 *.mogucdn.com +direct
 *.mogujie.com +direct
 *.moocollege.com +direct
@@ -1227,6 +1278,7 @@ alog.umengcloud.com +direct
 *.myshow360.net +direct
 *.myyx618.com +direct
 *.mzstatic.com +direct
+*.naixuecha.com +direct
 *.newasp.net +direct
 *.newbandeng.com +direct
 *.ngabbs.com +direct
@@ -1235,6 +1287,7 @@ alog.umengcloud.com +direct
 *.nvsheng.com +direct
 *.nzbdw.com +direct
 *.oeeee.com +direct
+*.ol-cdn.com +direct
 *.ol-img.com +direct
 *.oneapm.com +direct
 *.onlinedown.net +direct
@@ -1257,6 +1310,7 @@ alog.umengcloud.com +direct
 *.pubyun.com +direct
 *.qbox.me +direct
 *.qcc.com +direct
+*.qcds.com +direct
 *.qiaobutang.com +direct
 *.qichacha.com +direct
 *.qidian.com +direct
@@ -1267,6 +1321,7 @@ alog.umengcloud.com +direct
 *.qiniucdn.com +direct
 *.qiniudn.com +direct
 *.qiniudns.com +direct
+*.qschou.com +direct
 *.qtmojo.com +direct
 *.qudong.com +direct
 *.qunar.com +direct
@@ -1280,16 +1335,20 @@ alog.umengcloud.com +direct
 *.sanguosha.com +direct
 *.sanwen.net +direct
 *.scoregg.com +direct
+*.sczsxx.com +direct
 *.sec-wiki.com +direct
 *.segmentfault.com +direct
 *.senlinjimore.com +direct
 *.sharejs.com +direct
 *.sheui.com +direct
 *.shmetro.com +direct
+*.shuidichou.com +direct
+*.shuidihuzhu.com +direct
 *.shutcm.com +direct
 *.simei8.com +direct
 *.smzdm.com +direct
 *.sobot.com +direct
+*.softwhy.com +direct
 *.sohu.com +direct
 *.sohucs.com +direct
 *.sojson.com +direct
@@ -1301,6 +1360,8 @@ alog.umengcloud.com +direct
 *.staticfile.org +direct
 *.stockstar.com +direct
 *.sunrtb.com +direct
+*.supermap.com +direct
+*.supermapcloud.com +direct
 *.szfw.org +direct
 *.szzfgjj.com +direct
 *.t1y5.com +direct
@@ -1333,12 +1394,12 @@ alog.umengcloud.com +direct
 *.v5875.com +direct
 *.vamaker.com +direct
 *.vancl.com +direct
+*.vanclimg.com +direct
 *.vcimg.com +direct
 *.videojj.com +direct
 *.vijos.org +direct
 *.vip.com +direct
 *.wallstreetcn.com +direct
-*.wandoujia.com +direct
 *.wangyangyang.vip +direct
 *.wanyx.com +direct
 *.wdjimg.com +direct
@@ -1359,6 +1420,7 @@ alog.umengcloud.com +direct
 *.wumii.com +direct
 *.wuximediaglobal.com +direct
 *.xiachufang.com +direct
+*.xiaobaixitong.com +direct
 *.xiaokaxiu.com +direct
 *.xiayx.com +direct
 *.xinhuanet.com +direct
@@ -1368,6 +1430,7 @@ alog.umengcloud.com +direct
 *.xnpic.com +direct
 *.xsa239.com +direct
 *.xuanchuanyi.com +direct
+*.xuexicha.com +direct
 *.xycdn.com +direct
 *.xywy.com +direct
 *.yaolan.com +direct
@@ -1376,13 +1439,13 @@ alog.umengcloud.com +direct
 *.yccdn.com +direct
 *.yeepay.com +direct
 *.yesky.com +direct
+*.yh31.com +direct
 *.yhd.com +direct
 *.yigao.com +direct
 *.yigoonet.com +direct
 *.yihaodian.com +direct
 *.yihaodianimg.com +direct
 *.yikexue.com +direct
-*.yingjiesheng.com +direct
 *.yinxiang.com +direct
 *.yinyuetai.com +direct
 *.yisu.com +direct
