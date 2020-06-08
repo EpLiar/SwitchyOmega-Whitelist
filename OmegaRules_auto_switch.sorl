@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/6/4
+; Update: 2020/6/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -34,6 +34,8 @@
 *.anjuke.com +direct
 *.anjukestatic.com +direct
 *.chinahr.com +direct
+*.daojia.com +direct
+*.diandao.org +direct
 *.fang.com +direct
 *.sofun.com +direct
 *.soufunimg.com +direct
@@ -499,6 +501,7 @@
 *.paipai.com +direct
 *.prestodb-china.com +direct
 *.qianxun.com +direct
+*.qingzhouip.com +direct
 *.ocwms.com +direct
 *.tjjt360.com +direct
 *.toplife.com +direct
@@ -595,6 +598,12 @@ wlog.kuaishou.com +direct
 
 *.meizu.com +direct
 *.mzres.com +direct
+
+; mihoyo
+
+*.mihoyo.com +direct
+
+*.bh3.com +direct
 
 ; netease
 
@@ -770,6 +779,7 @@ wlog.kuaishou.com +direct
 
 *.teambition.com +direct
 *.teambition.net +direct
+*.teambitionapis.com +direct
 
 ; tencent
 
@@ -905,7 +915,9 @@ alog.umengcloud.com +direct
 
 *.yfcache.com +direct
 *.yfcloud.com +direct
+*.yfdts.net +direct
 *.yfp2p.net +direct
+*.yfscdn.net +direct
 *.yunfancdn.com +direct
 
 ; zhihu
@@ -932,6 +944,7 @@ alog.umengcloud.com +direct
 
 *.0123456789.com +direct
 *.055110.com +direct
+*.100bt.com +direct
 *.100offer.com +direct
 *.11467.com +direct
 *.114chn.com +direct
@@ -970,6 +983,7 @@ alog.umengcloud.com +direct
 *.3322.org +direct
 *.3387.com +direct
 *.33lc.com +direct
+*.3456.cc +direct
 *.35.com +direct
 *.3533.com +direct
 *.360doc.com +direct
@@ -994,6 +1008,7 @@ alog.umengcloud.com +direct
 *.51credit.com +direct
 *.51cto.com +direct
 *.51eshop.com +direct
+*.51hejia.com +direct
 *.51jingying.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
@@ -1046,6 +1061,7 @@ alog.umengcloud.com +direct
 *.aipai.com +direct
 *.airchangan.com +direct
 *.airguilin.com +direct
+*.aiskycn.com +direct
 *.aiyunxiao.com +direct
 *.aizhan.com +direct
 *.ali213.net +direct
@@ -1066,10 +1082,12 @@ alog.umengcloud.com +direct
 *.bangongziyuan.com +direct
 *.bankcomm.com +direct
 *.bankofchina.com +direct
+*.baofeng.com +direct
 *.baomitu.com +direct
 *.baoxianshichang.com +direct
 *.bcy.net +direct
 *.bearychat.com +direct
+*.beihaidc.com +direct
 *.bestopview.com +direct
 *.biancheng.net +direct
 *.bibaodao.com +direct
@@ -1154,9 +1172,12 @@ alog.umengcloud.com +direct
 *.coindog.com +direct
 *.cpppf.org +direct
 *.cqvip.com +direct
+*.cr173.com +direct
+*.crsky.com +direct
 *.csbew.com +direct
 *.csslcloud.net +direct
 *.ctfile.com +direct
+*.ctiforum.com +direct
 *.ctoutiao.com +direct
 *.ctsbw.com +direct
 *.cubead.com +direct
@@ -1172,6 +1193,7 @@ alog.umengcloud.com +direct
 *.dajie.com +direct
 *.dajieimg.com +direct
 *.dalongyun.com +direct
+*.dangbei.com +direct
 *.dangdang.com +direct
 *.danji100.com +direct
 *.danji6.com +direct
@@ -1205,6 +1227,7 @@ alog.umengcloud.com +direct
 *.douban.com +direct
 *.douban.fm +direct
 *.doubanio.com +direct
+*.douxie.com +direct
 *.downyi.com +direct
 *.dpfile.com +direct
 *.drivergenius.com +direct
@@ -1214,6 +1237,7 @@ alog.umengcloud.com +direct
 *.duokanbox.com +direct
 *.duomai.com +direct
 *.duoshuo.com +direct
+*.duote.com +direct
 *.duowan.com +direct
 *.dxpmedia.com +direct
 *.dxycdn.com +direct
@@ -1274,6 +1298,7 @@ alog.umengcloud.com +direct
 *.growingio.com +direct
 *.gtags.net +direct
 *.guabu.com +direct
+*.guanaitong.com +direct
 *.guanhaobio.com +direct
 *.gucheng.com +direct
 *.guigu.org +direct
@@ -1364,6 +1389,7 @@ alog.umengcloud.com +direct
 *.jb51.com +direct
 *.jdair.net +direct 
 *.jia.com +direct
+*.jiameng.com +direct
 *.jianshu.com +direct
 *.jianshu.io +direct
 *.jianzhi8.com +direct
@@ -1379,6 +1405,7 @@ alog.umengcloud.com +direct
 *.jinianbi.com +direct
 *.jinrongren.net +direct
 *.jinse.com +direct
+*.jinti.com +direct
 *.jisuanke.com +direct
 *.jiuzhilan.com +direct
 *.jj20.com +direct
@@ -1417,7 +1444,9 @@ alog.umengcloud.com +direct
 *.ku6cdn.com +direct
 *.ku6img.com +direct
 *.kuaaa.com +direct
+*.kuaidi100.com +direct
 *.kuaihou.com +direct
+*.kuaikanmanhua.com +direct
 *.kuaizhan.com +direct
 *.kugou.com +direct
 *.kuqin.com +direct
@@ -1460,6 +1489,7 @@ alog.umengcloud.com +direct
 *.longtugame.com +direct
 *.longzhu.com +direct
 *.lotpc.com +direct
+*.loupan.com +direct
 *.lrts.me +direct
 *.lu.com +direct
 *.luckyair.net +direct
@@ -1472,8 +1502,9 @@ alog.umengcloud.com +direct
 *.lxway.com +direct
 *.magedu.com +direct
 *.maisanqi.com +direct
-*.manmankan.com +direct
 *.mamecn.com +direct
+*.manmankan.com +direct
+*.mapbar.com +direct
 *.mayi.com +direct
 *.mayihr.com +direct
 *.mdpda.com +direct
@@ -1483,6 +1514,7 @@ alog.umengcloud.com +direct
 *.meilishuo.com +direct
 *.meimingteng.com +direct
 *.meiqia.com +direct
+*.meishichina.com +direct
 *.meishij.net +direct
 *.meizu.com +direct
 *.mcbang.com +direct
@@ -1542,6 +1574,7 @@ alog.umengcloud.com +direct
 *.paipai.com +direct
 *.paipaibang.com +direct
 *.paopaoche.net +direct
+*.pc6.com +direct
 *.pcbeta.com +direct
 *.pchome.net +direct
 *.pgzs.com +direct
@@ -1628,6 +1661,7 @@ alog.umengcloud.com +direct
 *.simei8.com +direct
 *.simuwang.com +direct
 *.sjwyx.com +direct
+*.skycn.com +direct
 *.smzdm.com +direct
 *.sobot.com +direct
 *.sofreight.com +direct
@@ -1669,6 +1703,7 @@ alog.umengcloud.com +direct
 *.timedoo.com +direct
 *.tingyun.com +direct
 *.tmcdn.net +direct
+*.tobosu.com +direct
 *.tom.com +direct
 *.tongdun.net +direct
 *.topthink.com +direct
@@ -1725,6 +1760,7 @@ alog.umengcloud.com +direct
 *.weixing.com +direct
 *.weiyangx.com +direct
 *.welltrend-edu.com +direct
+*.wenjuan.com +direct
 *.win007.com +direct
 *.win8.net +direct
 *.windows10zj.com +direct
@@ -1732,6 +1768,7 @@ alog.umengcloud.com +direct
 *.windowszj.com +direct
 *.winwin7.com +direct
 *.wishdown.com +direct
+*.wmzhe.com +direct
 *.wnhuifu.com +direct
 *.wonnder.com +direct
 *.wooyun.org +direct
@@ -1743,7 +1780,9 @@ alog.umengcloud.com +direct
 *.wscdns.com +direct
 *.wumii.com +direct
 *.wuximediaglobal.com +direct
+*.xafc.com +direct
 *.xdwan.com +direct
+*.xfdown.com +direct
 *.xhaiwai.com +direct
 *.xhscdn.com +direct
 *.xiachufang.com +direct
@@ -1776,6 +1815,7 @@ alog.umengcloud.com +direct
 *.xxsy.net +direct
 *.xycdn.com +direct
 *.xywy.com +direct
+*.xzking.com +direct
 *.yahui.cc +direct
 *.yaolan.com +direct
 *.yaoyl.com +direct
@@ -1797,6 +1837,7 @@ alog.umengcloud.com +direct
 *.yinxiang.com +direct
 *.yinyuetai.com +direct
 *.yinzhaowang.com +direct
+*.yiqifa.com +direct
 *.yiqifa.org +direct
 *.yisu.com +direct
 *.yitaifang.com +direct
@@ -1829,6 +1870,7 @@ alog.umengcloud.com +direct
 *.yunzhijia.com +direct
 *.yupoo.com +direct
 *.yuzua.com +direct
+*.yxdown.com +direct
 *.yy.com +direct
 *.yytcdn.com +direct
 *.zampda.net +direct
@@ -1846,6 +1888,7 @@ alog.umengcloud.com +direct
 *.zhanzhang.net +direct
 *.zhaodanji.com +direct
 *.zhaopin.com +direct
+*.zhcw.com +direct
 *.zhenai.com +direct
 *.zhibo8.cc +direct
 *.zhidx.com +direct
