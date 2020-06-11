@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/6/8
+; Update: 2020/6/11
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -399,6 +399,10 @@
 ; gitv
 
 *.gitv.tv +direct
+
+; google in cn
+
+fonts.googleapis.com +direct
 
 ; huawei
 
