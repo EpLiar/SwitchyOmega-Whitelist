@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/6/11
+; Update: 2020/6/28
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -112,6 +112,7 @@
 *.emas-poc.com +direct
 *.gongyi.xin +direct
 *.hichina.com +direct
+*.ica-alliance.org +direct
 *.ics.design +direct
 *.jhgtgb.com +direct
 *.kanbox.com +direct
@@ -125,9 +126,11 @@
 *.mxhichina.com +direct
 *.nic.xin +direct
 *.philanthropy.xin +direct
+*.qingtingtrip.com +direct
 *.shenjing.com +direct
 *.shuqi.com +direct
 *.shuqireader.com +direct
+*.ttpod.com +direct
 *.wandoujia.com +direct
 *.yowhale.com +direct
 *.yunos.com +direct
@@ -141,6 +144,7 @@
 ; Hema
 
 *.freshhema.com +direct
+*.hemamax.com +direct
 *.hemaos.com +direct
 *.shyhhema.com +direct
 
@@ -155,6 +159,7 @@
 *.taobao.com +direct
 *.taobao.org +direct
 *.taobaocdn.com +direct
+*.taobizhong.com +direct
 *.taopiaopiao.com +direct
 *.tbcache.com +direct
 *.tmall.com +direct
@@ -319,12 +324,17 @@
 
 ; chinatelecom
 
+*.chinatelecom-h.com +direct
+*.chinatelecomglobal.com +direct
 *.chntel.com +direct
 
 ; chinaunicom
 
 *.10010.com +direct
 *.chinaunicom.com +direct
+*.chinaunicom.com.hk +direct
+*.chinaunicomglobal.com +direct
+*.mychinaunicom.com +direct
 
 ; cnki
 
@@ -353,8 +363,30 @@
 ; ctrip
 
 *.c-ctrip.com +direct
+*.colinker.com +direct
+*.ctrip.co.id +direct
+*.ctrip.co.kr +direct
+*.ctrip.co.th +direct
 *.ctrip.com +direct
+*.ctrip.com.hk +direct
+*.ctrip.my +direct
+*.ctrip.sg +direct
 *.ctripbiz.com +direct
+*.ctripbuy.hk +direct
+*.ctripteam.com +direct
+*.doticloud.com +direct
+*.easytrip.com +direct
+*.hhtravel.com +direct
+*.hhtravel.com.tw +direct
+*.izuchebao.com +direct
+*.lvtds.com +direct
+*.skysea.com +direct
+*.suanya.com +direct
+*.tieyou.com +direct
+*.toursbms.com +direct
+*.trip.com +direct
+*.tripcdn.com +direct
+*.vipdlt.com +direct
 
 ; dedao
 
@@ -840,18 +872,13 @@ wlog.kuaishou.com +direct
 
 ; umeng
 
+*.mobmore.com +direct
 *.umeng.com +direct
-*.whalecloud.com +direct
 *.umtrack.com +direct
 *.umsns.com +direct
 *.uyunad.com +direct
 *.umengcloud.com +direct
-*.mobmore.com +direct
-
-; umeng-ads
-
-alog.umeng.com +direct
-alog.umengcloud.com +direct
+*.whalecloud.com +direct
 
 ; unionpay
 
@@ -859,6 +886,12 @@ alog.umengcloud.com +direct
 *.unionpay.com +direct
 *.unionpayintl.com +direct
 *.unionpaysecure.com +direct
+
+; wenjuanxing
+
+*.sojump.com +direct
+*.wjx.com +direct
+*.wjx.top +direct
 
 ; xiaomi
 
@@ -918,6 +951,7 @@ alog.umengcloud.com +direct
 ; yunfanjiasu
 
 *.yfcache.com +direct
+*.yfcalc.com +direct
 *.yfcloud.com +direct
 *.yfdts.net +direct
 *.yfp2p.net +direct
@@ -1703,7 +1737,6 @@ alog.umengcloud.com +direct
 *.tianqi.com +direct
 *.tietuku.com +direct
 *.tiexue.net +direct
-*.tieyou.com +direct
 *.timedoo.com +direct
 *.tingyun.com +direct
 *.tmcdn.net +direct
