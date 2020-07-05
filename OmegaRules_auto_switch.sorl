@@ -1949,6 +1949,7 @@ wlog.kuaishou.com +direct
 *.zuidaima.com +direct
 *.zuowen8.com +direct
 *.zuowenwang.net +direct
+*.zybang.com +direct
 
 *.jindidata.com +direct
 *.tianyancha.com +direct
@@ -1959,7 +1960,6 @@ wlog.kuaishou.com +direct
 *.runsheng.com +direct
 *.vzuu.com +direct
 *.zoom3g.com +direct
-*.zybang.com +direct
 
 *.chaoxing.com +direct
 *.chaoxing.cc +direct
