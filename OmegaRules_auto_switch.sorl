@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/6/28
+; Update: 2020/7/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -929,7 +929,6 @@ wlog.kuaishou.com +direct
 ; ynet
 
 *.ynet.com +direct
-*.0880.com +direct
 
 ; youku
 
@@ -963,6 +962,12 @@ wlog.kuaishou.com +direct
 *.zhihu.com +direct
 *.zhimg.com +direct
 
+; zuoyebang
+
+*.zuoyebang.cc +direct
+*.zuoyebang.com +direct
+*.zybang.com +direct
+
 ; CDNs
 
 *.ksyun.com +direct
@@ -982,6 +987,7 @@ wlog.kuaishou.com +direct
 
 *.0123456789.com +direct
 *.055110.com +direct
+*.0759job.com +direct
 *.100bt.com +direct
 *.100offer.com +direct
 *.11467.com +direct
@@ -1048,6 +1054,7 @@ wlog.kuaishou.com +direct
 *.51eshop.com +direct
 *.51hejia.com +direct
 *.51jingying.com +direct
+*.51sole.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
 *.5253.com +direct
@@ -1164,6 +1171,7 @@ wlog.kuaishou.com +direct
 *.cecdc.com +direct
 *.cecport.com +direct
 *.ch.com +direct
+*.chachaba.com +direct
 *.changba.com +direct
 *.chashebao.com +direct
 *.chazhengla.com +direct
@@ -1190,6 +1198,7 @@ wlog.kuaishou.com +direct
 *.chushou.tv +direct
 *.chuyu.me +direct
 *.city8.com +direct
+*.cjol.com +direct
 *.clouddn.com +direct
 *.cloudxns.com +direct
 *.cmbchina.com +direct
@@ -1244,6 +1253,7 @@ wlog.kuaishou.com +direct
 *.ddooo.com +direct
 *.dedecms.com +direct
 *.develenv.com +direct
+*.dgphospital.com +direct
 *.dgtle.com +direct
 *.dianchacha.com +direct
 *.diandian.com +direct
@@ -1261,6 +1271,7 @@ wlog.kuaishou.com +direct
 *.dogedoge.com +direct
 *.donews.com +direct
 *.dongao.com +direct
+*.dongguantoday.com +direct
 *.dopa.com +direct
 *.douban.com +direct
 *.douban.fm +direct
@@ -1316,6 +1327,9 @@ wlog.kuaishou.com +direct
 *.gamersky.com +direct
 *.gaodun.com +direct
 *.gaoshouyou.com +direct
+*.gaoxiaojob.com +direct
+*.gdjdxy.com +direct
+*.gdrc.com +direct
 *.geekpark.net +direct
 *.geetest.com +direct
 *.geilicdn.com +direct
@@ -1342,6 +1356,7 @@ wlog.kuaishou.com +direct
 *.guigu.org +direct
 *.guokr.com +direct
 *.gupzs.com +direct
+*.gushiwen.org +direct
 *.guzhangting.com +direct
 *.gwdang.com +direct
 *.gxairlines.com +direct
@@ -1351,6 +1366,7 @@ wlog.kuaishou.com +direct
 *.hackhome.com +direct
 *.haishun.com +direct
 *.hanboshi.com +direct
+*.handanjob.com +direct
 *.hao123.com +direct
 *.hao123img.com +direct
 *.haote.com +direct
@@ -1449,6 +1465,8 @@ wlog.kuaishou.com +direct
 *.jj20.com +direct
 *.jjwxc.net +direct
 *.jmstatic.com +direct
+*.job910.com +direct
+*.jobjm.com +direct
 *.jsbc.com +direct
 *.jsrdgg.com +direct
 *.jstv.com +direct
@@ -1520,6 +1538,7 @@ wlog.kuaishou.com +direct
 *.linuxidc.com +direct
 *.liulanqi.net +direct
 *.liuxiaoer.com +direct
+*.live800.com +direct
 *.lixinger.com +direct
 *.lkkbrand.com +direct
 *.longhoo.net +direct
@@ -1682,8 +1701,10 @@ wlog.kuaishou.com +direct
 *.sencdn.com +direct
 *.seniverse.com +direct
 *.senlinjimore.com +direct
+*.shanghairc.com +direct
 *.shangzhibo.tv +direct
 *.sharejs.com +direct
+*.shengdaosoft.com +direct
 *.shenmayouxi.com +direct
 *.sheui.com +direct
 *.shixiseng.com +direct
@@ -1718,6 +1739,7 @@ wlog.kuaishou.com +direct
 *.starbaby.com +direct
 *.staticfile.org +direct
 *.stockstar.com +direct
+*.sun0769.com +direct
 *.sunrtb.com +direct
 *.supermap.com +direct
 *.supermapcloud.com +direct
@@ -1798,6 +1820,7 @@ wlog.kuaishou.com +direct
 *.weiyangx.com +direct
 *.welltrend-edu.com +direct
 *.wenjuan.com +direct
+*.wicresoft.com +direct
 *.win007.com +direct
 *.win8.net +direct
 *.windows10zj.com +direct
@@ -1882,6 +1905,7 @@ wlog.kuaishou.com +direct
 *.yixi.tv +direct
 *.yizhibo.com +direct
 *.yjbys.com +direct
+*.ynhr.com +direct
 *.yocajr.com +direct
 *.youboy.com +direct
 *.youjiao.com +direct
@@ -1931,6 +1955,7 @@ wlog.kuaishou.com +direct
 *.zhidx.com +direct
 *.zhipin.com +direct
 *.zhiziyun.com +direct
+*.zhongkao.com +direct
 *.zhuangjiba.com +direct 
 *.zhuanyewanjia.com +direct
 *.zhubajie.com +direct
