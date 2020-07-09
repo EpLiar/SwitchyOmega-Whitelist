@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/7/8
+; Update: 2020/7/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -806,6 +806,13 @@ wlog.kuaishou.com +direct
 *.suningestate.com +direct
 *.suningholdings.com +direct
 
+; taikang
+
+*.taikang.com +direct
+*.taikanglife.com +direct
+*.taikangzhijia.com +direct
+*.tkhealthcare.com +direct
+
 ; taptap
 
 *.tapimg.com +direct
@@ -1055,6 +1062,7 @@ wlog.kuaishou.com +direct
 *.51eshop.com +direct
 *.51hejia.com +direct
 *.51jingying.com +direct
+*.51meishu.com +direct
 *.51sole.com +direct
 *.51wendang.com +direct
 *.51yes.com +direct
@@ -1174,6 +1182,7 @@ wlog.kuaishou.com +direct
 *.cebbank.com +direct
 *.cecdc.com +direct
 *.cecport.com +direct
+*.centanet.com +direct
 *.ch.com +direct
 *.chachaba.com +direct
 *.changba.com +direct
@@ -1184,6 +1193,7 @@ wlog.kuaishou.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
 *.chinafph.com +direct
+*.chinakaoyan.com +direct
 *.chinalawedu.com +direct
 *.chinanews.com +direct
 *.chinapay.com +direct
@@ -1191,6 +1201,9 @@ wlog.kuaishou.com +direct
 *.chinapubmed.net +direct
 *.chinasspp.com +direct
 *.chinatranslation.net +direct
+*.chinaunix.net +direct
+*.chinaweiyu.com +direct
+*.chinawutong.com +direct
 *.chinaz.com +direct
 *.chinaz.net +direct
 *.chiphell.com +direct
@@ -1217,6 +1230,7 @@ wlog.kuaishou.com +direct
 *.cnmstl.net +direct
 *.cnstock.com +direct
 *.cnzz.com +direct
+*.cocodiy.com +direct
 *.code666.com +direct
 *.cofeed.com +direct
 *.cofool.com +direct
@@ -1352,6 +1366,8 @@ wlog.kuaishou.com +direct
 *.gold678.com +direct
 *.golue.com +direct
 *.gongxiangcj.com +direct
+*.goosail.com +direct
+*.goufw.com +direct
 *.gree.com +direct
 *.greenxiazai.com +direct
 *.growingio.com +direct
@@ -1393,6 +1409,7 @@ wlog.kuaishou.com +direct
 *.hnyuyuhui.com +direct
 *.hollycrm.com +direct
 *.homeinns.com +direct
+*.homekoo.com +direct
 *.hongsanban.com +direct
 *.hongxiu.com +direct
 *.houdao.com +direct
@@ -1584,6 +1601,7 @@ wlog.kuaishou.com +direct
 *.meizu.com +direct
 *.mcbang.com +direct
 *.mgtv.com +direct
+*.miaobolive.com +direct
 *.miaopai.com +direct
 *.miaozhen.com +direct
 *.miercn.com +direct
@@ -1642,6 +1660,8 @@ wlog.kuaishou.com +direct
 *.pc6.com +direct
 *.pcbeta.com +direct
 *.pchome.net +direct
+*.pcpop.com +direct
+*.peccn.com +direct
 *.pgzs.com +direct
 *.pharmacodia.com +direct
 *.pingan.com +direct
@@ -1673,6 +1693,7 @@ wlog.kuaishou.com +direct
 *.qingdaochina.org +direct
 *.qingdaonews.com +direct
 *.qingsongchou.com +direct
+*.qingting.fm +direct
 *.qiniu.com +direct
 *.qiniucdn.com +direct
 *.qiniudn.com +direct
@@ -1713,6 +1734,7 @@ wlog.kuaishou.com +direct
 *.shangzhibo.tv +direct
 *.shanshuihotel.com +direct
 *.sharejs.com +direct
+*.shebiaotm.com +direct
 *.shengdaosoft.com +direct
 *.shenmayouxi.com +direct
 *.sheui.com +direct
@@ -1728,6 +1750,7 @@ wlog.kuaishou.com +direct
 *.shutcm.com +direct
 *.simei8.com +direct
 *.simuwang.com +direct
+*.sinesafe.com +direct
 *.sjwyx.com +direct
 *.skycn.com +direct
 *.smzdm.com +direct
@@ -1778,6 +1801,7 @@ wlog.kuaishou.com +direct
 *.topthink.com +direct
 *.travelsky.com +direct
 *.trunktech.com +direct
+*.trustexporter.com +direct
 *.trustutn.org +direct
 *.ttpod.com +direct
 *.tudou.com +direct
@@ -1841,6 +1865,7 @@ wlog.kuaishou.com +direct
 *.wishdown.com +direct
 *.wmzhe.com +direct
 *.wnhuifu.com +direct
+*.womai.com +direct
 *.wonnder.com +direct
 *.wooyun.org +direct
 *.worktile.com +direct
@@ -1859,6 +1884,7 @@ wlog.kuaishou.com +direct
 *.xhscdn.com +direct
 *.xiachufang.com +direct
 *.xiaobaixitong.com +direct
+*.xiaoe-tech.com +direct
 *.xiaogouh5.com +direct
 *.xiaohongshu.com +direct
 *.xiaoka.tv +direct
@@ -1903,6 +1929,7 @@ wlog.kuaishou.com +direct
 *.yigoonet.com +direct
 *.yihaodian.com +direct
 *.yihaodianimg.com +direct
+*.yikaochacha.com +direct
 *.yikexue.com +direct
 *.yingjia360.com +direct
 *.yinhang123.net +direct
