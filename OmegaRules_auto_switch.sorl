@@ -1,12 +1,19 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/7/9
+; Update: 2020/7/16
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
 
+*.alibaba +direct
+*.alipay +direct
+*.baidu +direct
 *.cn +direct
+*.icbc +direct
+*.taobao +direct
+*.tmall +direct
+*.xn--estv75g +direct
 
 ; 4399
 
@@ -419,6 +426,23 @@
 *.ele.me +direct
 *.elemecdn.com +direct
 
+; everbright
+
+*.cebbank.com +direct
+*.ceblease.com +direct
+*.eb-ind.com +direct
+*.ebasset.com +direct
+*.ebchina.com +direct
+*.ebchinaintl.com +direct
+*.ebfcn.com +direct
+*.ebfortune.com +direct
+*.ebtrust.com +direct
+*.ebscn-am.com +direct
+*.ebscn.com +direct
+*.everbright.com +direct
+*.secec.com +direct
+*.sunlife-everbright.com +direct
+
 ; ganji
 
 *.ganji.com +direct
@@ -455,6 +479,11 @@ fonts.googleapis.com +direct
 
 *.huya.com +direct
 *.msstatic.com +direct
+
+; icbc
+
+*.icbc-ltd.com +direct
+*.icbc-us.com +direct
 
 ; ifanr
 
@@ -602,6 +631,13 @@ wlog.kuaishou.com +direct
 
 *.lancdn.com +direct
 *.landiannews.com +direct
+
+; lanzou
+
+*.baidupan.com +direct
+*.lanzou.com +direct
+*.lanzous.com +direct
+*.woozooo.com +direct
 
 ; liepin
 
@@ -900,6 +936,12 @@ wlog.kuaishou.com +direct
 *.wjx.com +direct
 *.wjx.top +direct
 
+; xueersi
+
+*.speiyou.com +direct
+*.xesimg.com +direct
+*.xueersi.com +direct
+
 ; xiaomi
 
 *.mi.com +direct
@@ -969,6 +1011,11 @@ wlog.kuaishou.com +direct
 *.zhihu.com +direct
 *.zhimg.com +direct
 
+; ziroom
+
+*.ziroom.com +direct
+*.ziroomapartment.com +direct
+
 ; zuoyebang
 
 *.zuoyebang.cc +direct
@@ -993,6 +1040,7 @@ wlog.kuaishou.com +direct
 ; The following domains are carried over from geosite:cn.
 
 *.0123456789.com +direct
+*.0379home.com +direct
 *.055110.com +direct
 *.0759job.com +direct
 *.100bt.com +direct
@@ -1013,6 +1061,7 @@ wlog.kuaishou.com +direct
 *.178linux.com +direct
 *.17989.com +direct
 *.17cdn.com +direct
+*.17house.com +direct
 *.18183.com +direct
 *.188.com +direct
 *.19yxw.com +direct
@@ -1038,8 +1087,10 @@ wlog.kuaishou.com +direct
 *.3456.cc +direct
 *.35.com +direct
 *.3533.com +direct
+*.360aiyi.com +direct
 *.360doc.com +direct
 *.360zhyx.com +direct
+*.365azw.com +direct
 *.365dmp.com +direct
 *.36kr.com +direct
 *.37.com +direct
@@ -1060,6 +1111,7 @@ wlog.kuaishou.com +direct
 *.51credit.com +direct
 *.51cto.com +direct
 *.51eshop.com +direct
+*.51gaifang.com +direct
 *.51hejia.com +direct
 *.51jingying.com +direct
 *.51meishu.com +direct
@@ -1079,6 +1131,8 @@ wlog.kuaishou.com +direct
 *.58pic.com +direct
 *.5bite.com +direct
 *.5fun.com +direct
+*.5gzm.net +direct
+*.5khouse.com +direct
 *.5you.com +direct
 *.66wz.com +direct
 *.6rooms.com +direct
@@ -1108,6 +1162,7 @@ wlog.kuaishou.com +direct
 *.a9vg.com +direct
 *.aardio.com +direct
 *.adxvip.com +direct
+*.afzhan.com +direct
 *.agrantsem.com +direct
 *.aicdn.com +direct
 *.aiemy.com +direct
@@ -1145,6 +1200,7 @@ wlog.kuaishou.com +direct
 *.bcy.net +direct
 *.bearychat.com +direct
 *.beihaidc.com +direct
+*.beijing-lipin.com +direct
 *.bestopview.com +direct
 *.biancheng.net +direct
 *.bibaodao.com +direct
@@ -1167,6 +1223,8 @@ wlog.kuaishou.com +direct
 *.btcfans.com +direct
 *.btgtravel.com +direct
 *.bthhotels.com +direct
+*.btime.com +direct
+*.cabbagebox.com +direct
 *.caijingwu.com +direct
 *.caixin.com +direct
 *.caiyun.com +direct
@@ -1179,19 +1237,23 @@ wlog.kuaishou.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
 *.cdn20.com +direct
-*.cebbank.com +direct
 *.cecdc.com +direct
 *.cecport.com +direct
 *.centanet.com +direct
+*.cerambath.org +direct
 *.ch.com +direct
 *.chachaba.com +direct
 *.changba.com +direct
 *.chashebao.com +direct
 *.chazhengla.com +direct
 *.che168.com +direct
+*.china-chair.com +direct
+*.china-nengyuan.com +direct
 *.china.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
+*.chinachugui.com +direct
+*.chinadongchu.com +direct
 *.chinafph.com +direct
 *.chinakaoyan.com +direct
 *.chinalawedu.com +direct
@@ -1206,6 +1268,7 @@ wlog.kuaishou.com +direct
 *.chinawutong.com +direct
 *.chinaz.com +direct
 *.chinaz.net +direct
+*.chinazns.com +direct
 *.chiphell.com +direct
 *.chongdiantou.com +direct
 *.chouti.com +direct
@@ -1272,6 +1335,7 @@ wlog.kuaishou.com +direct
 *.ddooo.com +direct
 *.dedecms.com +direct
 *.develenv.com +direct
+*.dginfo.com +direct
 *.dgphospital.com +direct
 *.dgtle.com +direct
 *.dianchacha.com +direct
@@ -1317,11 +1381,14 @@ wlog.kuaishou.com +direct
 *.eastday.com +direct
 *.eastmoney.com +direct
 *.eayyou.com +direct
+*.ebico.com +direct
 *.ebrun.com +direct
 *.ecitic.com +direct
+*.ecjobhome.com +direct
 *.eduei.com +direct
 *.eeyy.com +direct
 *.eflycloud.com +direct
+*.elecfans.com +direct
 *.emarbox.com +direct
 *.eoeandroid.com +direct
 *.excelhome.net +direct
@@ -1378,6 +1445,7 @@ wlog.kuaishou.com +direct
 *.gucheng.com +direct
 *.guigu.org +direct
 *.guokr.com +direct
+*.guoxinmac.com +direct
 *.gupzs.com +direct
 *.gushiwen.org +direct
 *.guzhangting.com +direct
@@ -1390,14 +1458,14 @@ wlog.kuaishou.com +direct
 *.haishun.com +direct
 *.hanboshi.com +direct
 *.handanjob.com +direct
-*.hao123.com +direct
-*.hao123img.com +direct
+*.hangjiayun.com +direct
 *.haote.com +direct
 *.haoyouyinxiang.com +direct
 *.hefei.cc +direct
 *.heisha.net +direct
 *.henha.com +direct
 *.henkuai.com +direct
+*.herostart.com +direct
 *.hexun.com +direct
 *.heytea.com +direct
 *.hiido.com +direct
@@ -1428,6 +1496,7 @@ wlog.kuaishou.com +direct
 *.hxfy888.com +direct
 *.iask.com +direct
 *.ibaotu.com +direct
+*.ibuychem.com +direct
 *.icaidao.com +direct
 *.ichangtou.com +direct
 *.iciba.com +direct
@@ -1531,6 +1600,7 @@ wlog.kuaishou.com +direct
 *.kuaizhan.com +direct
 *.kugou.com +direct
 *.kuqin.com +direct
+*.kuyiso.com +direct
 *.lady8844.com +direct
 *.laomaotao.net +direct
 *.laomaotao.org +direct
@@ -1560,6 +1630,7 @@ wlog.kuaishou.com +direct
 *.likuso.com +direct
 *.lingkou.com +direct
 *.linkvans.com +direct
+*.linsn.com +direct
 *.linuxidc.com +direct
 *.liulanqi.net +direct
 *.liuxiaoer.com +direct
@@ -1592,6 +1663,7 @@ wlog.kuaishou.com +direct
 *.mdpda.com +direct
 *.mechina.org +direct
 *.mediav.com +direct
+*.meifang.com +direct
 *.meika360.com +direct
 *.meilishuo.com +direct
 *.meimingteng.com +direct
@@ -1607,6 +1679,8 @@ wlog.kuaishou.com +direct
 *.miercn.com +direct
 *.mikecrm.com +direct
 *.minhangshi.com +direct
+*.miusi.co +direct
+*.mjia.cc +direct
 *.mmbang.com +direct
 *.mmbang.info +direct
 *.moegirl.org +direct
@@ -1615,8 +1689,10 @@ wlog.kuaishou.com +direct
 *.mogu.com +direct
 *.mogucdn.com +direct
 *.mogujie.com +direct
+*.moleecel.com +direct
 *.moocollege.com +direct
 *.mop.com +direct
+*.msanjia.com +direct
 *.mscbsc.com +direct
 *.mukewang.com +direct
 *.mydown.com +direct
@@ -1640,12 +1716,15 @@ wlog.kuaishou.com +direct
 *.nzbdw.com +direct
 *.oeeee.com +direct
 *.offcn.com +direct
+*.officese.com +direct
 *.oicq88.com +direct
 *.okooo.com +direct
 *.ol-cdn.com +direct
 *.ol-img.com +direct
+*.oldboyedu.com +direct
 *.oneapm.com +direct
 *.onegreen.net +direct
+*.oneyac.com +direct
 *.onlinedown.net +direct
 *.onlinesjtu.com +direct
 *.opdown.com +direct
@@ -1735,6 +1814,8 @@ wlog.kuaishou.com +direct
 *.shanshuihotel.com +direct
 *.sharejs.com +direct
 *.shebiaotm.com +direct
+*.shelter-china.com +direct
+*.shelterdome.net +direct
 *.shengdaosoft.com +direct
 *.shenmayouxi.com +direct
 *.sheui.com +direct
@@ -1752,6 +1833,7 @@ wlog.kuaishou.com +direct
 *.simuwang.com +direct
 *.sinesafe.com +direct
 *.sjwyx.com +direct
+*.sllssrq.com +direct
 *.skycn.com +direct
 *.smzdm.com +direct
 *.sobot.com +direct
@@ -1799,6 +1881,7 @@ wlog.kuaishou.com +direct
 *.tom.com +direct
 *.tongdun.net +direct
 *.topthink.com +direct
+*.touqikan.com +direct
 *.travelsky.com +direct
 *.trunktech.com +direct
 *.trustexporter.com +direct
@@ -1855,6 +1938,7 @@ wlog.kuaishou.com +direct
 *.weiyangx.com +direct
 *.welltrend-edu.com +direct
 *.wenjuan.com +direct
+*.whlovehome.com +direct
 *.wicresoft.com +direct
 *.win007.com +direct
 *.win8.net +direct
@@ -1929,6 +2013,7 @@ wlog.kuaishou.com +direct
 *.yigoonet.com +direct
 *.yihaodian.com +direct
 *.yihaodianimg.com +direct
+*.yihedoors.com +direct
 *.yikaochacha.com +direct
 *.yikexue.com +direct
 *.yingjia360.com +direct
