@@ -1,11 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-<<<<<<< HEAD
 ; Update: 2020/7/16
-=======
-; Update: 2020/7/11
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
