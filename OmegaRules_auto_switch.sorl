@@ -1,7 +1,11 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
+<<<<<<< HEAD
 ; Update: 2020/7/16
+=======
+; Update: 2020/7/11
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -61,6 +65,11 @@
 *.dandanplay.com +direct
 
 ; alibaba
+
+*.alibaba +direct
+*.alipay +direct
+*.taobao +direct
+*.tmall +direct
 
 *.25pp.com
 *.56che.com +direct  
@@ -210,7 +219,6 @@
 *.init.phpwind.com +direct
 *.jxlog.istreamsche.com +direct
 *.log.umtrack.com +direct
-*.match.p4p.1688.com +direct
 *.material.istreamsche.com +direct
 *.mlt01.com +direct
 *.push.wandoujia.com +direct
@@ -221,6 +229,8 @@
 *.yiliao.hupan.com +direct
 
 ; baidu
+
+*.baidu +direct
 
 *.91.com +direct
 *.aipage.com +direct
@@ -426,7 +436,11 @@
 *.ele.me +direct
 *.elemecdn.com +direct
 
+<<<<<<< HEAD
 ; everbright
+=======
+; everbright 光大
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.cebbank.com +direct
 *.ceblease.com +direct
@@ -464,7 +478,6 @@ fonts.googleapis.com +direct
 
 *.hicloud.com +direct
 *.hihonor.com +direct
-*.honor.cn +direct
 *.huawei.com +direct
 *.huaweicloud.com +direct
 *.vmall.com +direct
@@ -480,7 +493,13 @@ fonts.googleapis.com +direct
 *.huya.com +direct
 *.msstatic.com +direct
 
+<<<<<<< HEAD
 ; icbc
+=======
+; icbc 爱存不存
+
+*.icbc +direct
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.icbc-ltd.com +direct
 *.icbc-us.com +direct
@@ -620,7 +639,6 @@ fonts.googleapis.com +direct
 ; kuaishou-ads
 
 log-sdk.gifshow.com +direct
-wlog.kuaishou.com +direct
 
 ; lagou
 
@@ -632,7 +650,11 @@ wlog.kuaishou.com +direct
 *.lancdn.com +direct
 *.landiannews.com +direct
 
+<<<<<<< HEAD
 ; lanzou
+=======
+; lanzou 蓝奏云
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.baidupan.com +direct
 *.lanzou.com +direct
@@ -967,6 +989,12 @@ wlog.kuaishou.com +direct
 *.danjuanfunds.com +direct
 *.xueqiu.com +direct
 
+; xueersi 学而思
+
+*.speiyou.com +direct
+*.xesimg.com +direct
+*.xueersi.com +direct
+
 ; xunlei
 
 *.00cdn.com +direct
@@ -1011,7 +1039,11 @@ wlog.kuaishou.com +direct
 *.zhihu.com +direct
 *.zhimg.com +direct
 
+<<<<<<< HEAD
 ; ziroom
+=======
+; ziroom 自如
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.ziroom.com +direct
 *.ziroomapartment.com +direct
@@ -1223,7 +1255,10 @@ wlog.kuaishou.com +direct
 *.btcfans.com +direct
 *.btgtravel.com +direct
 *.bthhotels.com +direct
+<<<<<<< HEAD
 *.btime.com +direct
+=======
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.cabbagebox.com +direct
 *.caijingwu.com +direct
 *.caixin.com +direct
@@ -1248,7 +1283,10 @@ wlog.kuaishou.com +direct
 *.chazhengla.com +direct
 *.che168.com +direct
 *.china-chair.com +direct
+<<<<<<< HEAD
 *.china-nengyuan.com +direct
+=======
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.china.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
@@ -1459,6 +1497,11 @@ wlog.kuaishou.com +direct
 *.hanboshi.com +direct
 *.handanjob.com +direct
 *.hangjiayun.com +direct
+<<<<<<< HEAD
+=======
+*.hao123.com +direct
+*.hao123img.com +direct
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.haote.com +direct
 *.haoyouyinxiang.com +direct
 *.hefei.cc +direct
