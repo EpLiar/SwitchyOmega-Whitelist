@@ -1,1 +1,2158 @@
+[SwitchyOmega Conditions]
+@with result
+; Require: SwitchyOmega >= 2.3.2
+; Update: 2020/7/16
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
+; tld-cn
+
+*.alibaba +direct
+*.alipay +direct
+*.baidu +direct
+*.cn +direct
+*.icbc +direct
+*.taobao +direct
+*.tmall +direct
+*.xn--estv75g +direct
+
+; 4399
+
+*.3304399.net +direct
+*.4399.com +direct
+*.4399api.com +direct
+*.4399dmw.com +direct
+*.4399er.com +direct
+*.4399youpai.com +direct
+*.5054399.com +direct
+*.img4399.com +direct
+
+; 51job
+
+*.51job.com +direct
+*.51jobcdn.com +direct
+*.yingjiesheng.com +direct
+
+; 58tongcheng
+
+*.58.com +direct
+*.5858.com +direct
+*.58che.com +direct
+*.58xueche.com +direct
+*.anjuke.com +direct
+*.anjukestatic.com +direct
+*.chinahr.com +direct
+*.daojia.com +direct
+*.diandao.org +direct
+*.fang.com +direct
+*.sofun.com +direct
+*.soufunimg.com +direct
+*.jxedt.com +direct
+*.zhuancorp.com +direct
+*.zhuanspirit.com +direct
+*.zhuanzhuan.com +direct
+
+; acfun
+
+*.aixifan.com +direct
+
+; acplay
+
+*.acplay.net +direct
+*.dandanplay.com +direct
+
+; alibaba
+
+*.alibaba +direct
+*.alipay +direct
+*.taobao +direct
+*.tmall +direct
+
+*.25pp.com
+*.56che.com +direct  
+*.95095.com +direct
+*.aliapp.org +direct
+*.alibaba.com +direct
+*.alibaba-inc.com +direct
+*.alibabacorp.com +direct
+*.alibabadns.com +direct
+*.alibabagroup.com +direct
+*.alibabaplanet.com +direct
+*.alibabadoctor.com +direct
+*.alibabafuturehotel.com +direct
+*.alibabagroup.com +direct
+*.alibabaplanet.com +direct
+*.alibabaued.com +direct
+*.alibabausercontent.com +direct
+*.alicdn.com +direct
+*.alidayu.com +direct
+*.alidns.com +direct
+*.aliexpress.com +direct
+*.alifanyi.com +direct
+*.alihealth.hk +direct
+*.aliimg.com +direct
+*.alikmd.com +direct
+*.alimama.com +direct
+*.alimebot.com +direct
+*.alipay.com +direct
+*.alipayobjects.com +direct
+*.aliplus.com +direct
+*.aliresearch.com +direct
+*.alisoft.com +direct
+*.alisports.com +direct
+*.alitianji.com +direct
+*.aliunicorn.com +direct
+*.aliway.com +direct
+*.aliwork.com +direct
+*.alixiaomi.com +direct
+*.aliyun.com +direct
+*.aliyun-inc.com +direct
+*.aliyuncdn.com +direct
+*.aliyuncs.com +direct
+*.alizhaopin.com +direct
+*.asczwa.com +direct
+*.asczxcefsv.com +direct
+*.atatech.org +direct
+*.b2byao.com +direct
+*.bazai.com +direct
+*.bcvbw.com +direct
+*.cheng.xin +direct
+*.dayu.com +direct
+*.dfkhgj.com +direct
+*.doctoryou.ai +direct
+*.dongting.com +direct
+*.dratio.com +direct
+*.emas-poc.com +direct
+*.gongyi.xin +direct
+*.hichina.com +direct
+*.ica-alliance.org +direct
+*.ics.design +direct
+*.jhgtgb.com +direct
+*.kanbox.com +direct
+*.lazada.com +direct
+*.liangxinyao.com +direct
+*.maitix.com +direct
+*.mdeer.com +direct
+*.mei.com +direct
+*.miaostreet.com +direct
+*.mshare.cc +direct
+*.mxhichina.com +direct
+*.nic.xin +direct
+*.philanthropy.xin +direct
+*.qingtingtrip.com +direct
+*.shenjing.com +direct
+*.shuqi.com +direct
+*.shuqireader.com +direct
+*.ttpod.com +direct
+*.wandoujia.com +direct
+*.yowhale.com +direct
+*.yunos.com +direct
+*.yunos-inc.com +direct
+*.yushanfang.com +direct
+*.zuodao.com +direct
+
+*.cainiao.com +direct
+*.cainiao-inc.com +direct
+
+; Hema
+
+*.freshhema.com +direct
+*.hemamax.com +direct
+*.hemaos.com +direct
+*.shyhhema.com +direct
+
+
+; Taobao
+
+*.1688.com +direct
+*.etao.com +direct
+*.juhuasuan.com +direct
+*.lingshoujia.com +direct
+*.pailitao.com +direct
+*.taobao.com +direct
+*.taobao.org +direct
+*.taobaocdn.com +direct
+*.taobizhong.com +direct
+*.taopiaopiao.com +direct
+*.tbcache.com +direct
+*.tmall.com +direct
+*.tmalltv.com +direct
+*.tmjl.ai
+
+; Fliggy
+
+*.alitrip.com +direct
+*.feizhu.com +direct
+*.fliggy.com +direct
+*.fliggy.hk +direct
+*.iuynfg.com +direct
+
+; amap
+
+*.amap.com +direct
+*.amapauto.com +direct
+*.autonavi.com +direct
+*.gaode.com +direct
+
+; Xiami music
+
+*.xiami.com +direct
+*.xiami.fm +direct
+*.xiami.net +direct
+
+; alibaba-ads
+
+*.afp.adchina.com +direct
+*.alipaylog.com +direct
+*.cdn0.mobmore.com +direct
+*.cm.ipinyou.com +direct
+*.cm.mlt01.com +direct
+*.ex.mobmore.com +direct
+*.ex.puata.info +direct
+*.feedback.whalecloud.com +direct
+*.hz.pre.tbusergw.taobao.net +direct
+*.hz.tbusergw.taobao.net +direct
+*.i.ipinyou.com +direct
+*.init.phpwind.com +direct
+*.jxlog.istreamsche.com +direct
+*.log.umtrack.com +direct
+*.material.istreamsche.com +direct
+*.mlt01.com +direct
+*.push.wandoujia.com +direct
+*.rj.m.taobao.co +direct
+*.stats.ipinyou.com +direct
+*.tanxlog.istreamsche.com +direct
+*.userimg.qunar.com +direct
+*.yiliao.hupan.com +direct
+
+; baidu
+
+*.baidu +direct
+
+*.91.com +direct
+*.aipage.com +direct
+*.apollo.auto +direct
+*.baidu.com +direct
+*.baidubce.com +direct
+*.baiducontent.com +direct
+*.baidupcs.com +direct
+*.baidustatic.com +direct
+*.baifae.com +direct
+*.baifubao.com +direct
+*.bdimg.com +direct
+*.bdstatic.com +direct
+*.bdtjrcv.com +direct
+*.bdydns.net +direct
+*.chuanke.com +direct
+*.dlnel.com +direct
+*.dlnel.org +direct
+*.duapps.com +direct
+*.hao123.com +direct
+*.hao123img.com +direct
+*.hao222.com +direct
+*.haokan.com +direct
+*.jomocdn.net +direct
+*.mipcdn.com +direct
+*.nuomi.com +direct
+*.quyaoya.com +direct
+*.tieba.com +direct
+*.tiebaimg.com +direct
+*.xianfae.com +direct
+*.xiaodutv.com +direct
+
+; baidu-ads
+
+*.click.qianqian.com +direct
+*.dl-vip.pcfaster.baidu.co.th +direct
+*.bcebos.com +direct
+*.uat1.bfsspadserver.8le8le.com +direct
+*.zzy1.quyaoya.com +direct
+
+; bilibili
+
+*.acg.tv +direct
+*.acgvideo.com +direct
+*.b23.tv +direct
+*.biliapi.com +direct
+*.biliapi.net +direct
+*.bilibili.com +direct
+*.bilibiligame.net +direct
+*.biligame.net +direct
+*.biligame.com +direct
+*.bilivideo.com +direct
+*.hdslb.com +direct
+*.im9.com +direct
+*.mincdn.com +direct
+
+; bytedance
+
+*.bytedance.com +direct
+*.bytedance.net +direct
+*.bytedns.net +direct
+*.byteimg.com +direct
+*.douyin.com +direct
+*.huaxiong.com +direct
+*.jokecommunity.com +direct
+*.neihanshequ.com +direct
+*.pstatp.com +direct
+*.snssdk.com +direct
+*.toutiao.com +direct
+*.toutiaocdn.com +direct
+*.toutiaocloud.com +direct
+*.toutiaohao.com +direct
+*.toutiaohao.net +direct
+*.toutiaoimg.com +direct
+*.toutiaoimg.net +direct
+*.toutiaopage.com +direct
+*.wukong.com +direct
+*.wukongwenda.com +direct
+*.zijiecdn.com +direct
+*.zijiecdn.net +direct
+*.zjcdn.com +direct
+
+; 西瓜视频
+
+*.ixigua.com +direct
+*.ixgvideo.com +direct
+*.365yg.com +direct
+
+; chinamobile
+
+*.139.com +direct
+*.chinamobile.com +direct
+*.chinamobileltd.com +direct
+
+; Migu
+
+*.migucloud.com +direct
+*.miguvideo.com +direct
+
+; 中移互联
+
+*.andfx.net +direct
+*.cmpassport.com +direct
+*.fetion-portal.com +direct
+*.fetionpic.com +direct
+*.mmarket.com +direct
+*.mmarket6.com +direct
+
+; chinatelecom
+
+*.chinatelecom-h.com +direct
+*.chinatelecomglobal.com +direct
+*.chntel.com +direct
+
+; chinaunicom
+
+*.10010.com +direct
+*.chinaunicom.com +direct
+*.chinaunicom.com.hk +direct
+*.chinaunicomglobal.com +direct
+*.mychinaunicom.com +direct
+
+; cnki
+
+*.cnki.net +direct
+
+; coding
+
+*.coding.me +direct
+*.coding.net +direct
+
+; coolapk
+
+*.coolapk.com +direct
+*.coolapkmarket.com +direct
+*.coolapkmarket.net +direct
+
+; cowtransfer
+
+*.c-t.work +direct
+*.cowtransfer.com +direct
+
+; csdn
+
+*.csdn.net +direct
+
+; ctrip
+
+*.c-ctrip.com +direct
+*.colinker.com +direct
+*.ctrip.co.id +direct
+*.ctrip.co.kr +direct
+*.ctrip.co.th +direct
+*.ctrip.com +direct
+*.ctrip.com.hk +direct
+*.ctrip.my +direct
+*.ctrip.sg +direct
+*.ctripbiz.com +direct
+*.ctripbuy.hk +direct
+*.ctripteam.com +direct
+*.doticloud.com +direct
+*.easytrip.com +direct
+*.hhtravel.com +direct
+*.hhtravel.com.tw +direct
+*.izuchebao.com +direct
+*.lvtds.com +direct
+*.skysea.com +direct
+*.suanya.com +direct
+*.tieyou.com +direct
+*.toursbms.com +direct
+*.trip.com +direct
+*.tripcdn.com +direct
+*.vipdlt.com +direct
+
+; dedao
+
+*.biji.com +direct
+*.ddmogo.com +direct
+*.igetget.com +direct
+*.luojilab.com +direct
+*.mogoo.com +direct
+*.saolife.com +direct
+
+; dingtalk
+
+*.dingtalk.com +direct
+*.dingtalk.net +direct
+*.dingtalkapps.com +direct
+*.ddurl.to +direct
+*.laiwang.com +direct
+*.dingding.xin +direct
+*.lwurl.to +direct
+
+; douyu
+
+*.douyu.tv +direct
+*.douyu.com +direct
+*.douyuscdn.com +direct
+*.douyutv.com +direct
+
+; eleme
+
+*.ele.me +direct
+*.elemecdn.com +direct
+
+<<<<<<< HEAD
+; everbright
+=======
+; everbright 光大
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+
+*.cebbank.com +direct
+*.ceblease.com +direct
+*.eb-ind.com +direct
+*.ebasset.com +direct
+*.ebchina.com +direct
+*.ebchinaintl.com +direct
+*.ebfcn.com +direct
+*.ebfortune.com +direct
+*.ebtrust.com +direct
+*.ebscn-am.com +direct
+*.ebscn.com +direct
+*.everbright.com +direct
+*.secec.com +direct
+*.sunlife-everbright.com +direct
+
+; ganji
+
+*.ganji.com +direct
+*.ganjistatic1.com +direct
+
+; gcores
+
+*.gcores.com +direct
+
+; gitv
+
+*.gitv.tv +direct
+
+; google in cn
+
+fonts.googleapis.com +direct
+
+; huawei
+
+*.hicloud.com +direct
+*.hihonor.com +direct
+*.huawei.com +direct
+*.huaweicloud.com +direct
+*.vmall.com +direct
+*.vmallres.com +direct
+
+; hupu
+
+*.hupu.com +direct
+*.hupucdn.com +direct
+
+; huya
+
+*.huya.com +direct
+*.msstatic.com +direct
+
+<<<<<<< HEAD
+; icbc
+=======
+; icbc 爱存不存
+
+*.icbc +direct
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+
+*.icbc-ltd.com +direct
+*.icbc-us.com +direct
+
+; ifanr
+
+*.coolbuy.com +direct
+*.ifanr.com +direct
+*.ifanr.in +direct
+*.ifanrusercontent.com +direct
+*.ifanrx.com +direct
+*.minapp.com +direct
+
+; iqiyi
+
+*.71.am +direct
+*.iqiyi.com +direct
+*.iqiyipic.com +direct
+*.pps.tv +direct
+*.ppsimg.com +direct
+*.qiyi.com +direct
+*.qiyipic.com +direct
+*.qy.net +direct
+
+; CDN used by iqiyi
+
+*.71edge.com +direct
+
+; jd
+
+*.300hu.com +direct
+*.360buy.com +direct
+*.360buyimg.com +direct
+*.360top.com +direct
+*.7fresh.com +direct
+*.baitiao.com +direct
+*.blackdragon.com +direct
+*.caiyu.com +direct
+*.dao123.com +direct
+*.jcloud-cdn.com +direct
+*.jcloud-live.com +direct
+*.jcloud-oss.com +direct
+*.jcloud.com +direct
+*.jcloudcache.com +direct
+*.jcloudcs.com +direct
+*.jclouddn.com +direct
+*.jcloudec.com +direct
+*.jcloudlb.com +direct
+*.jcloudlive.com +direct
+*.jcloudlv.com +direct
+*.jcloudoss.com +direct
+*.jcloudss.com +direct
+*.jcloudstatic.com +direct
+*.jcloudvideo.com +direct
+*.jclps.com +direct
+*.jd-app.com +direct
+*.jd-ex.com +direct
+*.jd.co.th +direct
+*.jd.com +direct
+*.jd.hk +direct
+*.jd.id +direct
+*.jd.ru +direct
+*.jdcache.com +direct
+*.jdcloud.com +direct
+*.jdcloudcs.com +direct
+*.jdcloud-api.com +direct
+*.jddapeigou.com +direct
+*.jddebug.com +direct
+*.jddglobal.com +direct
+*.jdjinrong.com +direct
+*.jdpay.com +direct
+*.jdpaydns.com +direct
+*.jdx.com +direct
+*.jdwl.com +direct
+*.jingdongjinrong.com +direct
+*.jingxi.com +direct
+*.jkcsjd.com +direct
+*.joybuy.com +direct
+*.joybuy.es +direct
+*.linglonglife.com +direct
+*.mayshijia.com +direct
+*.minitiao.com +direct
+*.paipai.com +direct
+*.prestodb-china.com +direct
+*.qianxun.com +direct
+*.qingzhouip.com +direct
+*.ocwms.com +direct
+*.tjjt360.com +direct
+*.toplife.com +direct
+*.vg.com +direct
+*.wangyin.com +direct
+*.wdfok.com +direct
+*.yhd.com +direct
+*.yihaodianimg.com +direct
+*.yiyaojd.com +direct
+*.yizhitou.com +direct
+
+; jiguang
+
+*.5566ua.com +direct
+*.jchat.io +direct
+*.jmlk.co +direct
+*.jpush.io +direct
+*.jpushoa.com +direct
+*.pushcfg.com +direct
+
+; jiemian
+
+*.jiemian.com +direct
+
+; jinrishici
+
+*.jinrishici.com +direct
+
+; jinshuju
+
+*.jinshuju.net +direct
+*.jinshujucdn.com +direct
+
+; jsdelivr
+
+*.jsdelivr.net +direct
+*.jsdelivr.com +direct
+
+; kingsoft
+
+*.docer.com +direct
+*.wpsgo.com +direct
+
+; kuaishou
+
+*.gifshow.com +direct
+*.ksapisrv.com +direct
+*.kuaishou.com +direct
+*.yximgs.com +direct
+
+; kuaishou-ads
+
+log-sdk.gifshow.com +direct
+
+; lagou
+
+*.lagou.com +direct
+*.lgstatic.com +direct
+
+; landian
+
+*.lancdn.com +direct
+*.landiannews.com +direct
+
+<<<<<<< HEAD
+; lanzou
+=======
+; lanzou 蓝奏云
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+
+*.baidupan.com +direct
+*.lanzou.com +direct
+*.lanzous.com +direct
+*.woozooo.com +direct
+
+; liepin
+
+*.liepin.com +direct
+*.lietou.com +direct
+*.lietou-static.com +direct
+
+*.wsoso.com +direct
+
+; mafengwo
+
+*.mafengwo.com +direct
+*.mafengwo.net +direct
+
+; meitu
+
+*.meitu.com +direct
+*.meitudata.com +direct
+
+; meituan
+
+*.dianping.com +direct
+*.maoyan.com +direct
+*.meituan.com +direct
+*.meituan.net +direct
+*.mtyun.com +direct
+*.sankuai.com +direct
+
+; meizu
+
+*.meizu.com +direct
+*.mzres.com +direct
+
+; mihoyo
+
+*.mihoyo.com +direct
+
+*.bh3.com +direct
+
+; netease
+
+*.126.com +direct
+*.126.link +direct
+*.126.net +direct
+*.127.net +direct
+*.163.com +direct
+*.163industry.com +direct
+*.163mail.com +direct
+*.163qiyukf.com +direct
+*.163yun.com +direct
+*.166.net +direct
+*.haowu.link +direct
+*.icourse163.org +direct
+*.kaola.com +direct
+*.lofter.com +direct
+*.nease.net +direct
+*.netease-inc.com +direct
+*.netease.com +direct
+*.netease.im +direct
+*.qiyukf.com +direct
+*.ydstatic.com +direct
+*.yeah.net +direct
+*.youdao.com +direct
+
+; oneplus
+
+*.oneplus.com +direct
+*.oneplus.net +direct
+*.opstatics.com +direct
+*.oneplusbbs.com +direct
+*.h2os.com +direct
+
+; oppo
+
+*.coloros.com +direct
+*.finzfin.com +direct
+*.h2os.com +direct
+*.heytap.com +direct
+*.heytapcs.com +direct
+*.heytapdownload.com +direct
+*.heytapimage.com +direct
+*.myoppo.com +direct
+*.oppo.com +direct
+*.oppo.mobi +direct
+*.oppoer.me +direct
+*.oppomobile.com +direct
+*.oppopay.com +direct
+*.realme.com +direct
+*.realmebbs.com +direct
+*.realmemobile.com +direct
+
+; pinduoduo
+
+*.pddpic.com +direct
+*.pinduoduo.com +direct
+*.yangkeduo.com +direct
+
+; pptv
+
+*.pplive.com +direct
+*.pptv.com +direct
+
+; qihoo360
+
+*.360.com +direct
+*.360chou.com +direct
+*.360daikuan.com +direct
+*.360huzhubao.com +direct
+*.360jie.com +direct
+*.360kan.com +direct
+*.360kuai.com +direct
+*.360safe.com +direct
+*.360taojin.com +direct
+*.360totalsecurity.com +direct
+*.360tpcdn.com +direct
+*.360webcache.com +direct
+*.anquanke.com +direct
+*.haoso.com +direct
+*.haosou.net +direct
+*.haosou.com +direct
+*.i360mall.com +direct
+*.nicaifu.com +direct
+*.nzwgs.com +direct
+*.qhimg.com +direct
+*.qhimgs0.com +direct
+*.qhimgs1.com +direct
+*.qhimgs2.com +direct
+*.qhimgs3.com +direct
+*.qhimgs4.com +direct
+*.qhimgs5.com +direct
+*.qhimgs6.com +direct
+*.qhmsg.com +direct
+*.qhres.com +direct
+*.qhstatic.com +direct
+*.qhupdate.com +direct
+*.qihoo.com +direct
+*.qihucdn.com +direct
+*.qikucdn.com +direct
+*.so.com +direct
+*.sou.com +direct
+*.xiaoluyouxuan.com +direct
+*.xiaoluzhidian.com +direct
+*.xjietiao.com +direct
+*.youhua.com +direct
+
+; ruanmei
+
+*.6655.com +direct
+*.cooldock.com +direct
+*.ithome.com +direct
+*.lapin365.com +direct
+*.ruanmei.com +direct
+*.saayaa.com +direct
+*.win7china.com +direct
+*.win8china.com +direct
+
+; sfacg
+
+*.sfacg.com +direct
+
+; sina
+
+*.97973.com +direct
+*.sina.com +direct
+*.sinaapp.com +direct
+*.sinaedge.com +direct
+*.sinaimg.com +direct
+*.sinajs.com +direct
+*.weibo.com +direct
+*.weibocdn.com +direct
+
+; sina-ads
+
+*.sina.com.hk +direct
+
+; stage1st
+
+*.saraba1st.com +direct
+
+; sf-express
+
+*.feng1.com +direct
+*.rongechain.com +direct
+*.sf-airlines.com +direct
+*.sf-cityrush.com +direct
+*.sf-express.com +direct
+*.sf-saas.com +direct
+*.sfgy.org +direct
+
+; sogou
+
+*.go2map.com +direct
+*.sogo.com +direct
+*.sogou.com +direct
+*.sogoucdn.com +direct
+
+; suning
+
+*.cnsuning.com +direct
+*.suning.com +direct
+*.suningcloud.com +direct
+*.suningestate.com +direct
+*.suningholdings.com +direct
+
+; taikang
+
+*.taikang.com +direct
+*.taikanglife.com +direct
+*.taikangzhijia.com +direct
+*.tkhealthcare.com +direct
+
+; taptap
+
+*.tapimg.com +direct
+*.taptap.com +direct
+
+; teambition
+
+*.teambition.com +direct
+*.teambition.net +direct
+*.teambitionapis.com +direct
+
+; tencent
+
+*.apcdns.net +direct
+*.foxmail.com +direct
+*.gtimg.com +direct
+*.imqq.com +direct
+*.myapp.com +direct
+*.myqcloud.com +direct
+*.qcloud.com +direct
+*.qcloudimg.com +direct
+*.qq.com +direct
+*.qqmail.com +direct
+*.qzone.com +direct
+*.servicewechat.com +direct
+*.smtcdns.com +direct
+*.tencentmusic.com +direct
+*.tencentyun.com +direct
+*.tenpay.com +direct
+*.tencent.com +direct
+*.tencent.com.hk +direct
+*.tencent-cloud.com +direct
+*.wechat.com +direct
+*.wegame.com +direct
+*.weiyun.com +direct
+
+; tiancity
+
+*.tiancity.com +direct
+*.tiancitycdn.com +direct
+
+; tipdm
+
+*.tipdim.org +direct
+
+; tmtpost
+
+*.tmtpost.com +direct
+*.chaindd.com +direct
+*.72whys.com +direct
+*.checkzeit.com +direct
+*.tivitv.com +direct
+*.tmtsmartlife.com +direct
+*.tmtsmartrun.com +direct
+
+; tongcheng
+
+*.17u.net +direct
+*.17usoft.com +direct
+*.17usoft.net +direct
+*.elong.com +direct
+*.elongstatic.com +direct
+*.ly.com +direct
+
+; umeng
+
+*.mobmore.com +direct
+*.umeng.com +direct
+*.umtrack.com +direct
+*.umsns.com +direct
+*.uyunad.com +direct
+*.umengcloud.com +direct
+*.whalecloud.com +direct
+
+; unionpay
+
+*.95516.com +direct
+*.unionpay.com +direct
+*.unionpayintl.com +direct
+*.unionpaysecure.com +direct
+
+; wenjuanxing
+
+*.sojump.com +direct
+*.wjx.com +direct
+*.wjx.top +direct
+
+; xueersi
+
+*.speiyou.com +direct
+*.xesimg.com +direct
+*.xueersi.com +direct
+
+; xiaomi
+
+*.mi.com +direct
+*.xiaomi.com +direct
+*.miwifi.com +direct
+*.mi-img.com +direct
+*.miui.com +direct
+*.xiaomi.net +direct
+
+; Xiaomi YouPin
+
+*.xiaomiyoupin.com +direct
+
+; xiaomitv-ads +direct
+
+*.duokanbox.com +direct
+*.atianqi.com +direct
+*.kuyun.com +direct
+*.umeng.com +direct
+
+; xueqiu
+
+*.danjuanfunds.com +direct
+*.xueqiu.com +direct
+
+; xueersi 学而思
+
+*.speiyou.com +direct
+*.xesimg.com +direct
+*.xueersi.com +direct
+
+; xunlei
+
+*.00cdn.com +direct
+*.88cdn.com +direct
+*.sandai.net +direct
+*.thunderurl.com +direct
+*.xunlei.com +direct
+
+; ynet
+
+*.ynet.com +direct
+
+; youku
+
+*.kumiao.com +direct
+*.youku.com +direct
+*.ykimg.com +direct
+*.mmstat.com +direct
+*.soku.com +direct
+
+; youku video cdn
+
+*.cibntv.net +direct
+
+; youzan
+
+*.youzan.com +direct
+*.youzanyun.com +direct
+
+; yunfanjiasu
+
+*.yfcache.com +direct
+*.yfcalc.com +direct
+*.yfcloud.com +direct
+*.yfdts.net +direct
+*.yfp2p.net +direct
+*.yfscdn.net +direct
+*.yunfancdn.com +direct
+
+; zhihu
+
+*.zhihu.com +direct
+*.zhimg.com +direct
+
+<<<<<<< HEAD
+; ziroom
+=======
+; ziroom 自如
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+
+*.ziroom.com +direct
+*.ziroomapartment.com +direct
+
+; zuoyebang
+
+*.zuoyebang.cc +direct
+*.zuoyebang.com +direct
+*.zybang.com +direct
+
+; CDNs
+
+*.ksyun.com +direct
+*.ksyungslb.com +direct
+*.ourdvsss.com +direct
+
+; Bank of China
+
+*.abchina.com +direct
+*.whccb.com +direct
+
+; Moji Weather
+*.moji.com +direct
+*.mojichina.com +direct
+
+; The following domains are carried over from geosite:cn.
+
+*.0123456789.com +direct
+*.0379home.com +direct
+*.055110.com +direct
+*.0759job.com +direct
+*.100bt.com +direct
+*.100offer.com +direct
+*.11467.com +direct
+*.114chn.com +direct
+*.114piaowu.com +direct
+*.115.com +direct
+*.119you.com +direct
+*.123juzi.com +direct
+*.123juzi.net +direct
+*.123u.com +direct
+*.1637.com +direct
+*.16888.com +direct
+*.16rd.com +direct
+*.17173.com +direct
+*.178.com +direct
+*.178linux.com +direct
+*.17989.com +direct
+*.17cdn.com +direct
+*.17house.com +direct
+*.18183.com +direct
+*.188.com +direct
+*.19yxw.com +direct
+*.1905.com +direct
+*.1nongjing.com +direct
+*.1ting.com +direct
+*.1zhe.com +direct
+*.21cn.com +direct
+*.2265.com +direct
+*.2288.org +direct
+*.2345.com +direct
+*.258.com +direct
+*.263.net +direct
+*.289.com +direct
+*.2cto.com +direct
+*.3000.com +direct
+*.310win.com +direct
+*.315che.com +direct
+*.3234.com +direct
+*.3322.org +direct
+*.3387.com +direct
+*.33lc.com +direct
+*.3456.cc +direct
+*.35.com +direct
+*.3533.com +direct
+*.360aiyi.com +direct
+*.360doc.com +direct
+*.360zhyx.com +direct
+*.365azw.com +direct
+*.365dmp.com +direct
+*.36kr.com +direct
+*.37.com +direct
+*.3733.com +direct
+*.3839.com +direct
+*.39.net +direct
+*.3conline.com +direct
+*.3d66.com +direct
+*.3dmgame.com +direct
+*.3elife.net +direct
+*.3h3.com +direct
+*.3yx.com +direct
+*.4paradigm.com +direct
+*.500.com +direct
+*.500d.me +direct
+*.50bang.org +direct
+*.51.la +direct
+*.51credit.com +direct
+*.51cto.com +direct
+*.51eshop.com +direct
+*.51gaifang.com +direct
+*.51hejia.com +direct
+*.51jingying.com +direct
+*.51meishu.com +direct
+*.51sole.com +direct
+*.51wendang.com +direct
+*.51yes.com +direct
+*.5253.com +direct
+*.52hxw.com +direct
+*.52miji.com +direct
+*.52pk.com +direct
+*.52z.com +direct
+*.53kf.com +direct
+*.55.com +direct
+*.55bbs.com +direct
+*.5577.com +direct
+*.56.com +direct
+*.58pic.com +direct
+*.5bite.com +direct
+*.5fun.com +direct
+*.5gzm.net +direct
+*.5khouse.com +direct
+*.5you.com +direct
+*.66wz.com +direct
+*.6rooms.com +direct
+*.71.am +direct
+*.714.com +direct
+*.72byte.com +direct
+*.7down.com +direct
+*.7k7k.com +direct
+*.7moor.com +direct
+*.7x24cc.com +direct
+*.818ps.com +direct
+*.84399.com +direct
+*.8686c.com +direct
+*.885.com +direct
+*.88cdn.com +direct
+*.900.la +direct
+*.91danji.com +direct
+*.91yunxiao.com +direct
+*.9553.com +direct
+*.962.net +direct
+*.9718.com +direct
+*.99166.com +direct
+*.998.com +direct
+*.999d.com +direct
+*.99danji.com +direct
+*.9xu.com +direct
+*.a9vg.com +direct
+*.aardio.com +direct
+*.adxvip.com +direct
+*.afzhan.com +direct
+*.agrantsem.com +direct
+*.aicdn.com +direct
+*.aiemy.com +direct
+*.aiketour.com +direct
+*.aiops.com +direct
+*.aipai.com +direct
+*.airchangan.com +direct
+*.airguilin.com +direct
+*.aiskycn.com +direct
+*.aiyunxiao.com +direct
+*.aizhan.com +direct
+*.ali213.net +direct
+*.alittle-tea.com +direct
+*.allyes.com +direct
+*.anquan.org +direct
+*.anruan.com +direct
+*.antutu.com +direct
+*.aotrip.net +direct
+*.aoyou.com +direct
+*.appinn.com +direct
+*.babytree.com +direct
+*.babytreeimg.com +direct
+*.baidufree.com +direct
+*.baifendian.com +direct
+*.baihe.com +direct
+*.baike.com +direct
+*.baixing.com +direct
+*.baixing.net +direct
+*.bangongziyuan.com +direct
+*.bankcomm.com +direct
+*.bankofchina.com +direct
+*.baofeng.com +direct
+*.baomitu.com +direct
+*.baoxianshichang.com +direct
+*.bcy.net +direct
+*.bearychat.com +direct
+*.beihaidc.com +direct
+*.beijing-lipin.com +direct
+*.bestopview.com +direct
+*.biancheng.net +direct
+*.bibaodao.com +direct
+*.bidchance.com +direct
+*.biddingx.com +direct
+*.bihu.com +direct
+*.bio-equip.com +direct
+*.bio360.net +direct
+*.bio4p.com +direct
+*.biodiscover.com +direct
+*.bishijie.com +direct
+*.bitauto.com +direct
+*.bitautoimg.com +direct
+*.bitecoin.com +direct
+*.biyehome.net +direct
+*.bjcathay.com +direct
+*.bobo.com +direct
+*.bokecc.com +direct
+*.bootcss.com +direct
+*.btcfans.com +direct
+*.btgtravel.com +direct
+*.bthhotels.com +direct
+<<<<<<< HEAD
+*.btime.com +direct
+=======
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+*.cabbagebox.com +direct
+*.caijingwu.com +direct
+*.caixin.com +direct
+*.caiyun.com +direct
+*.caiyunapp.com +direct
+*.cang.com +direct
+*.cankaoxiaoxi.com +direct
+*.cardbaobao.com +direct
+*.carnoc.com +direct
+*.ccb.com +direct
+*.cctv.com +direct
+*.cctvpic.com +direct
+*.cdn20.com +direct
+*.cecdc.com +direct
+*.cecport.com +direct
+*.centanet.com +direct
+*.cerambath.org +direct
+*.ch.com +direct
+*.chachaba.com +direct
+*.changba.com +direct
+*.chashebao.com +direct
+*.chazhengla.com +direct
+*.che168.com +direct
+*.china-chair.com +direct
+<<<<<<< HEAD
+*.china-nengyuan.com +direct
+=======
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+*.china.com +direct
+*.chinacache.com +direct
+*.chinacache.net +direct
+*.chinachugui.com +direct
+*.chinadongchu.com +direct
+*.chinafph.com +direct
+*.chinakaoyan.com +direct
+*.chinalawedu.com +direct
+*.chinanews.com +direct
+*.chinapay.com +direct
+*.chinapp.net +direct
+*.chinapubmed.net +direct
+*.chinasspp.com +direct
+*.chinatranslation.net +direct
+*.chinaunix.net +direct
+*.chinaweiyu.com +direct
+*.chinawutong.com +direct
+*.chinaz.com +direct
+*.chinaz.net +direct
+*.chinazns.com +direct
+*.chiphell.com +direct
+*.chongdiantou.com +direct
+*.chouti.com +direct
+*.chuangxin.com +direct
+*.chuansong.me +direct
+*.chuansongme.com +direct
+*.chushou.tv +direct
+*.chuyu.me +direct
+*.city8.com +direct
+*.cjol.com +direct
+*.clouddn.com +direct
+*.cloudxns.com +direct
+*.cmbchina.com +direct
+*.cn.bing.com +direct
+*.cnanzhi.com +direct
+*.cnbeta.com +direct
+*.cnbetacdn.com +direct
+*.cnblogs.com +direct
+*.cnepub.com +direct
+*.cnfol.com +direct
+*.cnlaw.net +direct
+*.cnmstl.net +direct
+*.cnstock.com +direct
+*.cnzz.com +direct
+*.cocodiy.com +direct
+*.code666.com +direct
+*.cofeed.com +direct
+*.cofool.com +direct
+*.coindog.com +direct
+*.cpppf.org +direct
+*.cqvip.com +direct
+*.cr173.com +direct
+*.crsky.com +direct
+*.csbew.com +direct
+*.csslcloud.net +direct
+*.ctfile.com +direct
+*.ctiforum.com +direct
+*.ctoutiao.com +direct
+*.ctsbw.com +direct
+*.cubead.com +direct
+*.cyagen.com +direct
+*.cybtc.com +direct
+*.cyol.com +direct
+*.cyts.com +direct
+*.cztv.com +direct
+*.cztvcloud.com +direct
+*.dadajiasu.com +direct
+*.dadighost.com +direct
+*.daguzhe.com +direct
+*.dajiabao.com +direct
+*.dajie.com +direct
+*.dajieimg.com +direct
+*.dalongyun.com +direct
+*.dangbei.com +direct
+*.dangdang.com +direct
+*.danji100.com +direct
+*.danji6.com +direct
+*.daocloud.io +direct
+*.daovoice.io +direct
+*.dazijia.com +direct
+*.dbank.com +direct
+*.dcdkjx.com +direct
+*.dd373.com +direct
+*.ddooo.com +direct
+*.dedecms.com +direct
+*.develenv.com +direct
+*.dginfo.com +direct
+*.dgphospital.com +direct
+*.dgtle.com +direct
+*.dianchacha.com +direct
+*.diandian.com +direct
+*.diandianqi.com +direct
+*.dianwannan.com +direct
+*.didichuxing.com +direct
+*.dingxiang-inc.com +direct
+*.diopic.net +direct
+*.diyiyou.com +direct
+*.dj99.com +direct
+*.dmzj.com +direct
+*.docin.com +direct
+*.dockerone.com +direct
+*.dockone.io +direct
+*.dogedoge.com +direct
+*.donews.com +direct
+*.dongao.com +direct
+*.dongguantoday.com +direct
+*.dopa.com +direct
+*.douban.com +direct
+*.douban.fm +direct
+*.doubanio.com +direct
+*.douxie.com +direct
+*.downyi.com +direct
+*.dpfile.com +direct
+*.dreams-travel.com +direct
+*.drivergenius.com +direct
+*.dui.ai +direct
+*.duiopen.com +direct
+*.duoduocdn.com +direct
+*.duokanbox.com +direct
+*.duomai.com +direct
+*.duoshuo.com +direct
+*.duote.com +direct
+*.duowan.com +direct
+*.dxpmedia.com +direct
+*.dxycdn.com +direct
+*.dyhjw.com +direct
+*.dzw3.com +direct
+*.dzwww.com +direct
+*.easiu.com +direct
+*.eastday.com +direct
+*.eastmoney.com +direct
+*.eayyou.com +direct
+*.ebico.com +direct
+*.ebrun.com +direct
+*.ecitic.com +direct
+*.ecjobhome.com +direct
+*.eduei.com +direct
+*.eeyy.com +direct
+*.eflycloud.com +direct
+*.elecfans.com +direct
+*.emarbox.com +direct
+*.eoeandroid.com +direct
+*.excelhome.net +direct
+*.expreview.com +direct
+*.f.cx +direct
+*.faloo.com +direct
+*.famulei.com +direct
+*.fanli.com +direct
+*.fanxian.com +direct
+*.fastapi.net +direct
+*.feiniaomy.com +direct
+*.feng.com +direct
+*.fengkongcloud.com +direct
+*.fengniao.com +direct
+*.fengxian110.com +direct
+*.fenxi.com +direct
+*.fhldns.com +direct
+*.fimmu.com +direct
+*.finchina.com +direct
+*.fixdown.com +direct
+*.freebuf.com +direct
+*.fugetech.com +direct
+*.fuwj.com +direct
+*.gamersky.com +direct
+*.gaodun.com +direct
+*.gaoshouyou.com +direct
+*.gaoxiaojob.com +direct
+*.gdjdxy.com +direct
+*.gdrc.com +direct
+*.geekpark.net +direct
+*.geetest.com +direct
+*.geilicdn.com +direct
+*.genelinkout.com +direct
+*.getui.com +direct
+*.gezida.com +direct
+*.gfan.com +direct
+*.giocdn.com +direct
+*.gitee.com +direct
+*.gm86.com +direct
+*.gmallbio.com +direct
+*.gmz88.com +direct
+*.gold678.com +direct
+*.golue.com +direct
+*.gongxiangcj.com +direct
+*.goosail.com +direct
+*.goufw.com +direct
+*.gree.com +direct
+*.greenxiazai.com +direct
+*.growingio.com +direct
+*.gtags.net +direct
+*.guabu.com +direct
+*.guanaitong.com +direct
+*.guanhaobio.com +direct
+*.gucheng.com +direct
+*.guigu.org +direct
+*.guokr.com +direct
+*.guoxinmac.com +direct
+*.gupzs.com +direct
+*.gushiwen.org +direct
+*.guzhangting.com +direct
+*.gwdang.com +direct
+*.gxairlines.com +direct
+*.gxb.io +direct
+*.gzwanju.com +direct
+*.h5uc.com +direct
+*.hackhome.com +direct
+*.haishun.com +direct
+*.hanboshi.com +direct
+*.handanjob.com +direct
+*.hangjiayun.com +direct
+<<<<<<< HEAD
+=======
+*.hao123.com +direct
+*.hao123img.com +direct
+>>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
+*.haote.com +direct
+*.haoyouyinxiang.com +direct
+*.hefei.cc +direct
+*.heisha.net +direct
+*.henha.com +direct
+*.henkuai.com +direct
+*.herostart.com +direct
+*.hexun.com +direct
+*.heytea.com +direct
+*.hiido.com +direct
+*.hitv.com +direct
+*.hiyd.com +direct
+*.hktheone.com +direct
+*.hn-cbec.com +direct
+*.hnair.com +direct
+*.hnyuyuhui.com +direct
+*.hollycrm.com +direct
+*.homeinns.com +direct
+*.homekoo.com +direct
+*.hongsanban.com +direct
+*.hongxiu.com +direct
+*.houdao.com +direct
+*.houyuantuan.com +direct
+*.hteacher.net +direct
+*.huanqiu.com +direct
+*.huashengdaili.com +direct
+*.huatu.com +direct
+*.huize.com +direct
+*.hujia.org +direct
+*.hujiang.com +direct
+*.hunantv.com +direct
+*.huochepiao.com +direct
+*.huocheso.com +direct
+*.huxiu.com +direct
+*.hxfy888.com +direct
+*.iask.com +direct
+*.ibaotu.com +direct
+*.ibuychem.com +direct
+*.icaidao.com +direct
+*.ichangtou.com +direct
+*.iciba.com +direct
+*.idqqimg.com +direct
+*.ifeng.com +direct
+*.ifengimg.com +direct
+*.iflytek.com +direct
+*.igao7.com +direct
+*.iheima.com +direct
+*.ijiandao.com +direct
+*.ijinshan.com +direct
+*.ikafan.com +direct
+*.im2maker.com +direct
+*.imedao.com +direct
+*.imgo.tv +direct
+*.imooc.com +direct
+*.im-cc.com +direct
+*.indienova.com +direct
+*.infoq.com +direct
+*.infoqstatic.com +direct
+*.ip-cdn.com +direct
+*.ip138.com +direct
+*.ipinyou.com +direct
+*.ipip.net +direct
+*.iranshao.com +direct
+*.irs01.com +direct
+*.ishumei.com +direct
+*.it165.net +direct
+*.it168.com +direct
+*.it610.com +direct
+*.iteye.com +direct
+*.itjuzi.com +direct
+*.itmop.com +direct
+*.iyiou.com +direct
+*.iyunxiao.com +direct
+*.izuche.com +direct
+*.jandan.net +direct
+*.jb51.com +direct
+*.jdair.net +direct 
+*.jia.com +direct
+*.jiameng.com +direct
+*.jianshu.com +direct
+*.jianshu.io +direct
+*.jianzhi8.com +direct
+*.jiaodong.net +direct
+*.jiaoyimao.com +direct
+*.jiasuhui.com +direct
+*.jiasule.com +direct
+*.jiathis.com +direct
+*.jiayuan.com +direct
+*.jiazhao.com +direct
+*.jiemeng8.com +direct
+*.jikexueyuan.com +direct
+*.jinianbi.com +direct
+*.jinrongren.net +direct
+*.jinse.com +direct
+*.jinti.com +direct
+*.jisuanke.com +direct
+*.jiuzhilan.com +direct
+*.jj20.com +direct
+*.jjwxc.net +direct
+*.jmstatic.com +direct
+*.job910.com +direct
+*.jobjm.com +direct
+*.jsbc.com +direct
+*.jsrdgg.com +direct
+*.jstv.com +direct
+*.juefeng.com +direct
+*.jumei.com +direct
+*.juxia.com +direct
+*.jyimg.com +direct
+*.k366.com +direct
+*.kaixin001.com +direct
+*.kameng98.com +direct
+*.kanimg.com +direct
+*.kankanews.com +direct
+*.kantianqi.net +direct
+*.kanzhun.com +direct
+*.kaopu001.com +direct
+*.keboyunxiao.com +direct
+*.kejet.net +direct
+*.kf5.com +direct
+*.kgimg.com +direct
+*.kimiss.com +direct
+*.kingdee.com +direct
+*.kkzj.com +direct
+*.kongfz.com +direct
+*.koolearn.com +direct
+*.kouclo.com +direct
+*.koudai.com +direct
+*.koudai8.com +direct
+*.kq7.com +direct
+*.ksord.com +direct
+*.ku6.com +direct
+*.ku6cdn.com +direct
+*.ku6img.com +direct
+*.kuaaa.com +direct
+*.kuaidi100.com +direct
+*.kuaihou.com +direct
+*.kuaikanmanhua.com +direct
+*.kuaizhan.com +direct
+*.kugou.com +direct
+*.kuqin.com +direct
+*.kuyiso.com +direct
+*.lady8844.com +direct
+*.laomaotao.net +direct
+*.laomaotao.org +direct
+*.lascn.net +direct
+*.lawxp.com +direct
+*.le.com +direct
+*.leanote.com +direct
+*.ledu.com +direct
+*.leetcode-cn.com +direct
+*.leikeji.com +direct
+*.leiphone.com +direct
+*.leju.com +direct
+*.leturich.org +direct
+*.letv.com +direct
+*.letvcdn.com +direct
+*.letvimg.com +direct
+*.lianjia.com +direct
+*.lianmishu.com +direct
+*.liantu.com +direct
+*.liantu.me +direct
+*.lianzhuli.com +direct
+*.liaoxuefeng.com +direct
+*.liba.com +direct
+*.libaclub.com +direct
+*.lieyunwang.com +direct
+*.lightonus.com +direct
+*.likuso.com +direct
+*.lingkou.com +direct
+*.linkvans.com +direct
+*.linsn.com +direct
+*.linuxidc.com +direct
+*.liulanqi.net +direct
+*.liuxiaoer.com +direct
+*.live800.com +direct
+*.lixinger.com +direct
+*.lkkbrand.com +direct
+*.longhoo.net +direct
+*.longre.com +direct
+*.longtugame.com +direct
+*.longzhu.com +direct
+*.lotpc.com +direct
+*.loupan.com +direct
+*.lrts.me +direct
+*.lu.com +direct
+*.luckyair.net +direct
+*.lufax.com +direct
+*.lufaxcdn.com +direct
+*.luyouqi.com +direct
+*.lvmama.com +direct
+*.lvsexitong.com +direct
+*.lxdns.com +direct
+*.lxway.com +direct
+*.magedu.com +direct
+*.maisanqi.com +direct
+*.mamecn.com +direct
+*.manmankan.com +direct
+*.mapbar.com +direct
+*.mayi.com +direct
+*.mayihr.com +direct
+*.mdpda.com +direct
+*.mechina.org +direct
+*.mediav.com +direct
+*.meifang.com +direct
+*.meika360.com +direct
+*.meilishuo.com +direct
+*.meimingteng.com +direct
+*.meiqia.com +direct
+*.meishichina.com +direct
+*.meishij.net +direct
+*.meizu.com +direct
+*.mcbang.com +direct
+*.mgtv.com +direct
+*.miaobolive.com +direct
+*.miaopai.com +direct
+*.miaozhen.com +direct
+*.miercn.com +direct
+*.mikecrm.com +direct
+*.minhangshi.com +direct
+*.miusi.co +direct
+*.mjia.cc +direct
+*.mmbang.com +direct
+*.mmbang.info +direct
+*.moegirl.org +direct
+*.mofang.com +direct
+*.mofazhu.com +direct
+*.mogu.com +direct
+*.mogucdn.com +direct
+*.mogujie.com +direct
+*.moleecel.com +direct
+*.moocollege.com +direct
+*.mop.com +direct
+*.msanjia.com +direct
+*.mscbsc.com +direct
+*.mukewang.com +direct
+*.mydown.com +direct
+*.mydrivers.com +direct
+*.myshow360.net +direct
+*.myyx618.com +direct
+*.myzaker.com +direct
+*.mzstatic.com +direct
+*.naixuecha.com +direct
+*.netbian.com +direct
+*.newasp.net +direct
+*.newbandeng.com +direct
+*.newyx.net +direct
+*.ngabbs.com +direct
+*.ngacn.cc +direct
+*.nowcoder.com +direct
+*.nowscore.com +direct
+*.nruan.com +direct
+*.ntalker.com +direct
+*.nvsheng.com +direct
+*.nzbdw.com +direct
+*.oeeee.com +direct
+*.offcn.com +direct
+*.officese.com +direct
+*.oicq88.com +direct
+*.okooo.com +direct
+*.ol-cdn.com +direct
+*.ol-img.com +direct
+*.oldboyedu.com +direct
+*.oneapm.com +direct
+*.onegreen.net +direct
+*.oneyac.com +direct
+*.onlinedown.net +direct
+*.onlinesjtu.com +direct
+*.opdown.com +direct
+*.oray.com +direct
+*.oschina.net +direct
+*.oupeng.com +direct
+*.p2peye.com +direct
+*.p5w.net +direct
+*.paipai.com +direct
+*.paipaibang.com +direct
+*.paopaoche.net +direct
+*.pc6.com +direct
+*.pcbeta.com +direct
+*.pchome.net +direct
+*.pcpop.com +direct
+*.peccn.com +direct
+*.pgzs.com +direct
+*.pharmacodia.com +direct
+*.pingan.com +direct
+*.pingplusplus.com +direct
+*.pingwest.com +direct
+*.pingxx.com +direct
+*.pintu360.com +direct
+*.pipaw.com +direct
+*.pipaw.net +direct
+*.pptbest.com +direct
+*.psbc.com +direct
+*.pubyun.com +direct
+*.qbox.me +direct
+*.qc188.com +direct
+*.qcc.com +direct
+*.qcds.com +direct
+*.qd8.com +direct
+*.qd-metro.com +direct
+*.qdmm.com +direct
+*.qianjia.com +direct
+*.qianzhan.com +direct
+*.qiaobutang.com +direct
+*.qichacha.com +direct
+*.qidian.com +direct
+*.qie.tv +direct
+*.qifeiye.com +direct
+*.qijiayoudao.net +direct
+*.qingcloud.com +direct
+*.qingdaochina.org +direct
+*.qingdaonews.com +direct
+*.qingsongchou.com +direct
+*.qingting.fm +direct
+*.qiniu.com +direct
+*.qiniucdn.com +direct
+*.qiniudn.com +direct
+*.qiniudns.com +direct
+*.qiumibao.com +direct
+*.qizuang.com +direct
+*.qqddc.com +direct
+*.qqgexingqianming.com +direct
+*.qqrizhi.com +direct
+*.qqshuoshuo.com +direct
+*.qschou.com +direct
+*.qtmojo.com +direct
+*.qudong.com +direct
+*.qunar.com +direct
+*.qunarzz.com +direct
+*.qyer.com +direct
+*.readnovel.com +direct
+*.renren.com +direct
+*.renren-inc.com +direct
+*.rfchost.com +direct
+*.rong360.com +direct
+*.rtbasia.com +direct
+*.ruan8.com +direct
+*.ruby-china.org +direct
+*.runoob.com +direct
+*.saibo.com +direct
+*.sanguosha.com +direct
+*.sanwen.net +direct
+*.scoregg.com +direct
+*.sczsxx.com +direct
+*.sdo.com +direct
+*.sec-wiki.com +direct
+*.segmentfault.com +direct
+*.sencdn.com +direct
+*.seniverse.com +direct
+*.senlinjimore.com +direct
+*.shanghairc.com +direct
+*.shangzhibo.tv +direct
+*.shanshuihotel.com +direct
+*.sharejs.com +direct
+*.shebiaotm.com +direct
+*.shelter-china.com +direct
+*.shelterdome.net +direct
+*.shengdaosoft.com +direct
+*.shenmayouxi.com +direct
+*.sheui.com +direct
+*.shixiseng.com +direct
+*.shmetro.com +direct
+*.shoujihuifu.com +direct
+*.shouyoubus.com +direct
+*.shrbank.com +direct
+*.shuidichou.com +direct
+*.shuidihuzhu.com +direct
+*.shumensy.com +direct
+*.shuoshuokong.com +direct
+*.shutcm.com +direct
+*.simei8.com +direct
+*.simuwang.com +direct
+*.sinesafe.com +direct
+*.sjwyx.com +direct
+*.sllssrq.com +direct
+*.skycn.com +direct
+*.smzdm.com +direct
+*.sobot.com +direct
+*.sofreight.com +direct
+*.softwhy.com +direct
+*.sohu.com +direct
+*.sohucs.com +direct
+*.sojson.com +direct
+*.somode.com +direct
+*.soso.com +direct
+*.souqian.com +direct
+*.southmoney.com +direct
+*.sparkletour.com +direct
+*.springtour.com +direct
+*.sspai.com +direct
+*.ssports.com +direct
+*.starbaby.cc +direct
+*.starbaby.com +direct
+*.staticfile.org +direct
+*.stockstar.com +direct
+*.sun0769.com +direct
+*.sunrtb.com +direct
+*.supermap.com +direct
+*.supermapcloud.com +direct
+*.szfw.org +direct
+*.szzfgjj.com +direct
+*.t1y5.com +direct
+*.taihe.com +direct
+*.taihuoniao.com +direct
+*.tanx.com +direct
+*.tao123.com +direct
+*.taoche.com +direct
+*.te5.com +direct
+*.tenxcloud.com +direct
+*.tgbus.com +direct
+*.tianjimedia.com +direct
+*.tianjin-air.com +direct
+*.tianqi.com +direct
+*.tietuku.com +direct
+*.tiexue.net +direct
+*.timedoo.com +direct
+*.tingyun.com +direct
+*.tmcdn.net +direct
+*.tobosu.com +direct
+*.tom.com +direct
+*.tongdun.net +direct
+*.topthink.com +direct
+*.touqikan.com +direct
+*.travelsky.com +direct
+*.trunktech.com +direct
+*.trustexporter.com +direct
+*.trustutn.org +direct
+*.ttpod.com +direct
+*.tudou.com +direct
+*.tudouui.com +direct
+*.tuer123.com +direct
+*.tuicool.com +direct
+*.tujia.com +direct
+*.tuniu.com +direct
+*.tutuapp.com +direct
+*.tuwan.com +direct
+*.tuwanjun.com +direct
+*.u.tools +direct
+*.u17.com +direct
+*.upaiyun.com +direct
+*.upyun.com +direct
+*.urselect.com +direct
+*.urumqi-air.com +direct
+*.useso.com +direct
+*.uuu9.com +direct
+*.uzzf.com +direct
+*.v5875.com +direct
+*.value500.com +direct
+*.vamaker.com +direct
+*.vancl.com +direct
+*.vanclimg.com +direct
+*.vcimg.com +direct
+*.veryzhun.com +direct
+*.vgtime.com +direct
+*.vic18.com +direct
+*.videojj.com +direct
+*.vijos.org +direct
+*.vip.com +direct
+*.vobao.com +direct
+*.wallstreetcn.com +direct
+*.wangyangyang.vip +direct
+*.wannianli8.com +direct
+*.wanwushuo.com +direct
+*.wanyiwang.com +direct
+*.wanyx.com +direct
+*.wdjimg.com +direct
+*.wdzj.com +direct
+*.weand.com +direct
+*.webterren.com +direct
+*.weicaifu.com +direct
+*.weidian.com +direct
+*.weilaicaijing.com +direct
+*.weilaiyunxiao.com +direct
+*.weiphone.com +direct
+*.weiphone.net +direct
+*.weixing.com +direct
+*.weiyangx.com +direct
+*.welltrend-edu.com +direct
+*.wenjuan.com +direct
+*.whlovehome.com +direct
+*.wicresoft.com +direct
+*.win007.com +direct
+*.win8.net +direct
+*.windows10zj.com +direct
+*.windows7en.com +direct
+*.windowszj.com +direct
+*.winwin7.com +direct
+*.wishdown.com +direct
+*.wmzhe.com +direct
+*.wnhuifu.com +direct
+*.womai.com +direct
+*.wonnder.com +direct
+*.wooyun.org +direct
+*.worktile.com +direct
+*.woyaogexing.com +direct
+*.woyoo.com +direct
+*.wqiis.com +direct
+*.wrating.com +direct
+*.wscdns.com +direct
+*.wtown.com +direct
+*.wumii.com +direct
+*.wuximediaglobal.com +direct
+*.xafc.com +direct
+*.xdwan.com +direct
+*.xfdown.com +direct
+*.xhaiwai.com +direct
+*.xhscdn.com +direct
+*.xiachufang.com +direct
+*.xiaobaixitong.com +direct
+*.xiaoe-tech.com +direct
+*.xiaogouh5.com +direct
+*.xiaohongshu.com +direct
+*.xiaoka.tv +direct
+*.xiaokaxiu.com +direct
+*.xiaoxiongxitong.com +direct
+*.xiaoyuxitong.com +direct
+*.xiayx.com +direct
+*.xiazaiba.com +direct
+*.ximalaya.com +direct
+*.xingtan001.com +direct
+*.xinhuanet.com +direct
+*.xinrenxinshi.com +direct
+*.xinshipu.com +direct
+*.xitong8.com +direct
+*.xitu.com +direct
+*.xiu8.com +direct
+*.xiucai.com +direct
+*.xiziwang.net +direct
+*.xnpic.com +direct
+*.xoyo.com +direct
+*.xpgod.com +direct
+*.xsa239.com +direct
+*.xuanchuanyi.com +direct
+*.xuexicha.com +direct
+*.xundupdf.com +direct
+*.xxsy.net +direct
+*.xycdn.com +direct
+*.xywy.com +direct
+*.xzking.com +direct
+*.yahui.cc +direct
+*.yaolan.com +direct
+*.yaoyl.com +direct
+*.yaozh.com +direct
+*.yccdn.com +direct
+*.ycgame.com +direct
+*.yeepay.com +direct
+*.yesky.com +direct
+*.yh31.com +direct
+*.yhd.com +direct
+*.yicai.com +direct
+*.yigao.com +direct
+*.yigoonet.com +direct
+*.yihaodian.com +direct
+*.yihaodianimg.com +direct
+*.yihedoors.com +direct
+*.yikaochacha.com +direct
+*.yikexue.com +direct
+*.yingjia360.com +direct
+*.yinhang123.net +direct
+*.yinxiang.com +direct
+*.yinyuetai.com +direct
+*.yinzhaowang.com +direct
+*.yiqifa.com +direct
+*.yiqifa.org +direct
+*.yisu.com +direct
+*.yitaifang.com +direct
+*.yiwan.com +direct
+*.yixi.tv +direct
+*.yizhibo.com +direct
+*.yjbys.com +direct
+*.ynhr.com +direct
+*.yocajr.com +direct
+*.youboy.com +direct
+*.youjiao.com +direct
+*.youke.co +direct
+*.youshang.com +direct
+*.youxiake.com +direct
+*.youxihezi.net +direct
+*.youxila.com +direct
+*.youxiniao.com +direct
+*.youxigt.com +direct
+*.youzu.com +direct
+*.yoyojie.com +direct
+*.yoyou.com +direct
+*.ypppt.com +direct
+*.ysten.com +direct
+*.yuewen.com +direct
+*.yunaq.com +direct
+*.yunba.io +direct
+*.yundaex.com +direct
+*.yundasys.com +direct
+*.yunqishi.net +direct
+*.yunshipei.com +direct
+*.yunxiao.com +direct
+*.yunzhijia.com +direct
+*.yupoo.com +direct
+*.yuzua.com +direct
+*.yxdown.com +direct
+*.yy.com +direct
+*.yytcdn.com +direct
+*.zampda.net +direct
+*.zampdsp.com +direct
+*.zastatic.com +direct
+*.zbjimg.com +direct
+*.zczj.com +direct
+*.zdfans.com +direct
+*.zdmimg.com +direct
+*.zgjm.org +direct
+*.zgjsks.com +direct
+*.zglxw.com +direct
+*.zgzcw.com +direct
+*.zhanbuba.com +direct
+*.zhanqi.tv +direct
+*.zhanzhang.net +direct
+*.zhaodanji.com +direct
+*.zhaopin.com +direct
+*.zhcw.com +direct
+*.zhenai.com +direct
+*.zhibo8.cc +direct
+*.zhidx.com +direct
+*.zhifang.com +direct
+*.zhipin.com +direct
+*.zhiziyun.com +direct
+*.zhongkao.com +direct
+*.zhuangjiba.com +direct 
+*.zhuanyewanjia.com +direct
+*.zhubajie.com +direct
+*.zhugeapi.net +direct
+*.zhugeio.com +direct
+*.zimuzu.io +direct
+*.zixiaomao.com +direct
+*.zixuntop.com +direct
+*.zjstv.com +direct
+*.zmengzhu.com +direct
+*.zongheng.com +direct
+*.zrblog.net +direct
+*.zsxq.com +direct
+*.zuche.com +direct
+*.zuchecdn.com +direct
+*.zuidaima.com +direct
+*.zuowen8.com +direct
+*.zuowenwang.net +direct
+*.zybang.com +direct
+
+*.jindidata.com +direct
+*.tianyancha.com +direct
+*.zhuanxiandai.com +direct
+
+*.fm3838.com +direct
+*.larsonlimited.com +direct
+*.runsheng.com +direct
+*.vzuu.com +direct
+*.zoom3g.com +direct
+
+*.chaoxing.com +direct
+*.chaoxing.cc +direct
+
+* +proxy
