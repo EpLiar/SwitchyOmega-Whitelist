@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/7/16
+; Update: 2020/7/27
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -335,6 +335,12 @@
 *.mmarket.com +direct
 *.mmarket6.com +direct
 
+; category-scholar-cn
+
+*.apabi.com +direct
+*.cnthinkers.com +direct
+*.cqvip.com +direct
+
 ; chinatelecom
 
 *.chinatelecom-h.com +direct
@@ -357,6 +363,9 @@
 
 *.coding.me +direct
 *.coding.net +direct
+
+*.shimo.im +direct
+*.yuque.com +direct
 
 ; coolapk
 
@@ -489,14 +498,9 @@ fonts.googleapis.com +direct
 *.huya.com +direct
 *.msstatic.com +direct
 
-<<<<<<< HEAD
-; icbc
-=======
 ; icbc 爱存不存
 
 *.icbc +direct
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
-
 *.icbc-ltd.com +direct
 *.icbc-us.com +direct
 
@@ -646,11 +650,7 @@ log-sdk.gifshow.com +direct
 *.lancdn.com +direct
 *.landiannews.com +direct
 
-<<<<<<< HEAD
 ; lanzou
-=======
-; lanzou 蓝奏云
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.baidupan.com +direct
 *.lanzou.com +direct
@@ -867,6 +867,11 @@ log-sdk.gifshow.com +direct
 *.taikangzhijia.com +direct
 *.tkhealthcare.com +direct
 
+; taomee
+
+*.61.com +direct
+*.taomee.com +direct
+
 ; taptap
 
 *.tapimg.com +direct
@@ -881,8 +886,10 @@ log-sdk.gifshow.com +direct
 ; tencent
 
 *.apcdns.net +direct
+*.cdntips.com +direct
 *.foxmail.com +direct
 *.gtimg.com +direct
+*.idqqimg.com +direct
 *.imqq.com +direct
 *.myapp.com +direct
 *.myqcloud.com +direct
@@ -893,6 +900,7 @@ log-sdk.gifshow.com +direct
 *.qzone.com +direct
 *.servicewechat.com +direct
 *.smtcdns.com +direct
+*.smtdns.net +direct
 *.tencentmusic.com +direct
 *.tencentyun.com +direct
 *.tenpay.com +direct
@@ -980,6 +988,11 @@ log-sdk.gifshow.com +direct
 *.kuyun.com +direct
 *.umeng.com +direct
 
+; Ximalaya
+
+*.ximalaya.com +direct
+*.xmcdn.com +direct
+
 ; xueqiu
 
 *.danjuanfunds.com +direct
@@ -1020,6 +1033,15 @@ log-sdk.gifshow.com +direct
 *.youzan.com +direct
 *.youzanyun.com +direct
 
+; 猿辅导
+
+*.banmaaike.com +direct
+*.xiaoyuankousuan.com +direct
+*.ybccode.com +direct
+*.yuanfudao.com +direct
+*.yuansouti.com +direct
+*.yuantiku.com +direct
+
 ; yunfanjiasu
 
 *.yfcache.com +direct
@@ -1035,11 +1057,7 @@ log-sdk.gifshow.com +direct
 *.zhihu.com +direct
 *.zhimg.com +direct
 
-<<<<<<< HEAD
-; ziroom
-=======
 ; ziroom 自如
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.ziroom.com +direct
 *.ziroomapartment.com +direct
@@ -1135,7 +1153,9 @@ log-sdk.gifshow.com +direct
 *.500.com +direct
 *.500d.me +direct
 *.50bang.org +direct
+*.51.com +direct
 *.51.la +direct
+*.510you.com +direct
 *.51credit.com +direct
 *.51cto.com +direct
 *.51eshop.com +direct
@@ -1186,6 +1206,7 @@ log-sdk.gifshow.com +direct
 *.998.com +direct
 *.999d.com +direct
 *.99danji.com +direct
+*.9xgame.com +direct
 *.9xu.com +direct
 *.a9vg.com +direct
 *.aardio.com +direct
@@ -1210,6 +1231,7 @@ log-sdk.gifshow.com +direct
 *.antutu.com +direct
 *.aotrip.net +direct
 *.aoyou.com +direct
+*.appchina.com +direct
 *.appinn.com +direct
 *.babytree.com +direct
 *.babytreeimg.com +direct
@@ -1219,6 +1241,7 @@ log-sdk.gifshow.com +direct
 *.baike.com +direct
 *.baixing.com +direct
 *.baixing.net +direct
+*.bamenzhushou.com +direct
 *.bangongziyuan.com +direct
 *.bankcomm.com +direct
 *.bankofchina.com +direct
@@ -1247,14 +1270,12 @@ log-sdk.gifshow.com +direct
 *.bjcathay.com +direct
 *.bobo.com +direct
 *.bokecc.com +direct
+*.boosj.com +direct
 *.bootcss.com +direct
 *.btcfans.com +direct
 *.btgtravel.com +direct
 *.bthhotels.com +direct
-<<<<<<< HEAD
 *.btime.com +direct
-=======
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.cabbagebox.com +direct
 *.caijingwu.com +direct
 *.caixin.com +direct
@@ -1279,10 +1300,7 @@ log-sdk.gifshow.com +direct
 *.chazhengla.com +direct
 *.che168.com +direct
 *.china-chair.com +direct
-<<<<<<< HEAD
 *.china-nengyuan.com +direct
-=======
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.china.com +direct
 *.chinacache.com +direct
 *.chinacache.net +direct
@@ -1332,6 +1350,7 @@ log-sdk.gifshow.com +direct
 *.cofeed.com +direct
 *.cofool.com +direct
 *.coindog.com +direct
+*.contentchina.com +direct
 *.cpppf.org +direct
 *.cqvip.com +direct
 *.cr173.com +direct
@@ -1343,6 +1362,7 @@ log-sdk.gifshow.com +direct
 *.ctoutiao.com +direct
 *.ctsbw.com +direct
 *.cubead.com +direct
+*.cwxzx.com +direct
 *.cyagen.com +direct
 *.cybtc.com +direct
 *.cyol.com +direct
@@ -1362,6 +1382,7 @@ log-sdk.gifshow.com +direct
 *.danji6.com +direct
 *.daocloud.io +direct
 *.daovoice.io +direct
+*.dayukaoshi.com +direct
 *.dazijia.com +direct
 *.dbank.com +direct
 *.dcdkjx.com +direct
@@ -1394,6 +1415,7 @@ log-sdk.gifshow.com +direct
 *.douban.fm +direct
 *.doubanio.com +direct
 *.douxie.com +direct
+*.downxia.com +direct
 *.downyi.com +direct
 *.dpfile.com +direct
 *.dreams-travel.com +direct
@@ -1411,6 +1433,7 @@ log-sdk.gifshow.com +direct
 *.dyhjw.com +direct
 *.dzw3.com +direct
 *.dzwww.com +direct
+*.easesale.com +direct
 *.easiu.com +direct
 *.eastday.com +direct
 *.eastmoney.com +direct
@@ -1424,6 +1447,7 @@ log-sdk.gifshow.com +direct
 *.eflycloud.com +direct
 *.elecfans.com +direct
 *.emarbox.com +direct
+*.enterdesk.com +direct
 *.eoeandroid.com +direct
 *.excelhome.net +direct
 *.expreview.com +direct
@@ -1443,9 +1467,15 @@ log-sdk.gifshow.com +direct
 *.fimmu.com +direct
 *.finchina.com +direct
 *.fixdown.com +direct
+*.fqjob.net +direct
 *.freebuf.com +direct
 *.fugetech.com +direct
 *.fuwj.com +direct
+*.fxxz.com +direct
+*.fyxz.com +direct
+*.game234.com +direct
+*.gameabc.com +direct
+*.gamemei.com +direct
 *.gamersky.com +direct
 *.gaodun.com +direct
 *.gaoshouyou.com +direct
@@ -1493,11 +1523,8 @@ log-sdk.gifshow.com +direct
 *.hanboshi.com +direct
 *.handanjob.com +direct
 *.hangjiayun.com +direct
-<<<<<<< HEAD
-=======
 *.hao123.com +direct
 *.hao123img.com +direct
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 *.haote.com +direct
 *.haoyouyinxiang.com +direct
 *.hefei.cc +direct
@@ -1598,6 +1625,7 @@ log-sdk.gifshow.com +direct
 *.jj20.com +direct
 *.jjwxc.net +direct
 *.jmstatic.com +direct
+*.job5588.com +direct
 *.job910.com +direct
 *.jobjm.com +direct
 *.jsbc.com +direct
@@ -1605,9 +1633,11 @@ log-sdk.gifshow.com +direct
 *.jstv.com +direct
 *.juefeng.com +direct
 *.jumei.com +direct
+*.juwan.com +direct
 *.juxia.com +direct
 *.jyimg.com +direct
 *.k366.com +direct
+*.kaifubiao.com +direct
 *.kaixin001.com +direct
 *.kameng98.com +direct
 *.kanimg.com +direct
@@ -1651,6 +1681,7 @@ log-sdk.gifshow.com +direct
 *.leetcode-cn.com +direct
 *.leikeji.com +direct
 *.leiphone.com +direct
+*.leiting.com +direct
 *.leju.com +direct
 *.leturich.org +direct
 *.letv.com +direct
@@ -1695,10 +1726,12 @@ log-sdk.gifshow.com +direct
 *.magedu.com +direct
 *.maisanqi.com +direct
 *.mamecn.com +direct
+*.manhuatai.com +direct
 *.manmankan.com +direct
 *.mapbar.com +direct
 *.mayi.com +direct
 *.mayihr.com +direct
+*.mcbang.com +direct
 *.mdpda.com +direct
 *.mechina.org +direct
 *.mediav.com +direct
@@ -1710,7 +1743,7 @@ log-sdk.gifshow.com +direct
 *.meishichina.com +direct
 *.meishij.net +direct
 *.meizu.com +direct
-*.mcbang.com +direct
+*.mengtuoshi.wang +direct
 *.mgtv.com +direct
 *.miaobolive.com +direct
 *.miaopai.com +direct
@@ -1734,6 +1767,8 @@ log-sdk.gifshow.com +direct
 *.msanjia.com +direct
 *.mscbsc.com +direct
 *.mukewang.com +direct
+*.mumayi.com +direct
+*.muomou.com +direct
 *.mydown.com +direct
 *.mydrivers.com +direct
 *.myshow360.net +direct
@@ -1799,6 +1834,7 @@ log-sdk.gifshow.com +direct
 *.qd8.com +direct
 *.qd-metro.com +direct
 *.qdmm.com +direct
+*.qiangbus.com +direct
 *.qianjia.com +direct
 *.qianzhan.com +direct
 *.qiaobutang.com +direct
@@ -1825,6 +1861,7 @@ log-sdk.gifshow.com +direct
 *.qschou.com +direct
 *.qtmojo.com +direct
 *.qudong.com +direct
+*.qugame.com +direct
 *.qunar.com +direct
 *.qunarzz.com +direct
 *.qyer.com +direct
@@ -1837,6 +1874,7 @@ log-sdk.gifshow.com +direct
 *.ruan8.com +direct
 *.ruby-china.org +direct
 *.runoob.com +direct
+*.rzrc114.com +direct
 *.saibo.com +direct
 *.sanguosha.com +direct
 *.sanwen.net +direct
@@ -1915,6 +1953,7 @@ log-sdk.gifshow.com +direct
 *.tiexue.net +direct
 *.timedoo.com +direct
 *.tingyun.com +direct
+*.titanar.com +direct
 *.tmcdn.net +direct
 *.tobosu.com +direct
 *.tom.com +direct
@@ -1930,6 +1969,7 @@ log-sdk.gifshow.com +direct
 *.tudouui.com +direct
 *.tuer123.com +direct
 *.tuicool.com +direct
+*.tuiwen.net +direct
 *.tujia.com +direct
 *.tuniu.com +direct
 *.tutuapp.com +direct
@@ -1937,6 +1977,7 @@ log-sdk.gifshow.com +direct
 *.tuwanjun.com +direct
 *.u.tools +direct
 *.u17.com +direct
+*.uggame.com +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
 *.urselect.com +direct
@@ -1960,6 +2001,7 @@ log-sdk.gifshow.com +direct
 *.wallstreetcn.com +direct
 *.wangyangyang.vip +direct
 *.wannianli8.com +direct
+*.wanplus.com +direct
 *.wanwushuo.com +direct
 *.wanyiwang.com +direct
 *.wanyx.com +direct
@@ -1998,8 +2040,9 @@ log-sdk.gifshow.com +direct
 *.wrating.com +direct
 *.wscdns.com +direct
 *.wtown.com +direct
-*.wumii.com +direct
+*.wuming.com +direct
 *.wuximediaglobal.com +direct
+*.wywyx.com +direct
 *.xafc.com +direct
 *.xdwan.com +direct
 *.xfdown.com +direct
@@ -2012,11 +2055,11 @@ log-sdk.gifshow.com +direct
 *.xiaohongshu.com +direct
 *.xiaoka.tv +direct
 *.xiaokaxiu.com +direct
+*.xiaomingtaiji.com +direct
 *.xiaoxiongxitong.com +direct
 *.xiaoyuxitong.com +direct
 *.xiayx.com +direct
 *.xiazaiba.com +direct
-*.ximalaya.com +direct
 *.xingtan001.com +direct
 *.xinhuanet.com +direct
 *.xinrenxinshi.com +direct
@@ -2031,6 +2074,7 @@ log-sdk.gifshow.com +direct
 *.xpgod.com +direct
 *.xsa239.com +direct
 *.xuanchuanyi.com +direct
+*.xuekanba.com +direct
 *.xuexicha.com +direct
 *.xundupdf.com +direct
 *.xxsy.net +direct
@@ -2044,6 +2088,7 @@ log-sdk.gifshow.com +direct
 *.yccdn.com +direct
 *.ycgame.com +direct
 *.yeepay.com +direct
+*.yeshen.com +direct
 *.yesky.com +direct
 *.yh31.com +direct
 *.yhd.com +direct
@@ -2073,6 +2118,7 @@ log-sdk.gifshow.com +direct
 *.youboy.com +direct
 *.youjiao.com +direct
 *.youke.co +direct
+*.youlian.fun +direct
 *.youshang.com +direct
 *.youxiake.com +direct
 *.youxihezi.net +direct
@@ -2083,6 +2129,7 @@ log-sdk.gifshow.com +direct
 *.yoyojie.com +direct
 *.yoyou.com +direct
 *.ypppt.com +direct
+*.yslyhr.com +direct
 *.ysten.com +direct
 *.yuewen.com +direct
 *.yunaq.com +direct
@@ -2110,6 +2157,7 @@ log-sdk.gifshow.com +direct
 *.zglxw.com +direct
 *.zgzcw.com +direct
 *.zhanbuba.com +direct
+*.zhangyoubao.com +direct
 *.zhanqi.tv +direct
 *.zhanzhang.net +direct
 *.zhaodanji.com +direct
@@ -2137,6 +2185,7 @@ log-sdk.gifshow.com +direct
 *.zsxq.com +direct
 *.zuche.com +direct
 *.zuchecdn.com +direct
+*.zuhaowan.com +direct
 *.zuidaima.com +direct
 *.zuowen8.com +direct
 *.zuowenwang.net +direct
