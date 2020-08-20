@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/7/27
+; Update: 2020/8/20
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -223,6 +223,9 @@
 *.tanxlog.istreamsche.com +direct
 *.userimg.qunar.com +direct
 *.yiliao.hupan.com +direct
+
+; b3log
+*.b3log.org +direct
 
 ; baidu
 
@@ -479,6 +482,9 @@
 
 fonts.googleapis.com +direct
 
+; Hacpai
+*.hacpai.com +direct
+
 ; huawei
 
 *.hicloud.com +direct
@@ -656,6 +662,11 @@ log-sdk.gifshow.com +direct
 *.lanzou.com +direct
 *.lanzous.com +direct
 *.woozooo.com +direct
+
+; Lianjia
+
+*.lianjia.com +direct
+*.ljcdn.com +direct
 
 ; liepin
 
@@ -851,6 +862,11 @@ log-sdk.gifshow.com +direct
 *.sogo.com +direct
 *.sogou.com +direct
 *.sogoucdn.com +direct
+
+; Sohu
+
+*.sohu.com +direct
+*.sohucs.com +direct
 
 ; suning
 
@@ -1082,6 +1098,13 @@ log-sdk.gifshow.com +direct
 ; Moji Weather
 *.moji.com +direct
 *.mojichina.com +direct
+
+; 在线工具书
+*.guoxuedashi.com +direct
+*.guoxuemi.com +direct
+
+; 餐饮类
+*.haidilao.com +direct
 
 ; The following domains are carried over from geosite:cn.
 
@@ -1687,7 +1710,6 @@ log-sdk.gifshow.com +direct
 *.letv.com +direct
 *.letvcdn.com +direct
 *.letvimg.com +direct
-*.lianjia.com +direct
 *.lianmishu.com +direct
 *.liantu.com +direct
 *.liantu.me +direct
@@ -1916,8 +1938,6 @@ log-sdk.gifshow.com +direct
 *.sobot.com +direct
 *.sofreight.com +direct
 *.softwhy.com +direct
-*.sohu.com +direct
-*.sohucs.com +direct
 *.sojson.com +direct
 *.somode.com +direct
 *.soso.com +direct
