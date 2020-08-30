@@ -868,6 +868,10 @@ log-sdk.gifshow.com +direct
 *.sohu.com +direct
 *.sohucs.com +direct
 
+; Solidot
+
+*.solidot.org +direct
+
 ; suning
 
 *.cnsuning.com +direct
