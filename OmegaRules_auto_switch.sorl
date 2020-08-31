@@ -959,6 +959,12 @@ log-sdk.gifshow.com +direct
 *.elongstatic.com +direct
 *.ly.com +direct
 
+; u17
+
+*.u17.com +direct
+*.u17i.com +direct
+*.u17t.com +direct
+
 ; umeng
 
 *.mobmore.com +direct
@@ -2000,7 +2006,6 @@ log-sdk.gifshow.com +direct
 *.tuwan.com +direct
 *.tuwanjun.com +direct
 *.u.tools +direct
-*.u17.com +direct
 *.uggame.com +direct
 *.upaiyun.com +direct
 *.upyun.com +direct
