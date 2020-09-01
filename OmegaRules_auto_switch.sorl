@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/8/20
+; Update: 2020/9/1
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -444,11 +444,7 @@
 *.ele.me +direct
 *.elemecdn.com +direct
 
-<<<<<<< HEAD
 ; everbright
-=======
-; everbright 光大
->>>>>>> fc3af0d66540b6c2f3bb4b14e44d95b06d027713
 
 *.cebbank.com +direct
 *.ceblease.com +direct
@@ -506,7 +502,6 @@ fonts.googleapis.com +direct
 
 ; icbc 爱存不存
 
-*.icbc +direct
 *.icbc-ltd.com +direct
 *.icbc-us.com +direct
 
@@ -635,16 +630,17 @@ fonts.googleapis.com +direct
 *.docer.com +direct
 *.wpsgo.com +direct
 
+; 快看漫画
+
+*.kkmh.com +direct
+*.kuaikanmanhua.com +direct
+
 ; kuaishou
 
 *.gifshow.com +direct
 *.ksapisrv.com +direct
 *.kuaishou.com +direct
 *.yximgs.com +direct
-
-; kuaishou-ads
-
-log-sdk.gifshow.com +direct
 
 ; lagou
 
@@ -1698,7 +1694,6 @@ log-sdk.gifshow.com +direct
 *.kuaaa.com +direct
 *.kuaidi100.com +direct
 *.kuaihou.com +direct
-*.kuaikanmanhua.com +direct
 *.kuaizhan.com +direct
 *.kugou.com +direct
 *.kuqin.com +direct
