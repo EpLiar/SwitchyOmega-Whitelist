@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/9/1
+; Update: 2020/9/6
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -624,6 +624,10 @@ fonts.googleapis.com +direct
 
 *.jsdelivr.net +direct
 *.jsdelivr.com +direct
+
+; juejin
+
+*.juejin.im +direct
 
 ; kingsoft
 
