@@ -60,6 +60,11 @@
 *.acplay.net +direct
 *.dandanplay.com +direct
 
+; Afdian
+
+*.afdian.net +direct
+*.afdiancdn.com +direct
+
 ; alibaba
 
 *.alibaba +direct
@@ -987,6 +992,11 @@ fonts.googleapis.com +direct
 *.sojump.com +direct
 *.wjx.com +direct
 *.wjx.top +direct
+
+; Wiwide
+
+*.wamawama.com +direct
+*.wiwide.com +direct
 
 ; xueersi
 
