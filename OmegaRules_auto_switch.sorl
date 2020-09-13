@@ -427,6 +427,12 @@
 *.mogoo.com +direct
 *.saolife.com +direct
 
+; Deepin
+
+*.deepin.com +direct
+*.deepin.io +direct
+*.deepin.org +direct
+
 ; dingtalk
 
 *.dingtalk.com +direct
