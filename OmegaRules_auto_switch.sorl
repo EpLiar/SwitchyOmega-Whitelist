@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/9/6
+; Update: 2020/9/14
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -992,6 +992,13 @@ fonts.googleapis.com +direct
 *.unionpay.com +direct
 *.unionpayintl.com +direct
 *.unionpaysecure.com +direct
+
+; 又拍云
+
+*.upai.com +direct
+*.upcdn.net +direct
+*.upaiyun.com +direct
+*.upyun.com +direct
 
 ; wenjuanxing
 
@@ -2022,8 +2029,6 @@ fonts.googleapis.com +direct
 *.tuwanjun.com +direct
 *.u.tools +direct
 *.uggame.com +direct
-*.upaiyun.com +direct
-*.upyun.com +direct
 *.urselect.com +direct
 *.urumqi-air.com +direct
 *.useso.com +direct
