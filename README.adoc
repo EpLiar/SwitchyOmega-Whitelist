@@ -18,6 +18,11 @@
 
 link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega] 并配置 proxy 模式
 
+[NOTE]
+====
+规则文件中写死了代理情景模式的名字，即 **proxy**。如果你需要自己改代理服务器情景模式的名字的话，导入列表后记得及时修改最后一行。
+====
+
 image::proxy.jpg[]
 
 SwitchyOmega 插件支持 Chrome 和 Firefox。
