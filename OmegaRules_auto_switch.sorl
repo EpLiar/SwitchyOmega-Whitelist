@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/9/14
+; Update: 2020/9/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -642,7 +642,21 @@ fonts.googleapis.com +direct
 
 ; kingsoft
 
+*.51dzt.com +direct
+*.cmcm.com +direct
+*.cmcmcdn.com +direct
 *.docer.com +direct
+*.duba.com +direct
+*.duba.net +direct
+*.iciba.com +direct
+*.ijinshan.com +direct
+*.ks-cdn.com +direct
+*.ksyun.com +direct
+*.ksyungslb.com +direct
+*.papocket.com +direct
+*.seasungames.com +direct
+*.xishanju.com +direct
+*.xoyo.com +direct
 *.wpsgo.com +direct
 
 ; 快看漫画
@@ -1119,8 +1133,6 @@ fonts.googleapis.com +direct
 
 ; CDNs
 
-*.ksyun.com +direct
-*.ksyungslb.com +direct
 *.ourdvsss.com +direct
 
 ; Bank of China
@@ -1621,7 +1633,6 @@ fonts.googleapis.com +direct
 *.ibuychem.com +direct
 *.icaidao.com +direct
 *.ichangtou.com +direct
-*.iciba.com +direct
 *.idqqimg.com +direct
 *.ifeng.com +direct
 *.ifengimg.com +direct
