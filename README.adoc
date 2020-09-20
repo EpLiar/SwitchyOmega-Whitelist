@@ -12,7 +12,7 @@
 
 == 这些域名的来源？
 
-最初来自 link:https://github.com/v2ray/domain-list-community[domain-list-community]，现在手动更新，域名来源于日常的访问。验证方式为 https://ipip.net 提供的 ip 地理位置。
+link:https://github.com/v2fly/domain-list-community[domain-list-community]，验证方式为 https://ipip.net 提供的 ip 地理位置。
 
 == 如何使用
 
