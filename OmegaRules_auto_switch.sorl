@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/9/18
+; Update: 2020/9/20
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -705,6 +705,11 @@ fonts.googleapis.com +direct
 
 *.mafengwo.com +direct
 *.mafengwo.net +direct
+
+; maoyun
+
+*.maoyun.com +direct
+*.maoyuncloud.com +direct
 
 ; meitu
 
