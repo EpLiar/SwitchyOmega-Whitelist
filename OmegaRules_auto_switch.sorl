@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/9/20
+; Update: 2020/10/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -228,6 +228,10 @@
 *.tanxlog.istreamsche.com +direct
 *.userimg.qunar.com +direct
 *.yiliao.hupan.com +direct
+
+; ASUS
+
+*.router.asus.com +direct
 
 ; b3log
 *.b3log.org +direct
