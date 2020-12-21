@@ -367,6 +367,11 @@
 *.chinaunicomglobal.com +direct
 *.mychinaunicom.com +direct
 
+; CMB
+
+*.cmbchina.com +direct
+*.cmfchina.com +direct
+
 ; cnki
 
 *.cnki.net +direct
@@ -1411,7 +1416,6 @@ fonts.googleapis.com +direct
 *.cjol.com +direct
 *.clouddn.com +direct
 *.cloudxns.com +direct
-*.cmbchina.com +direct
 *.cn.bing.com +direct
 *.cnanzhi.com +direct
 *.cnbeta.com +direct
