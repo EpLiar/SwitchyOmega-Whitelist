@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2020/10/30
+; Update: 2021/01/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -96,6 +96,7 @@
 *.alihealth.hk +direct
 *.aliimg.com +direct
 *.alikmd.com +direct
+*.alikunlun.com +direct
 *.alimama.com +direct
 *.alimebot.com +direct
 *.alipay.com +direct
@@ -133,6 +134,26 @@
 *.ics.design +direct
 *.jhgtgb.com +direct
 *.kanbox.com +direct
+*.kunlunaq.com +direct
+*.kunlunar.com +direct
+*.kunlunca.com +direct
+*.kunluncan.com +direct
+*.kunlunea.com +direct
+*.kunlungem.com +direct
+*.kunlungr.com +direct
+*.kunlunhuf.com +direct
+*.kunlunle.com +direct
+*.kunlunli.com +direct
+*.kunlunno.com +direct
+*.kunlunpi.com +direct
+*.kunlunra.com +direct
+*.kunlunsa.com +direct
+*.kunlunsc.com +direct
+*.kunlunsl.com +direct
+*.kunlunso.com +direct
+*.kunlunta.com +direct
+*.kunlunvi.com +direct
+*.kunlunwe.com +direct
 *.lazada.com +direct
 *.liangxinyao.com +direct
 *.maitix.com +direct
@@ -327,6 +348,116 @@
 *.ixgvideo.com +direct
 *.365yg.com +direct
 
+; category-securities-cn
+
+*.sseinfo.com +direct
+
+; Securities Company 证券公司
+
+*.ajzq.com +direct
+*.avicsec.com +direct
+*.ccnew.com +direct
+*.cczq.com +direct
+*.cczq.net +direct
+*.cfzq.com +direct
+*.cgws.com +direct
+*.chinalions.com +direct
+*.cicc.com +direct
+*.ciccwm.com +direct
+*.cindasc.com +direct
+*.cjsc.com +direct
+*.cnhbstock.com +direct
+*.csfounder.com +direct
+*.ctsec.com +direct
+*.dfham.com +direct
+*.dxzq.net +direct
+*.fzfinancing.com +direct
+*.grzq.com +direct
+*.gszq.com +direct
+*.gtja.com +direct
+*.gtja.com +direct
+*.guodu.com +direct
+*.hazq.com +direct
+*.hczq.com +direct
+*.hlzqgs.com +direct
+*.hongtastock.com +direct
+*.htsec.com +direct
+*.huajingsec.com +direct
+*.huayingsc.com +direct
+*.iztzq.com +direct
+*.jpmorganchina.com +direct
+*.jzsec.com +direct
+*.lczq.com +direct
+*.lhzq.com +direct
+*.morganstanleyhuaxin.com +direct
+*.mszq.com +direct
+*.nomuraoi-sec.com +direct
+*.shgsec.com +direct
+*.shhxzq.com +direct
+*.shzq.com +direct
+*.swhysc.com +direct
+*.tfzq.com +direct
+*.tpyzq.com +direct
+*.west95582.com +direct
+*.wxzq.com +direct
+*.xcsc.com +direct
+*.ykzq.com +direct
+*.ytzq.com +direct
+*.zszq.com +direct
+*.ztfsec.com +direct
+
+; Public Fund Company 公募基金公司
+
+*.99fund.com +direct
+*.abc-ca.com +direct
+*.bobbns.com +direct
+*.bosera.com +direct
+*.cfund108.com +direct
+*.changanfunds.com +direct
+*.cryuantafund.com +direct
+*.ctfund.com +direct
+*.fadfunds.com +direct
+*.foresightfund.com +direct
+*.founderff.com +direct
+*.fsfund.com +direct
+*.ftfund.com +direct
+*.galaxyasset.com +direct
+*.gfund.com +direct
+*.gowinamc.com +direct
+*.hffunds.cn +direct
+*.hftfund.com +direct
+*.hongdefund.com +direct
+*.hsfund.com +direct
+*.igwfmc.com +direct
+*.jtamc.com +direct
+*.mfcteda.com +direct
+*.nffund.com +direct
+*.orient-fund.com +direct
+*.py-axa.com +direct
+*.swsmu.com +direct
+*.tongtaiamc.com +direct
+*.ubssdic.com +direct
+*.xf-fund.com +direct
+*.xqfunds.com +direct
+*.ydamc.com +direct
+*.zhfund.com +direct
+*.zofund.com +direct
+
+; Fund Sales 基金销售公司
+
+*.5ifund.com +direct
+*.howbuy.com +direct
+*.lufunds.com +direct
+
+; ccb
+
+*.ccb.com +direct
+*.ccbfutures.com +direct
+*.ccbintl.com.hk +direct
+*.ccbleasing.com +direct
+*.ccbseoul.com +direct
+
+
 ; chinamobile
 
 *.139.com +direct
@@ -367,9 +498,30 @@
 *.chinaunicomglobal.com +direct
 *.mychinaunicom.com +direct
 
+; citic
+
+*.citic +direct
+
+*.chinaamc.com +direct
+*.citicbank.com +direct
+*.citiccapital.com +direct
+*.citiciam.com +direct
+*.citicifh.com +direct
+*.citics.com.hk +direct
+*.citicsf.com +direct
+*.clsa.com +direct
+*.cncbinternational.com +direct
+*.csc108.com +direct
+*.csci.hk +direct
+*.ecitic.com +direct
+
 ; CMB
 
+*.cignacmb.com +direct
+*.cmb-leasing.com +direct
 *.cmbchina.com +direct
+*.cmbi.com.hk +direct
+*.cmbwinglungbank.com +direct
 *.cmfchina.com +direct
 
 ; cnki
@@ -459,6 +611,23 @@
 *.douyuscdn.com +direct
 *.douyutv.com +direct
 
+; dwion
+
+*.acadn.com +direct
+*.bbbcdns.com +direct
+*.dlgslb.net +direct
+*.dwion.com +direct
+*.fastcdn.com +direct
+*.flxdns.com +direct
+*.tlgslb.com +direct
+
+; eastmoney
+
+*.dfcfw.com +direct
+*.eastmoney.com +direct
+*.eastmoneyfutures.com +direct
+*.emsec.hk +direct
+
 ; eleme
 
 *.ele.me +direct
@@ -523,7 +692,21 @@ fonts.googleapis.com +direct
 ; icbc 爱存不存
 
 *.icbc-ltd.com +direct
+*.icbc-uk.com +direct
 *.icbc-us.com +direct
+*.icbc.co.id +direct
+*.icbc.com.mo +direct
+*.icbc.com.pe +direct
+*.icbc.com.sg +direct
+*.icbcasia.com +direct
+*.icbcbr.com.br +direct
+*.icbclondon.com +direct
+*.icbcmy.com +direct
+*.icbcstandard.com +direct
+*.icbcstandardbank.com +direct
+*.icbcstandardresources.com +direct
+*.icbcstandardsecurities.com +direct
+*.icbcswiss.com +direct
 
 ; ifanr
 
@@ -618,6 +801,11 @@ fonts.googleapis.com +direct
 *.yiyaojd.com +direct
 *.yizhitou.com +direct
 
+; jibencaozuo
+
+*.jbcz.tv +direct
+*.jibencaozuo.com +direct
+
 ; jiguang
 
 *.5566ua.com +direct
@@ -648,6 +836,7 @@ fonts.googleapis.com +direct
 ; juejin
 
 *.juejin.im +direct
+*.xitu.io +direct
 
 ; kingsoft
 
@@ -803,6 +992,12 @@ fonts.googleapis.com +direct
 *.pinduoduo.com +direct
 *.yangkeduo.com +direct
 
+; pingan
+
+*.pingan.com +direct
+*.pingan.com.hk +direct
+*.yqb.com +direct
+
 ; pptv
 
 *.pplive.com +direct
@@ -850,6 +1045,17 @@ fonts.googleapis.com +direct
 *.xiaoluzhidian.com +direct
 *.xjietiao.com +direct
 *.youhua.com +direct
+
+; qiniu
+
+*.qbox.me +direct
+*.qiniu.com +direct
+*.qiniucdn.com +direct
+*.qiniudn.com +direct
+*.qiniudns.com +direct
+*.qiniup.com +direct
+*.qnsdk.com +direct
+*.qnssl.com +direct
 
 ; ruanmei
 
@@ -1368,7 +1574,6 @@ fonts.googleapis.com +direct
 *.cankaoxiaoxi.com +direct
 *.cardbaobao.com +direct
 *.carnoc.com +direct
-*.ccb.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
 *.cdn20.com +direct
@@ -1399,6 +1604,7 @@ fonts.googleapis.com +direct
 *.chinasspp.com +direct
 *.chinatranslation.net +direct
 *.chinaunix.net +direct
+*.chinauos.com +direct
 *.chinaweiyu.com +direct
 *.chinawutong.com +direct
 *.chinaz.com +direct
@@ -1519,11 +1725,9 @@ fonts.googleapis.com +direct
 *.easesale.com +direct
 *.easiu.com +direct
 *.eastday.com +direct
-*.eastmoney.com +direct
 *.eayyou.com +direct
 *.ebico.com +direct
 *.ebrun.com +direct
-*.ecitic.com +direct
 *.ecjobhome.com +direct
 *.eduei.com +direct
 *.eeyy.com +direct
@@ -1897,7 +2101,6 @@ fonts.googleapis.com +direct
 *.peccn.com +direct
 *.pgzs.com +direct
 *.pharmacodia.com +direct
-*.pingan.com +direct
 *.pingplusplus.com +direct
 *.pingwest.com +direct
 *.pingxx.com +direct
@@ -1928,10 +2131,6 @@ fonts.googleapis.com +direct
 *.qingdaonews.com +direct
 *.qingsongchou.com +direct
 *.qingting.fm +direct
-*.qiniu.com +direct
-*.qiniucdn.com +direct
-*.qiniudn.com +direct
-*.qiniudns.com +direct
 *.qiumibao.com +direct
 *.qizuang.com +direct
 *.qqddc.com +direct
