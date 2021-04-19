@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2021/01/15
+; Update: 2021/04/17
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -1499,6 +1499,7 @@ fonts.googleapis.com +direct
 *.9xu.com +direct
 *.a9vg.com +direct
 *.aardio.com +direct
+*.acwing.com +direct
 *.adxvip.com +direct
 *.afzhan.com +direct
 *.agrantsem.com +direct
@@ -1522,6 +1523,7 @@ fonts.googleapis.com +direct
 *.aoyou.com +direct
 *.appchina.com +direct
 *.appinn.com +direct
+*.asklib.com +direct
 *.babytree.com +direct
 *.babytreeimg.com +direct
 *.baidufree.com +direct
@@ -1565,6 +1567,7 @@ fonts.googleapis.com +direct
 *.btgtravel.com +direct
 *.bthhotels.com +direct
 *.btime.com +direct
+*.bqrdh.com +direct
 *.cabbagebox.com +direct
 *.caijingwu.com +direct
 *.caixin.com +direct
@@ -1583,6 +1586,7 @@ fonts.googleapis.com +direct
 *.cerambath.org +direct
 *.ch.com +direct
 *.chachaba.com +direct
+*.chacuo.net +direct
 *.changba.com +direct
 *.chashebao.com +direct
 *.chazhengla.com +direct
@@ -1776,6 +1780,7 @@ fonts.googleapis.com +direct
 *.getui.com +direct
 *.gezida.com +direct
 *.gfan.com +direct
+*.ghxi.com +direct
 *.giocdn.com +direct
 *.gitee.com +direct
 *.gm86.com +direct
@@ -1951,6 +1956,7 @@ fonts.googleapis.com +direct
 *.kuaaa.com +direct
 *.kuaidi100.com +direct
 *.kuaihou.com +direct
+*.kuangstudy.com +direct
 *.kuaizhan.com +direct
 *.kugou.com +direct
 *.kuqin.com +direct
@@ -2238,6 +2244,7 @@ fonts.googleapis.com +direct
 *.topthink.com +direct
 *.touqikan.com +direct
 *.travelsky.com +direct
+*.tretars.com +direct
 *.trunktech.com +direct
 *.trustexporter.com +direct
 *.trustutn.org +direct
@@ -2449,9 +2456,11 @@ fonts.googleapis.com +direct
 *.zhubajie.com +direct
 *.zhugeapi.net +direct
 *.zhugeio.com +direct
+*.zhutix.com +direct
 *.zimuzu.io +direct
 *.zixiaomao.com +direct
 *.zixuntop.com +direct
+*.zizaifan.com +direct
 *.zjstv.com +direct
 *.zmengzhu.com +direct
 *.znj.com +direct
