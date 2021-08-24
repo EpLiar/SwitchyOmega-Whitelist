@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2021/05/22
+; Update: 2021/07/25
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -949,6 +949,7 @@ fonts.googleapis.com +direct
 *.163yun.com +direct
 *.166.net +direct
 *.haowu.link +direct
+*.ico8.net +direct
 *.icourse163.org +direct
 *.kaola.com +direct
 *.lofter.com +direct
@@ -1386,6 +1387,7 @@ fonts.googleapis.com +direct
 *.114piaowu.com +direct
 *.115.com +direct
 *.119you.com +direct
+*.121xz.com +direct
 *.123juzi.com +direct
 *.123juzi.net +direct
 *.123u.com +direct
@@ -1408,6 +1410,7 @@ fonts.googleapis.com +direct
 *.21cn.com +direct
 *.2265.com +direct
 *.2288.org +direct
+*.233.com +direct
 *.2345.com +direct
 *.258.com +direct
 *.263.net +direct
@@ -1446,6 +1449,7 @@ fonts.googleapis.com +direct
 *.51.com +direct
 *.51.la +direct
 *.510you.com +direct
+*.5156edu.com +direct
 *.51credit.com +direct
 *.51cto.com +direct
 *.51eshop.com +direct
@@ -1579,6 +1583,7 @@ fonts.googleapis.com +direct
 *.cang.com +direct
 *.cankaoxiaoxi.com +direct
 *.cardbaobao.com +direct
+*.careercn.net +direct
 *.carnoc.com +direct
 *.cctv.com +direct
 *.cctvpic.com +direct
@@ -1658,6 +1663,7 @@ fonts.googleapis.com +direct
 *.ctoutiao.com +direct
 *.ctsbw.com +direct
 *.cubead.com +direct
+*.cuijiahua.com +direct
 *.cwxzx.com +direct
 *.cyagen.com +direct
 *.cybtc.com +direct
@@ -1720,6 +1726,7 @@ fonts.googleapis.com +direct
 *.drivergenius.com +direct
 *.dui.ai +direct
 *.duiopen.com +direct
+*.duitang.com +direct
 *.duoduocdn.com +direct
 *.duokanbox.com +direct
 *.duomai.com +direct
@@ -1901,8 +1908,10 @@ fonts.googleapis.com +direct
 *.izuche.com +direct
 *.jandan.net +direct
 *.jb51.com +direct
+*.jbsage.com +direct
 *.jdair.net +direct 
 *.jia.com +direct
+*.jiakaobaodian.com +direct
 *.jiameng.com +direct
 *.jianshu.com +direct
 *.jianshu.io +direct
@@ -1922,6 +1931,7 @@ fonts.googleapis.com +direct
 *.jinti.com +direct
 *.jisuanke.com +direct
 *.jiuzhilan.com +direct
+*.jizhy.com +direct
 *.jj20.com +direct
 *.jjwxc.net +direct
 *.jmstatic.com +direct
@@ -2166,6 +2176,7 @@ fonts.googleapis.com +direct
 *.renren.com +direct
 *.renren-inc.com +direct
 *.rfchost.com +direct
+*.roguelike.com +direct
 *.rong360.com +direct
 *.rtbasia.com +direct
 *.ruan8.com +direct
@@ -2229,6 +2240,7 @@ fonts.googleapis.com +direct
 *.starbaby.com +direct
 *.staticfile.org +direct
 *.stockstar.com +direct
+*.studygolang.com +direct
 *.sun0769.com +direct
 *.sunrtb.com +direct
 *.supermap.com +direct
@@ -2279,6 +2291,7 @@ fonts.googleapis.com +direct
 *.urselect.com +direct
 *.urumqi-air.com +direct
 *.useso.com +direct
+*.uugai.com +direct
 *.uuu9.com +direct
 *.uzzf.com +direct
 *.v5875.com +direct
@@ -2314,6 +2327,7 @@ fonts.googleapis.com +direct
 *.weixing.com +direct
 *.weiyangx.com +direct
 *.welltrend-edu.com +direct
+*.wendu.com +direct
 *.wenjuan.com +direct
 *.whlovehome.com +direct
 *.wicresoft.com +direct
