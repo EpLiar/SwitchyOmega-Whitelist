@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2021/07/25
+; Update: 2021/09/14
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -1741,6 +1741,7 @@ fonts.googleapis.com +direct
 *.easesale.com +direct
 *.easiu.com +direct
 *.eastday.com +direct
+*.easypayx.com +direct
 *.eayyou.com +direct
 *.ebico.com +direct
 *.ebrun.com +direct
@@ -1761,6 +1762,7 @@ fonts.googleapis.com +direct
 *.fanxian.com +direct
 *.fastapi.net +direct
 *.feiniaomy.com +direct
+*.feiq18.com +direct
 *.feng.com +direct
 *.fengkongcloud.com +direct
 *.fengniao.com +direct
@@ -2054,6 +2056,7 @@ fonts.googleapis.com +direct
 *.meishij.net +direct
 *.meizu.com +direct
 *.mengtuoshi.wang +direct
+*.metwords.com +direct
 *.mgtv.com +direct
 *.miaobolive.com +direct
 *.miaopai.com +direct
@@ -2375,6 +2378,7 @@ fonts.googleapis.com +direct
 *.xinrenxinshi.com +direct
 *.xinshipu.com +direct
 *.xitong8.com +direct
+*.xitongcheng.com +direct
 *.xitu.com +direct
 *.xiu8.com +direct
 *.xiucai.com +direct
@@ -2441,6 +2445,7 @@ fonts.googleapis.com +direct
 *.ypppt.com +direct
 *.yslyhr.com +direct
 *.ysten.com +direct
+*.yuankongjian.com +direct
 *.yuewen.com +direct
 *.yunaq.com +direct
 *.yunba.io +direct
