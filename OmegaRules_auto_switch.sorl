@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2021/09/14
+; Update: 2021/11/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -2522,5 +2522,11 @@ fonts.googleapis.com +direct
 
 *.chaoxing.com +direct
 *.chaoxing.cc +direct
+
+; private ip
+
+10.* +direct
+192.168.* +direct
+172.16.0.0/12 +direct
 
 * +proxy
