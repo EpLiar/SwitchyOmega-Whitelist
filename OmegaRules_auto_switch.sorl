@@ -2527,6 +2527,21 @@ fonts.googleapis.com +direct
 
 10.* +direct
 192.168.* +direct
-172.16.0.0/12 +direct
+172.16.* +direct
+172.17.* +direct
+172.18.* +direct
+172.19.* +direct
+172.20.* +direct
+172.21.* +direct
+172.22.* +direct
+172.23.* +direct
+172.24.* +direct
+172.25.* +direct
+172.26.* +direct
+172.27.* +direct
+172.28.* +direct
+172.29.* +direct
+172.30.* +direct
+172.31.* +direct
 
 * +proxy
