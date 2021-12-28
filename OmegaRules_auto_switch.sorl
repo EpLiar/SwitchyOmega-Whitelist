@@ -830,11 +830,6 @@ fonts.googleapis.com +direct
 *.jinshuju.net +direct
 *.jinshujucdn.com +direct
 
-; jsdelivr
-
-*.jsdelivr.net +direct
-*.jsdelivr.com +direct
-
 ; juejin
 
 *.juejin.im +direct
