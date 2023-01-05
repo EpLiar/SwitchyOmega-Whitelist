@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2021/11/26
+; Update: 2023/1/5
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -1015,6 +1015,7 @@ fonts.googleapis.com +direct
 *.360taojin.com +direct
 *.360totalsecurity.com +direct
 *.360tpcdn.com +direct
+*.360tres.com +direct
 *.360webcache.com +direct
 *.anquanke.com +direct
 *.haoso.com +direct
