@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2023/1/5
+; Update: 2023/2/13
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -664,10 +664,6 @@
 ; gitv
 
 *.gitv.tv +direct
-
-; google in cn
-
-fonts.googleapis.com +direct
 
 ; Hacpai
 *.hacpai.com +direct
