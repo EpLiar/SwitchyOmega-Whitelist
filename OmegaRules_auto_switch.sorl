@@ -1168,6 +1168,7 @@
 *.tencent.com +direct
 *.tencent.com.hk +direct
 *.tencent-cloud.com +direct
+*.tjstats.com +direct
 *.wechat.com +direct
 *.wegame.com +direct
 *.weiyun.com +direct
