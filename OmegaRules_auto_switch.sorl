@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 @with result
 ; Require: SwitchyOmega >= 2.3.2
-; Update: 2023/2/13
+; Update: 2023/3/20
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 ; tld-cn
@@ -741,6 +741,7 @@
 *.blackdragon.com +direct
 *.caiyu.com +direct
 *.dao123.com +direct
+*.healthjd.com +direct
 *.jcloud-cdn.com +direct
 *.jcloud-live.com +direct
 *.jcloud-oss.com +direct
@@ -771,6 +772,7 @@
 *.jddapeigou.com +direct
 *.jddebug.com +direct
 *.jddglobal.com +direct
+*.jdh.com +direct
 *.jdjinrong.com +direct
 *.jdl.com +direct
 *.jdpay.com +direct
@@ -793,12 +795,15 @@
 *.tjjt360.com +direct
 *.toplife.com +direct
 *.vg.com +direct
+*.vipmro.com +direct
+*.vipmro.net +direct
 *.wangyin.com +direct
 *.wdfok.com +direct
 *.yhd.com +direct
 *.yihaodianimg.com +direct
 *.yiyaojd.com +direct
 *.yizhitou.com +direct
+*.duolabao.com +direct
 
 ; jibencaozuo
 
