@@ -258,7 +258,6 @@ def generate_sorl(lists, final_map, output_path, direct_tag, proxy_tag, include_
 
     lines = []
     lines.append("[SwitchyOmega Conditions]")
-    lines.append("@with result")
     lines.append("; Require: SwitchyOmega >= 2.3.2")
     lines.append("; Update: %s" % dt.date.today().strftime("%Y/%m/%d"))
     lines.append("; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage")
@@ -278,10 +277,8 @@ def generate_sorl(lists, final_map, output_path, direct_tag, proxy_tag, include_
                 if entry is None:
                     continue
             for pattern in entry_to_patterns(entry, include_root):
-                lines.append("%s +%s" % (pattern, direct_tag))
+                lines.append(pattern)
 
-    lines.append("")
-    lines.append("* +%s" % proxy_tag)
     lines.append("")
 
     with open(output_path, "w", encoding="utf-8", newline="\n") as handle:
