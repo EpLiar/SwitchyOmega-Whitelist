@@ -20,7 +20,7 @@ jobs:
       RELEASE_TITLE: Auto-generated SwitchyOmega rules
       ASSET_PATH: OmegaRules_auto_switch.sorl
       ASSET_NAME: OmegaRules_auto_switch.sorl
-      DLC_DIR: dlc
+      DLC_DIR: domain-list-community
 
     steps:
       - name: Checkout repo
