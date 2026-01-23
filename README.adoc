@@ -12,24 +12,17 @@
 
 == 这些域名的来源？
 
-link:https://github.com/v2fly/domain-list-community[domain-list-community]，验证方式为 https://ipip.net 提供的 ip 地理位置。
+link:https://github.com/v2fly/domain-list-community[domain-list-community]，使用脚本在每天 0 点自动生成。
 
 == 如何使用
 
-link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega] 并配置 proxy 模式
-
-[NOTE]
-====
-规则文件中写死了代理情景模式的名字，即 **proxy**。如果你需要自己改代理服务器情景模式的名字的话，导入列表后记得及时修改最后一行。
-====
+link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega] (或者是 link:https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?utm_source=ext_app_menu[安装 ZeroOmega])
 
 image::proxy.jpg[]
 
-SwitchyOmega 插件支持 Chrome 和 Firefox。
+SwitchyOmega/ZeroOmega 插件支持 Chrome 和 Firefox。
 
-将默认的 auto switch 模式下的默认情景模式选择 proxy，也就是白名单的工作模式。如果场景列表里没有 auto switch 模式，可以手动添加一个。
-
-在规则列表设置添加此仓库的清单文件：https://raw.githubusercontent.com/EpLiar/SwitchyOmega-Whitelist/master/OmegaRules_auto_switch.sorl
+在规则列表设置添加此仓库的清单文件：https://github.com/EpLiar/SwitchyOmega-Whitelist/releases/download/auto-latest/OmegaRules_auto_switch.sorl
 
 或是点击编辑源代码，复制仓库的列表 `OmegaRules_auto_switch.sorl` 里的内容后粘贴。
 
