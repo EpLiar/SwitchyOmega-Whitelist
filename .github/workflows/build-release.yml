@@ -3,7 +3,7 @@ name: Build and publish .sorl (latest release)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "30 0 * * *"
 
 permissions:
   contents: write
