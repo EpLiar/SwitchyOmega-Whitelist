@@ -4,6 +4,7 @@ import datetime as dt
 import os
 import re
 import sys
+import ipaddress
 
 
 RULE_TYPE_DOMAIN = "domain"
@@ -11,11 +12,25 @@ RULE_TYPE_FULL = "full"
 RULE_TYPE_KEYWORD = "keyword"
 RULE_TYPE_REGEXP = "regexp"
 RULE_TYPE_INCLUDE = "include"
+RULE_TYPE_IPCIDR = "ipcidr"
 
-TYPE_CHECKER = re.compile(r"^(domain|full|keyword|regexp|include)$")
+TYPE_CHECKER = re.compile(r"^(domain|full|keyword|regexp|include|ipcidr)$")
 DOMAIN_CHECKER = re.compile(r"^[a-z0-9\.-]+$")
 ATTR_CHECKER = re.compile(r"^[a-z0-9!-]+$")
 SITE_CHECKER = re.compile(r"^[A-Z0-9!-]+$")
+
+EXTRA_PRIVATE_CIDRS = [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "127.0.0.0/8",
+    "169.254.0.0/16",
+    "100.64.0.0/10",
+    "fc00::/7",
+    "fe80::/10",
+    "::1/128",
+    "::ffff:0:0/96",
+]
 
 
 class Entry:
@@ -45,7 +60,7 @@ class ParsedList:
 def parse_entry(line, source):
     parts = line.split()
     raw_type_val = parts[0]
-    kv = raw_type_val.split(":")
+    kv = raw_type_val.split(":", 1)
     if len(kv) == 1:
         rule_type = RULE_TYPE_DOMAIN
         value = raw_type_val.lower()
@@ -55,6 +70,8 @@ def parse_entry(line, source):
             value = kv[1]
         elif rule_type == RULE_TYPE_INCLUDE:
             value = kv[1].upper()
+        elif rule_type == RULE_TYPE_IPCIDR:
+            value = kv[1]
         else:
             value = kv[1].lower()
     else:
@@ -68,6 +85,11 @@ def parse_entry(line, source):
     elif rule_type == RULE_TYPE_INCLUDE:
         if not SITE_CHECKER.match(value):
             raise ValueError("invalid included list name: %s" % value)
+    elif rule_type == RULE_TYPE_IPCIDR:
+        try:
+            value = str(ipaddress.ip_network(value, strict=False))
+        except ValueError as exc:
+            raise ValueError("invalid ipcidr: %s" % exc)
     else:
         if not DOMAIN_CHECKER.match(value):
             raise ValueError("invalid domain: %s" % value)
@@ -156,7 +178,7 @@ def polish_list(rough_map):
     domains_map = set()
 
     for entry in rough_map.values():
-        if entry.type in (RULE_TYPE_REGEXP, RULE_TYPE_KEYWORD):
+        if entry.type in (RULE_TYPE_REGEXP, RULE_TYPE_KEYWORD, RULE_TYPE_IPCIDR):
             final_list.append(entry)
             continue
         if entry.type == RULE_TYPE_DOMAIN:
@@ -245,6 +267,8 @@ def entry_to_patterns(entry, include_root):
         return ["*" + entry.value + "*"]
     if entry.type == RULE_TYPE_REGEXP:
         return ["/" + entry.value + "/"]
+    if entry.type == RULE_TYPE_IPCIDR:
+        return ["ip:" + entry.value]
     return []
 
 
@@ -278,6 +302,14 @@ def generate_sorl(lists, final_map, output_path, direct_tag, proxy_tag, include_
                     continue
             for pattern in entry_to_patterns(entry, include_root):
                 lines.append(pattern)
+
+    if EXTRA_PRIVATE_CIDRS:
+        lines.append("")
+        lines.append("; private-cidr")
+        lines.append("")
+        for cidr in EXTRA_PRIVATE_CIDRS:
+            network = ipaddress.ip_network(cidr, strict=False)
+            lines.append("ip:" + str(network))
 
     lines.append("")
 
