@@ -32,6 +32,55 @@ EXTRA_PRIVATE_CIDRS = [
     "::ffff:0:0/96",
 ]
 
+def ipv4_network_to_wildcards(network):
+    if network.prefixlen <= 8:
+        target_prefix = 8
+    elif network.prefixlen <= 16:
+        target_prefix = 16
+    elif network.prefixlen <= 24:
+        target_prefix = 24
+    else:
+        return [str(network.network_address)]
+
+    if network.prefixlen == target_prefix:
+        subnets = [network]
+    else:
+        subnets = network.subnets(new_prefix=target_prefix)
+
+    patterns = []
+    for subnet in subnets:
+        octets = str(subnet.network_address).split(".")
+        if target_prefix == 8:
+            patterns.append(f"{octets[0]}.*")
+        elif target_prefix == 16:
+            patterns.append(f"{octets[0]}.{octets[1]}.*")
+        else:
+            patterns.append(f"{octets[0]}.{octets[1]}.{octets[2]}.*")
+    return patterns
+
+
+def ipv6_network_to_regexps(network):
+    normalized = str(network)
+    if normalized == "fc00::/7":
+        return [r"/^\[?(fc|fd)[0-9a-fA-F:]*\]?$/"]
+    if normalized == "fe80::/10":
+        return [r"/^\[?fe[89abAB][0-9a-fA-F:]*\]?$/"]
+    if normalized == "::1/128":
+        return [r"/^\[?::1\]?$/"]
+    if normalized == "::ffff:0:0/96":
+        return [r"/^\[?::ffff:[0-9a-fA-F:.]+\]?$/"]
+    if network.prefixlen == 128:
+        addr = network.network_address.compressed
+        return [f"/^\\[?{addr}\\]?$/"]
+    return []
+
+
+def ipcidr_to_patterns(value):
+    network = ipaddress.ip_network(value, strict=False)
+    if isinstance(network, ipaddress.IPv4Network):
+        return ipv4_network_to_wildcards(network)
+    return ipv6_network_to_regexps(network)
+
 
 class Entry:
     def __init__(self, rule_type, value, attrs, affs, plain, source):
@@ -268,7 +317,7 @@ def entry_to_patterns(entry, include_root):
     if entry.type == RULE_TYPE_REGEXP:
         return ["/" + entry.value + "/"]
     if entry.type == RULE_TYPE_IPCIDR:
-        return ["ip:" + entry.value]
+        return ipcidr_to_patterns(entry.value)
     return []
 
 
@@ -308,8 +357,7 @@ def generate_sorl(lists, final_map, output_path, direct_tag, proxy_tag, include_
         lines.append("; private-cidr")
         lines.append("")
         for cidr in EXTRA_PRIVATE_CIDRS:
-            network = ipaddress.ip_network(cidr, strict=False)
-            lines.append("ip:" + str(network))
+            lines.extend(ipcidr_to_patterns(cidr))
 
     lines.append("")
 
