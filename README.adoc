@@ -14,6 +14,43 @@
 
 link:https://github.com/v2fly/domain-list-community[domain-list-community]，使用脚本在每天 0 点自动生成。
 
+== 手动生成规则
+
+CI 的流程是：拉取最新的 domain-list-community，然后用脚本生成 `OmegaRules_auto_switch.sorl`。手动生成时按下面步骤操作即可。
+
+1. 克隆最新的 domain-list-community 到仓库根目录下（目录名必须是 `domain-list-community`，数据目录默认为 `domain-list-community/data`）：
++
+[source,sh]
+----
+rm -rf domain-list-community
+git clone --depth 1 https://github.com/v2fly/domain-list-community.git domain-list-community
+----
+2. 运行生成脚本（需要 Python 3）：
++
+[source,sh]
+----
+python generate_sorl.py
+----
+默认会导出 `private,cn` 两个列表，输出到 `OmegaRules_auto_switch.sorl`。如需自定义：
++
+[source,sh]
+----
+# 指定数据目录
+python generate_sorl.py --data-dir domain-list-community/data
+# 指定导出列表（逗号分隔）
+python generate_sorl.py --lists private,cn,geolocation-cn
+# 指定输出文件
+python generate_sorl.py --output OmegaRules_auto_switch.sorl
+# 需要根域名（除了 *.example.com 还会输出 example.com）
+python generate_sorl.py --include-root
+----
+3. 确认生成文件存在：
++
+[source,sh]
+----
+test -f OmegaRules_auto_switch.sorl
+----
+
 == 如何使用
 
 link:https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif[安装 SwicthyOmega] (或者是 link:https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?utm_source=ext_app_menu[安装 ZeroOmega])
